@@ -16,3 +16,27 @@ h3{
 .italic{
 	font-style: italic;
 }
+
+#font{
+	ont-family: sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 26px;
+    line-height: 2em;
+    text-transform: lowercase;
+    color: #009688;
+    font-variant: small-caps
+}
+
+#font2{
+	font:italic small-caps bold  26px/2em Arial;
+	color: red;
+}
+
+.bangla{
+	color: red;
+	font-weight: bold;
+	font-size: 40px;
+	font-style: italic;
+	
+}
