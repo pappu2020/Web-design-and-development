@@ -1,0 +1,26 @@
+caption{
+	color: red;
+	font-size: 50px;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+table{
+	text-align: center;
+	margin: 50px auto;
+	background-color:#b3b3ff ;
+}
+
+table, th, td {
+	border-collapse: collapse;
+	border: 2px solid black;
+}
+
+.footer{
+	color: blue;
+	background-color:  #00ffff;
+}
+.pappuSaha{
+	color: blue;
+}

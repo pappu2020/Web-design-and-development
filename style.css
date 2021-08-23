@@ -40,3 +40,9 @@ h3{
 	font-style: italic;
 	
 }
+
+body{
+	background-image:url("image/backimage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
