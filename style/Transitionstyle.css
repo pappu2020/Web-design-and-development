@@ -1,0 +1,70 @@
+.div1{
+	width: 300px;
+    background-color: #1affff;
+    height: 300px;
+    color: black;
+    margin-top: 60px;
+    margin-left: 479px;
+    text-align:center;
+    transition: all 2s cubic-bezier(0.99, 0.01, 1, 1);
+}
+
+.div2{
+	width: 300px;
+    background-color: #03a9f4;
+    height: 300px;
+    color: white;
+    margin-top: 2px;
+    margin-left: 38px;
+    padding: 70px;
+    text-align:center;
+    transition: all 2s cubic-bezier(0.99, 0.01, 1, 1);
+}
+
+.div3{
+	width: 300px;
+    background-color: #4caf50;
+    height: 300px;
+    color: white;
+    margin-top: -441px;
+    margin-left: 779px;
+    padding: 70px;
+    text-align:center;
+    transition: all 2s cubic-bezier(0.99, 0.01, 1, 1);
+}
+
+.div1:hover{
+    /*width: 400px;*/
+    background-color:  #4dff4d;
+    /*height: 400px;*/
+    color: black;
+    margin-top: 60px;
+    margin-left: 479px;
+    text-align:center;
+    transform: rotate(45deg);
+}
+
+.div2:hover{
+    /*width: 400px;*/
+    background-color: #80ffbf;
+    /*height: 400px;*/
+    color: white;
+    margin-top: 2px;
+    margin-left: 38px;
+    padding: 70px;
+    text-align:center;
+    transform:rotate(45deg);
+}
+
+.div3:hover{
+    /*width: 400px;*/
+    background-color: #50ffff;
+    /*height: 400px;*/
+    color: white;
+    margin-top: -441px;
+    margin-left: 779px;
+    padding: 70px;
+    text-align:center;
+    transform: rotate(45deg);
+    
+}

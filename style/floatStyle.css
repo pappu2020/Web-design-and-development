@@ -1,0 +1,13 @@
+.block1{
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	float: left;
+}
+
+.block2{
+	width: 50px;
+	height: 50px;
+	background-color: green;
+	float: left;
+}
