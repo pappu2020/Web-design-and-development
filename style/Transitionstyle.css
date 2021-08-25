@@ -7,6 +7,10 @@
     margin-left: 479px;
     text-align:center;
     transition: all 2s cubic-bezier(0.99, 0.01, 1, 1);
+     -webkit-transition: all 2s cubic-bezier(0.99, 0.01, 1, 1);
+      -moz-transition: all 2s cubic-bezier(0.99, 0.01, 1, 1);
+       -o-transition: all 2s cubic-bezier(0.99, 0.01, 1, 1);               /* support multiple browser*/
+       -ms-transition: all 2s cubic-bezier(0.99, 0.01, 1, 1);
 }
 
 .div2{
