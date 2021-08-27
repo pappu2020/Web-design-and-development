@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Introduction to Form</title>
+<link rel="stylesheet" type="text/css" href="style/form-style.css">
+</head>
+<body>
+<form>
+<fieldset>
+<legend>Registration Form</legend>
+First Name:<br>
+<input type="text" name="firstname" placeholder="Write your First name"><br><br>
+Last Name:<br>
+<input type="text" name="lastname" placeholder="Write your Last name"><br><br>
+Email:<br>
+<input type="Email" name="email" placeholder="Write your Valid Email">
+<br><br>
+Password:<br>
+<input type="Password" name="Password" placeholder="Password should be 8 character length">
+<br><br>
+Confirm password:<br>
+<input type="Password" name="Password" placeholder="Password should be 8 character length">
+<br><br>
+Gender:
+<input type="radio" name="gender" checked="" id="male">Male</input>
+<input type="radio" name="gender" id="female">Female</input>
+<br><br>
+Department
+<select name="Department">
+	<option selected="">CSE</option>
+	<option>EEE</option>
+	<option>BBA</option>
+	<option>ENGLISH</option>
+	<option>ARCHITECTURE</option>
+</select>
+<br><br>
+Date of Birth:
+<input type="Date" name="date">
+<br><br>
+Age:
+<input type="number" name="number" min="10" max="35">
+<br><br>
+Favourite color:
+<input type="color" name="cplor">
+<br><br>
+Address:
+<textarea rows="3" cols="30">Example:house no:2, road no:11, nikunjo 2, khilkhet,Dhaka</textarea>
+<br><br>
+Upload your CV here:
+<input type="file" name="file">
+<br><br>
+<input type="Submit" name="submit">
+<input type="Reset" name="reset">
+<br>
+</fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,11 @@
+input[type=text],[type=Email],[type=Submit],[type=Password],[type=Date],[type=Reset]{
+	width: 133px;
+    height: 31px;
+    border-radius: 8px;
+    color: #090111;
+    border: 1px solid black;
+    font-family: Verdana;
+}
+
+
+
