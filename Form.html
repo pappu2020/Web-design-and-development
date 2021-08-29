@@ -4,6 +4,11 @@
 	<meta charset="utf-8">
 	<title>Introduction to Form</title>
 <link rel="stylesheet" type="text/css" href="style/form-style.css">
+<script>
+	function submit() {
+		alert("Submitted!!");
+	}
+</script>
 </head>
 <body>
 <form>
@@ -50,10 +55,11 @@ Address:
 Upload your CV here:
 <input type="file" name="file">
 <br><br>
-<input type="Submit" name="submit">
+<input type="submit" name="submit">
 <input type="Reset" name="reset">
 <br>
 </fieldset>
 </form>
+<button class="submitButton" onclick="submit()">Button</button>
 </body>
 </html>
