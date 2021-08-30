@@ -1,0 +1,46 @@
+*{margin:0;padding:0}
+.wrapper{
+	width:960px;
+	margin:50px auto;
+}
+.flower img{
+	width:300px;
+	height:180px;
+}
+.flower h2{
+	color:orange;
+}
+.flower p{
+	text-align:justify;
+}
+.flower{
+	width:300px;
+	float:left;
+	margin-right:30px;
+}
+.nomargin{
+	margin-right:0px;
+}
+.flower a{
+	text-decoration:none;
+	background-color:orange;
+	color:red;
+	margin:0 auto;
+	display:block;
+	text-align:center;
+	margin-top:5px;
+	padding:3px 0;
+	
+	transition:all 1s ease;
+	
+}
+.flower a:hover{
+	background:#000;
+	color:#fff;
+}
+
+
+
+
+
+
