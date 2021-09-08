@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 *{margin: 0; padding: 0;}
 
@@ -54,14 +54,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', end
 
 #header h2{
 	text-align: center;
-	font-family: sans-serif;
+	font-family: 'Bebas Neue', cursive;;
 	font-weight: bold;
 	font-size: 41px;
 
 }
 #header p{
 	text-align: center;
-	font-family:sans-serif;
+	font-family: 'Bebas Neue', cursive;
 	font-size: 14px;
 }
 
@@ -90,7 +90,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', end
 	list-style-type: none;
 	border-right: 2px solid black;
 	position: relative;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Bebas Neue', cursive;
 	z-index: 1300;
 	
 }
@@ -195,14 +195,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #content p{
-	font-family: 'Roboto', sans-serif;
+	font-family: arial;
 	font-size: 15px;
 	margin: 15px 0;
 
 }
 
+blockquote{
+	padding: 10px;
+	padding-left: 30px;
+	background: #ddd;
+	border-left: 3px solid blueviolet;
+	margin-left: 40px;
+}
+
 #content h2{
-	font-family:sans-serif;
+	font-family: 'Bebas Neue', cursive;
 	color: #2d2e2d;
 	margin-top: 10px;
 	margin-bottom: 5px;
@@ -213,7 +221,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 #content h3{
-	font-family:sans-serif;
+	font-family: 'Bebas Neue', cursive;
 	color: #2d2e2d;
 	margin-top: 10px;
 	margin-bottom: 5px;
@@ -221,12 +229,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	font-weight: bold;
 	text-decoration: underline;
 }
+#content figure{
+	margin: 0 auto;
+	display: block;
+	background-color: yellowgreen;
+	width: 650px;
+	height: 300px;
+	padding: 30px;
+}
+
+#content figcaption{
+	text-align: center;
+	font-weight: bold;
+	font-family: 'Bebas Neue', cursive;
+}
 
 #content img{
-   
    width: 650px;
-   margin: 0 auto ;
-   display: block;
+	height: 300px;
 }
 
 #sidebar{
@@ -257,6 +277,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 #footer p{
 	color:#fff;
+}
+
+
+
+#img_wrapper img{
+  width: 75px;
+  height: 75px;
+  float: left;
+  background: white;
+  padding: 10px;
+  margin-right:10px;
+}
+
+#img_wrapper p{
+	float: left;
+	width:500px;
+	margin-top:0;
+	
+}
+
+
+#paragraph{
+  margin-bottom:25px;
+	border-bottom: 1px solid #635548;
+	overflow:hidden;
 }
 
 
