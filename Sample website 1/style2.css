@@ -27,6 +27,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e1ffff', end
 	animation-duration: 3s;
 	height: 85px;
 
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+
 
 	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e4f5fc+0,bfe8f9+50,9fd8ef+51,2ab0ed+100;Blue+Gloss+%235 */
 background: #e4f5fc; /* Old browsers */
@@ -57,6 +62,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4f5fc', end
 	font-family: 'Bebas Neue', cursive;;
 	font-weight: bold;
 	font-size: 41px;
+	text-shadow: 4px 4px 4px white;
+
+
 
 }
 #header p{
@@ -133,12 +141,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', end
 	z-index: 1500;
 }
 
+
+#menu li ul li:first-child{
+	border-top: 5px solid black;
+}
+
+
+
 #menu li ul {
 	list-style-type: none;
 	padding: 0;
 	position: absolute;
 	left: -99999px;
-	transition: 0.5s all ease;
+	transition: 0.2s all ease;
 }
 
 #menu li ul:hober{
@@ -159,14 +174,32 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ebf1f6', end
 	position: absolute;
 	top: -99999px;
 	width: 250px;
-	transition: 0.5s all ease;
+	transition: 0.2s all ease;
+
+
 }
+
+#menu li ul li ul li{
+	
+    border-left: 2px solid black;
+
+	}
+
+
+#menu li ul li ul li: last-child{
+	
+    border-left: 2px solid black;
+
+	}
+
+
+
 #menu li ul li ul:hover{
 	background-color: blanchedalmond;
 }
 
 #menu li ul li:hover ul{
-	top: 0;
+	top: -1px;
 	left: 250px;
 }
 
@@ -260,15 +293,17 @@ blockquote{
 
 #sidebar ul li a{
 	text-decoration:none;
-	color:blueviolet;
+	color:red;
 	padding:3px;
 	display:block;
+	size: 50px;
 }
 #sidebar h2{
 	color:#6B710E;
 	font-size: 30px;
 	font-weight: bold;
 	text-decoration: underline;
+	background-color: #ddd;
 }
 #footer{
 	background-color:#635548;
@@ -303,6 +338,28 @@ blockquote{
 	border-bottom: 1px solid #635548;
 	overflow:hidden;
 }
+
+
+#main_sidebar{
+	border-bottom: 3px solid blueviolet;
+	padding-bottom: 10px;
+	margin-bottom: 25px;
+	overflow: hidden;
+}
+
+#sidebar ul li{
+	margin-left: 15px;
+	border-bottom: 2px solid blueviolet;
+
+}
+
+#sidebar ul li:last-child{
+	border-bottom: none;
+}
+
+
+
+
 
 
 
