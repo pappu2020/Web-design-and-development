@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+	background-color: #e1e1d0
+}
+form{
+	width: 300px;
+	margin-left: 40%;
+	margin-top: 14%;
+	background-color: whitesmoke;
+}
+
+input[type=password],[type=number],[type=submit]{
+	width: 180px;
+    height: 31px;
+    border-radius: 8px;
+    color: #090111;
+    border: 1px solid black;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 43px;
+    padding: 10px 20px;
+
+}
+
+label{
+	font-family: 'Bebas Neue', cursive;
+	font-weight: bold;
+	font-size: 25px;
+	margin-left: 43px;
+}
+
+
+
+img{
+	width: 64px;
+	height: 64px;
+	margin-left: 609px;
+	position: absolute;
+	margin-top: -64px;
+}
+
+.title h2{
+	position: absolute;
+	font-size: 32px;
+	margin-top: -51px;
+	margin-left: 678px;
+	text-shadow: 4px 4px 4px white;
+	font-family: 'Bebas Neue', cursive;
+}
+
+button{
+	width: 180px;
+    height: 31px;
+    border-radius: 8px;
+    color: white;
+    border: 1px solid black;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    background-color:  #4646d2;
+
+}
+
+button:hover{
+	background-color: #141452;
+}
+
+.access{
+	position: absolute;
+	text-decoration: none;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 18px;
+	margin-left: 678px;
+	margin-top: -26px;
+}

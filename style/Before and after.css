@@ -1,0 +1,72 @@
+h1{
+	margin: 0 auto;
+	text-align: center;
+	margin-left: 40px;
+
+}
+
+
+
+
+h1:before{
+	content: "My name is";
+	margin-right: 10px;
+	color: white;
+	background-color: blueviolet;
+	font-size: 15px;
+}
+
+
+.button{
+	margin: 200px;
+	display: block;
+	text-decoration: none;
+	
+}
+
+.content{
+	background-color: #ddd;
+	padding: 20px 40px;
+	position: relative;
+    z-index: 5;
+    overflow: hidden;
+    display: inline-block;
+    border-radius: 20%;
+}
+
+.content:hover{
+	background: none;
+	color: white;
+}
+
+.content:before{
+	content:"";
+	width: 50%;
+	height: 100%;
+	background:blue ;
+	position: absolute;
+	top: 0;
+	left: -50%;
+	z-index: -5;
+	transition: all 0.5s ease;
+}
+
+.button:hover .content:before{
+	left: 0;
+}
+
+.content:after{
+	content:"";
+	width: 50%;
+	height: 100%;
+	background:blue ;
+	position: absolute;
+	top: 0;
+	right: -50%;
+	z-index: -5;
+	transition: all 0.5s ease;
+}
+
+.button:hover .content:after{
+	right: 0;
+}
