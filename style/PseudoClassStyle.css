@@ -1,0 +1,29 @@
+ul{
+	
+	margin: 200px;
+	list-style-type: none;
+
+}
+
+ul li a{
+	padding: 10px;
+	color: white;
+	background-color: greenyellow;
+	margin-left: 5px;
+	float: left;
+	text-decoration: none;
+}
+
+ul li a:hover{
+	background-color: blue;
+}
+ul li a:active{
+	background-color: orange;
+}
+ul li a:focus{
+	background-color: gray;
+}
+
+ul li a:visited{
+	background-color: lightskyblue;
+}
