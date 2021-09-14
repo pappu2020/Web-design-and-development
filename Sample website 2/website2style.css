@@ -225,3 +225,69 @@ body{
 .contact a{
 	color: #000066;
 }
+
+
+/*---------------------------Content-------------------------*/
+
+.notice_head{
+	position: absolute;
+	font-size: 32px;
+	margin-top: -51px;
+	text-decoration: underline;
+	color: #3333ff;
+}
+.date{
+	width: 54px;
+	height: 40px;
+	background-color: #ff4d4d;
+	margin-right: 15px;
+	float: left;
+	display: block;
+	margin-left: 7px;
+	margin-top: 3px;
+	border-radius: 18%;
+	
+}
+
+.date p{
+   margin-top: 7px;
+   font-size: 14px;
+   color: white;
+}
+.main_notice{
+	margin-left: 220px;
+	width: 400px;
+	overflow: hidden;
+	float: left;
+	background-color: #f2f2f2;
+	margin-top: 30px;
+}
+
+.notice_section{
+	width: 400px;
+	height: 46px;
+	background-color:  #66b3ff;
+	margin-bottom: 8px;
+
+}
+
+.notice_section:hover{
+	width: 400px;
+	height: 50px;
+	border: 2px solid #ddd;
+}
+
+.notice_section a{
+	text-decoration: none;
+	
+	text-align: center;
+	position: absolute;
+	font-size: 23px;
+	color: black;
+}
+
+.notice_section a:hover{
+	color: blue;
+}
+
+
