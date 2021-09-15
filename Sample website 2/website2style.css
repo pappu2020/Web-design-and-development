@@ -1,5 +1,6 @@
 
  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
 *{margin:0;padding:0}
 body{
 	width: 100%;
@@ -197,15 +198,36 @@ body{
 	z-index: 1200;
 }
 
+.aau{
+	position: absolute;
+   font-family: 'Merriweather', serif;
+   margin-left: 1228px;
+   margin-top: 27px;
+   font-size: 91px;
+   color: white;
+   z-index: 1500;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 .apply {
 	padding: 4px 28px;
 	background-color: #809fff;
 	font-size: 20px;
 	position: absolute;
-	margin-left: 1228px;
+	margin-left: 1202px;
 	z-index: 1500;
 	display: block;
-	margin-top: 31px;
+	margin-top: 156px;
 	border: 2px solid white;
 	text-decoration: none;
 
@@ -225,10 +247,10 @@ body{
 	background-color: #809fff;
 	font-size: 20px;
 	position: absolute;
-	margin-left: 1354px;
+	margin-left: 1324px;
 	z-index: 1500;
 	display: block;
-	margin-top: 31px;
+	margin-top: 156px;
 	border: 2px solid white;
 
 
@@ -240,6 +262,9 @@ body{
 .contact a{
 	color: #000066;
 }
+
+
+
 
 
 /*---------------------------Content-------------------------*/
@@ -275,9 +300,17 @@ body{
 	width: 550px;
 	overflow: scroll;
 	float: left;
-	background-color: #f2f2f2;
+	
 	margin-top: 30px;
 	height: 700px;
+
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 .notice_section{
@@ -331,15 +364,96 @@ body{
 	position: absolute;
 	margin-left: 739px;
 	margin-top: 31px;
-	background-color: #ebf2ed;
+	
 	width: 678px;
 	height: 692px;
+
+
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
 
 .social_media_content video{
 	width: 678px;
 	height: 336px;
 	margin-bottom: 14px;
+}
+
+
+
+
+
+
+.news_title{
+	position: absolute;
+	font-size: 32px;
+	margin-top: 2px;
+	text-decoration: underline;
+	color: #1f54a4;
+	margin-left: -124px;
+}
+
+.news_title p{
+	margin-top: -7px;
+	margin-left: 124px;
+}
+
+
+
+
+
+
+.news{
+	
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	width: 1309px;
+	height: 500px;
+	
+	display: block;
+	position: absolute;
+	margin-top: 764px;
+	margin-left: 112px;
+}
+
+.news_section{
+	width: 300px;
+	
+	height: 193px;
+	margin-top: 53px;
+	float: left;
+	margin-right: 27px;
+}
+
+.news_section img{
+  width: 300px;
+  height: 150px;
+}
+
+.news_section img:hover{
+	border: 4px solid blue;
+	width: 305px;
+  height: 155px;
+}
+
+.news_section p{
+	font-family: 'Libre Baskerville', serif;
+	font-size: 20px;
+	background-color: #ddd;
+}
+
+.news_section p:hover{
+	color: blue;
 }
 
 
