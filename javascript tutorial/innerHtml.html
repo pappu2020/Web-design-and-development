@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>InnerHtml</title>
+	<style type="text/css">
+		#inner{
+			font-size: 30px;
+			color: red;
+		}
+
+		.change{
+			font-size: 50px;
+			color: green;
+		}
+	</style>
+</head>
+<body>
+<h1 id="inner">Hello! My name is pappu saha</h1>
+<script type="text/javascript">
+	function pappu() {
+		document.getElementById('inner').innerHTML= "<h1 class='change'>I am a webdeveloper</h1>";
+		
+	}
+</script>
+<button onclick="pappu()">Change me!</button>
+</body>
+</html>

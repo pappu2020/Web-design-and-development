@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Bulb</title>
+	<style type="text/css">
+		#off{
+			width: 300px;
+			height: 300px;
+			margin-left: 500px;
+			margin-top: 50px;
+		}
+
+		#on{
+			width: 300px;
+			height: 300px;
+			margin-left: 500px;
+			margin-top: 50px;
+			display: block;
+		}
+
+		#buttonOn{
+			width: 100px;
+			height: 36px;
+			padding: 10px 10px;
+			background-color: green;
+			color: white;
+			display: block;
+			margin-left: 516px;
+			margin-top: 18px;
+		}
+
+		#buttonOn:hover{
+			width: 105px;
+			height: 41px;
+		}
+
+		#buttonOff{
+			width: 100px;
+			height: 36px;
+			padding: 10px 10px;
+			background-color: red;
+			color: white;
+			display: block;
+			position: absolute;
+			margin-left: 665px;
+			margin-top: -36px;
+		}
+
+		#buttonOff:hover{
+			width: 105px;
+			height: 41px;
+		}
+	</style>
+</head>
+<body>
+<img id="off" src="img/bulbOff.jpg">
+
+<button id="buttonOn" onclick="bulbOn()">ON</button>
+<button id="buttonOff" onclick="bulbOff()">Off</button>
+
+
+<script type="text/javascript">
+	function bulbOn() {
+		document.getElementById("off").src='img/bulb1.jpg';
+	}
+
+	function bulbOff() {
+		document.getElementById('off').src='img/bulbOff.jpg';
+	}
+	
+</script>
+</body>
+</html>
