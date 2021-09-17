@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Conditional Operator</title>
+	<style type="text/css">
+		p{
+			
+			font-family: arial;
+			color: blue;
+			font-size: 33px;
+			background: yellow;
+		
+			width: 357px;
+			margin-bottom: 3px;
+		}
+
+		th{
+			background-color: yellowgreen;
+		}
+
+		.fail{
+			background-color: red;
+			color: white;
+		}
+
+		a{
+			text-decoration: none;
+			font-size: 25px;
+			margin-left: 50px;
+			margin-top: 30px;
+			background-color: #ddd;
+			color: blue;
+			position: absolute;
+		}
+	</style>
+</head>
+<body>
+
+<table width="500" border="2px" cellpadding="3">
+	<thead>
+		<tr>
+			<th>Numerical</th>
+			<th>Letter Grade</th>
+			<th>Grade point</th>
+		</tr>	
+	</thead>
+
+	   <tr>
+	   	<td>90-100</td>
+	   	<td>A+</td>
+	   	<td>4.00</td>
+	   </tr>
+
+	   <tr>
+	   <td>85 - < 90</td>
+	   	<td>A</td>
+	   	<td>3.75</td>
+	  
+	   </tr>
+
+	   <tr>
+	   	<td>80 - < 85</td>
+	   	<td>B+</td>
+	   	<td>3.50</td>
+	   </tr>
+
+	   <tr>
+	   	<td>75 - < 80</td>
+	   	<td>B</td>
+	   	<td>3.25</td>
+	   </tr>
+
+	   <tr>
+	   	<td>70 - < 75</td>
+	   	<td>C+</td>
+	   	<td>3.00</td>
+	   </tr>
+
+	   <tr>
+	   	<td>65 - < 70</td>
+	   	<td>C</td>
+	   	<td>2.75</td>
+	   </tr>
+
+	   <tr>
+	   	<td>60 - < 65</td>
+	   	<td>D+</td>
+	   	<td>2.50</td>
+	   </tr>
+
+	   <tr>
+	   	<td>50 - < 60</td>
+	   	<td>D</td>
+	   	<td>2.25</td>
+	   </tr>
+
+	   <tr>
+	   	<td>< 50</td>
+	   	<td class="fail">F</td>
+	   	<td>0.00</td>
+	   </tr>   	
+</table>
+<br><br><br>
+
+<script type="text/javascript">
+var result = window.prompt("Enter your Marks: ");
+result=parseFloat(result,10);
+
+if(result>=90){
+	document.write("<p>Your result is: A+</p>");
+	document.write("<p>Your point is: 4.00</p>");
+	document.write("<p>Congratualations!!!</p>");
+}
+
+else if(result>=85){
+	document.write("<p>Your result is: A</p>");
+	document.write("<p>Your point is: 3.75</p>");
+}
+
+else if(result>=80){
+	document.write("<p>Your result is: B+</p>");
+	document.write("<p>Your point is: 3.50</p>");
+}
+
+else if(result>=75){
+	document.write("<p>Your result is: B</p>");
+	document.write("<p>Your point is: 3.25</p>");
+}
+
+else if(result>=70){
+	document.write("<p>Your result is: C+</p>");
+	document.write("<p>Your point is: 3.00</p>");
+}
+
+else if(result>=65){
+	document.write("<p>Your result is: C</p>");
+	document.write("<p>Your point is: 2.75</p>");
+}
+else if(result>=60){
+	document.write("<p>Your result is: D+</p>");
+	document.write("<p>Your point is: 2.50</p>");
+}
+else if(result>=50){
+	document.write("<p>Your result is: D</p>");
+	document.write("<p>Your point is: 2.25</p>");
+}
+else{
+	document.write("<p>Your result is: F</p>");
+	document.write("<p>Your point is: 0.00</p>");
+	document.write("<p>Retake your course!!!</p>");
+}
+	
+</script>
+
+<a href="conditionalOperator.html">Search Again</a>
+</body>
+</html>
