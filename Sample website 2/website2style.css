@@ -361,12 +361,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 .Social_media{
-	position: absolute;
+	
 	margin-left: 739px;
 	margin-top: 31px;
-	
+	position: absolute;
 	width: 678px;
-	height: 692px;
+	height: auto;
+	
 
 
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
@@ -395,7 +396,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	margin-top: 2px;
 	text-decoration: underline;
 	color: #1f54a4;
-	margin-left: -124px;
+	margin-left:2px;;
 }
 
 .news_title p{
@@ -417,22 +418,23 @@ background: -webkit-linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(241,241,
 background: linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
-	width: 1309px;
-	height: 500px;
+	width: 100%;
+	height: auto;
 	
 	display: block;
 	position: absolute;
 	margin-top: 764px;
-	margin-left: 112px;
+	
 }
 
 .news_section{
-	width: 300px;
+	width: 335px;
 	
 	height: 193px;
 	margin-top: 53px;
 	float: left;
-	margin-right: 27px;
+	margin-right: -120px;
+	margin-left: 118px;
 }
 
 .news_section img{
@@ -455,5 +457,80 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .news_section p:hover{
 	color: blue;
 }
+
+
+.facts{
+	width: 100%;
+	height: 963px;
+  background-image: url("img/student.jpg");
+  background-attachment: fixed;
+  background-size: 100%;
+  overflow: hidden;
+  margin-left: 0px;
+  display: inline-block;
+  margin-top: 45px;
+  position: relative;
+}
+
+.facts_content{
+	width: 100%;
+	height: 400px;
+	background-color:#f5f5f0;
+	opacity: 50%;
+	position: absolute;
+}
+
+.title_facts{
+	font-size: 27px;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	color: blue;
+	margin-left: 158px;
+	text-decoration: underline;
+
+}
+
+.facultyNumber{
+	font-size: 162px;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	color: blue;
+	margin-left: 286px;
+
+}
+
+.faculty_schools{
+  font-size: 30px;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	color: blue;
+	margin-left: 232px;
+}
+
+.gra{
+	margin-left: 951px;
+	font-size: 30px;
+	font-family: 'Merriweather', serif;
+	font-weight: bold;
+	color: blue;
+	position: absolute;
+	margin-top: -47px;
+}
+
+.faculties{
+	width: 100%;
+	height: 561px;
+
+	display: inline-block;
+	margin-top: 400px;
+
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,f1f1f1+50,e1e1e1+51,f6f6f6+100;White+Gloss+%231 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(255,255,255,1) 0%, rgba(241,241,241,1) 50%, rgba(225,225,225,1) 51%, rgba(246,246,246,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 51%,rgba(246,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
 
 

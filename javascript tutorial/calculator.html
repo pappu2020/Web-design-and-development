@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Calculator</title>
+</head>
+<body>
+<p>Sum is: </p>
+<p id="sum"></p>
+
+<p>Subtraction is: </p>
+<p id="sub"></p>
+
+<p>Multiplication is: </p>
+<p id="mul"></p>
+
+<p>Division is: </p>
+<p id="div"></p>
+
+
+
+<script type="text/javascript">
+	var sum_a = window.prompt("Enter the first value for sum: ");
+	var sum_b = window.prompt("Enter the second value for sum: ");
+
+	var sum_a = parseFloat(sum_a,10);
+	var sum_b = parseFloat(sum_b,10);
+
+
+	function sum(sum_a,sum_b) {
+		return sum_a+sum_b
+	}
+
+	var sum = sum(sum_a,sum_b);
+
+	document.getElementById('sum').innerHTML=sum;
+
+
+	var sub_a = window.prompt("Enter the first value for subtraction: ");
+	var sub_b = window.prompt("Enter the second value for subtraction: ");
+
+	var sub_a = parseFloat(sub_a,10);
+	var sub_b = parseFloat(sub_b,10);
+
+
+	function sub(sub_a,sub_b) {
+		return sub_a-sub_b
+	}
+
+	var sub = sub(sub_a,sub_b);
+
+	document.getElementById('sub').innerHTML=sub;
+</script>
+</body>
+</html>
