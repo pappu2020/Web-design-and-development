@@ -731,9 +731,24 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	position: absolute;
 	width: 373px;
 	height: 49px;
-	background-color: red;
+	background-color: #4d4d33;
 	margin-top: -35px;
 	margin-left: 1146px;
+}
+
+.social_icon img{
+	float: left;
+	width: 44px;
+	height: 44px;
+	margin-right: -23px;
+	margin-top: 3px;
+	margin-left: 38px;
+}
+
+.social_icon img:hover{
+	width: 49px;
+	height: 47px;
+   
 }
 
 
