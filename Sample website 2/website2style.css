@@ -423,7 +423,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	height: auto;
 	
 	display: block;
-	position: absolute;
+
 	margin-top: 764px;
 	
 }
@@ -535,7 +535,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .faculties{
 	width: 100%;
-	height: 561px;
+	height: 563px;
 
 	display: inline-block;
 	margin-top: 400px;
@@ -595,4 +595,145 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	width: 281px;
 	height: 214px;
 }
+
+
+
+.main_footer{
+	width: 100%;
+	height: 300px;
+	background-color: black;
+
+	
+}
+
+.logo_footer{
+	background-color: black;
+	width: 300px;
+	height: 300px;
+
+	margin-left: 89px;
+}
+
+.logo_footer p{
+	color: white;
+}
+
+.list_footer{
+	width: 1122px;
+	height: 270px;
+	background-color: black;
+	margin-left: 308px;
+	margin-top: -230px;
+	position: absolute;
+
+}
+
+.list_footer ul{
+	list-style-type: none;
+}
+
+.list_footer ul li{
+  
+}
+.list_footer ul li a{
+   text-decoration: none;
+   color: #adad85;
+   font-size: 20px;
+   margin-bottom: 3px;
+
+}
+
+.list_footer ul li a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+.list_footer2{
+	width: 1122px;
+	height: 270px;
+	background-color: black;
+	margin-left: 553px;
+	margin-top: -230px;
+	position: absolute;
+
+}
+
+.list_footer2 ul{
+	list-style-type: none;
+}
+
+.list_footer2 ul li{
+  
+}
+.list_footer2 ul li a{
+   text-decoration: none;
+   color: #adad85;
+   font-size: 20px;
+   margin-bottom: 3px;
+
+}
+
+.list_footer2 ul li a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+
+
+
+
+
+.list_footer3{
+	width: 1122px;
+	height: 270px;
+	background-color: black;
+	margin-left: 909px;
+	margin-top: -230px;
+	position: absolute;
+
+}
+
+.list_footer3 ul{
+	list-style-type: none;
+}
+
+.list_footer3 ul li{
+  
+}
+.list_footer3 ul li a{
+   text-decoration: none;
+   color: #adad85;
+   font-size: 20px;
+   margin-bottom: 3px;
+
+}
+
+.list_footer3 ul li a:hover{
+	text-decoration: underline;
+	color: white;
+}
+
+
+
+.sub_footer{
+	width: 100%;
+	height: 50px;
+	background-color: #4d4d33;
+}
+
+.sub_footer p{
+	color: white;
+	font-size: 11px;
+	margin-left: 10px;
+}
+
+.social_icon{
+	position: absolute;
+	width: 373px;
+	height: 49px;
+	background-color: red;
+	margin-top: -35px;
+	margin-left: 1146px;
+}
+
 
