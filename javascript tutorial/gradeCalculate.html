@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Conditional Operator</title>
+	<style type="text/css">
+		body{
+			/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f0f9ff+0,cbebff+47,a1dbff+100;Blue+3D+%2313 */
+background: rgb(240,249,255); /* Old browsers */
+background: -moz-linear-gradient(left,  rgba(240,249,255,1) 0%, rgba(203,235,255,1) 47%, rgba(161,219,255,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgba(240,249,255,1) 0%,rgba(203,235,255,1) 47%,rgba(161,219,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0f9ff', endColorstr='#a1dbff',GradientType=1 ); /* IE6-9 */
+
+
+		}
+
+         table{
+         	background-color: white;
+         }
+
+
+
+		p{
+			
+			font-family: arial;
+			color: blue;
+			font-size: 33px;
+			background: yellow;
+		
+			width: 357px;
+			margin-bottom: 3px;
+		}
+
+		label{
+			font-family: arial;
+			color: blue;
+			font-size: 30px;
+			background: yellow;
+		
+			width: 357px;
+			margin-bottom: 3px;
+		}
+
+		input{
+			width: 242px;
+			height: 28px;
+			margin-left: 10px;
+
+		}
+
+		th{
+			background-color: yellowgreen;
+		}
+
+		.fail{
+			background-color: red;
+			color: white;
+		}
+
+		a{
+			text-decoration: none;
+			font-size: 25px;
+			margin-left: 50px;
+			margin-top: 30px;
+			background-color: white;
+			color: black;
+			position: absolute;
+			border: 1px solid black;
+		}
+
+		a:hover{
+			background-color: black;
+			color: white;	
+		}
+
+		.cap{
+			font-size: 20px;
+			font-family: ui-monospace;
+		}
+	</style>
+</head>
+<body>
+
+<table width="500" border="2px" cellpadding="3">
+	<thead>
+		<tr>
+			<th>Numerical</th>
+			<th>Letter Grade</th>
+			<th>Grade point</th>
+		</tr>	
+	</thead>
+
+	   <tr>
+	   	<td>90-100</td>
+	   	<td>A+</td>
+	   	<td>4.00</td>
+	   </tr>
+
+	   <tr>
+	   <td>85 - < 90</td>
+	   	<td>A</td>
+	   	<td>3.75</td>
+	  
+	   </tr>
+
+	   <tr>
+	   	<td>80 - < 85</td>
+	   	<td>B+</td>
+	   	<td>3.50</td>
+	   </tr>
+
+	   <tr>
+	   	<td>75 - < 80</td>
+	   	<td>B</td>
+	   	<td>3.25</td>
+	   </tr>
+
+	   <tr>
+	   	<td>70 - < 75</td>
+	   	<td>C+</td>
+	   	<td>3.00</td>
+	   </tr>
+
+	   <tr>
+	   	<td>65 - < 70</td>
+	   	<td>C</td>
+	   	<td>2.75</td>
+	   </tr>
+
+	   <tr>
+	   	<td>60 - < 65</td>
+	   	<td>D+</td>
+	   	<td>2.50</td>
+	   </tr>
+
+	   <tr>
+	   	<td>50 - < 60</td>
+	   	<td>D</td>
+	   	<td>2.25</td>
+	   </tr>
+
+	   <tr>
+	   	<td>< 50</td>
+	   	<td class="fail">F</td>
+	   	<td>0.00</td>
+	   </tr>
+	   <caption class="cap">Grading System</caption>   	
+</table>
+<br><br><br>
+
+
+
+<label>Enter your Marks</label>
+<input type="number" name="marks" oninput="gradeCalculate(this.value)" onchange="gradeCalculate(this.value) "></input>
+<p>Your Letter Grade: <span id="result_ouput"></span></p>
+<p><span id="grade"></span> </p>
+<p><span id="wish"></span> </p>
+
+
+
+
+
+
+
+<a href="gradeCalculate.html">Check Again</a>
+
+
+
+
+<script type="text/javascript" src="js/GradeCalculate.js">
+	
+</script>
+
+
+</body>
+</html>
