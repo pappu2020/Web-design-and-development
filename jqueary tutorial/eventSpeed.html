@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Event speed</title>
+<script type="text/javascript" src="jqueary.js"></script>
+</head>
+<body>
+<p id="text">My name is pappu saha</p>
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<button id="hide_show">Hide and Show</button>
+<button id="fade_out">Fade out</button>
+<button id="fade_in">Fade In</button>
+
+
+
+<script type="text/javascript">
+	$("#hide").click(function(){
+		$("#text").hide(1000);
+	})
+
+	$("#show").click(function(){
+		$("#text").show("fast");
+	})
+
+	$("#hide_show").click(function(){
+		$("#text").toggle("1000");
+	})
+
+	$("#fade_out").click(function(){
+		$("#text").fadeOut("1000");
+	})
+
+	$("#fade_in").click(function(){
+		$("#text").fadeIn("1000");
+	})
+</script>
+</body>
+</html>

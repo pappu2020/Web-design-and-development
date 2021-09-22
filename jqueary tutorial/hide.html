@@ -16,6 +16,25 @@
     $(".alert").click(function(){
     	alert("yes!!!");
     })
+
+    $(".dblclk").dblclick(function(){
+    	$(this).hide();
+    })
+
+    $(".mouseEnter").mouseenter(function(){
+    	alert("yes!! you done properly");
+    })
+
+    $(".hover").hover(function(){
+    	alert("yes!! you done properly");
+    },
+    function(){
+      alert("You leave the sentence")
+    }
+
+    )
+
+    
     
 
 
@@ -30,12 +49,12 @@
 <p>Pappu saha</p>
 <p>Pappu saha</p>
 <p>Pappu saha hidden hidden</p>
-<p class="hidden">saha is a boss</p>
-<p class="alert">Pappu saha is a brilliant boy</p>
+<p class="hidden"> click here for hiiden</p>
+<p class="alert">Click here for alert</p>
 <p>Pappu saha hidden</p>
-<p>Pappu saha</p>
-<p>Pappu saha</p>
-<p>Pappu saha</p>
+<p class="dblclk"> double click here for hidden</p>
+<p class="mouseEnter">Touch the mouse pointer here</p>
+<p class="hover">Hover this sentence</p>
 <p>Pappu sahahidden</p>
 <p>Pappu saha</p>
 <p>Pappu saha</p>
