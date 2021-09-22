@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Animation</title>
+
+<style type="text/css">
+#animation{
+	width: 200px;
+	height: 200px;
+	background-color: green;
+	font-size: 20px;
+
+}	
+</style>
+<script type="text/javascript" src="jqueary.js"></script>
+</head>
+<body>
+<button id="animation_button">Click here</button>
+<div id="animation">Pappu saha</div>
+
+<script type="text/javascript">
+	$("#animation_button").click(function(){
+		var myAnimation  = $("#animation");
+		myAnimation.animate({width:"210px",fontSize:"25px",height:"210px",marginLeft:"20px"},3000);
+		myAnimation.animate({width:"215px",fontSize:"30px",height:"215px",marginLeft:"225px"});
+		myAnimation.animate({width:"220px",fontSize:"35px",height:"220px",marginLeft:"230px"});
+		myAnimation.animate({width:"225px",fontSize:"40px",height:"225px",marginLeft:"235px"});
+		myAnimation.animate({width:"230px",fontSize:"45px",height:"230px",marginLeft:"240px"});
+		myAnimation.animate({width:"235px",fontSize:"50px",height:"235px",marginTop:"220px"});
+		myAnimation.animate({width:"240px",fontSize:"55px",height:"240px",marginTop:"225px"});
+		myAnimation.animate({width:"245px",fontSize:"60px",height:"245px",marginTop:"230px"});
+		myAnimation.animate({width:"250px",fontSize:"65px",height:"250px",marginLeft:"-20px"});
+		myAnimation.animate({width:"255px",fontSize:"70px",height:"255px",marginLeft:"-25px"});
+		myAnimation.animate({width:"260px",fontSize:"75px",height:"260px",marginLeft:"-30px"});
+		myAnimation.animate({width:"265px",fontSize:"80px",height:"275px",marginLeft:"-35px"});
+		myAnimation.animate({width:"270px",fontSize:"85px",height:"280px",marginLeft:"-0px"});
+	    
+				
+	})
+</script>
+</body>
+</html>
