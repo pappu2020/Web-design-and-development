@@ -17,7 +17,9 @@
 
 <script type="text/javascript">
 	$("#hide").click(function(){
-		$("#text").hide(1000);
+		$("#text").hide("slow",function(){
+			alert("This paragraph is hide");
+		});
 	})
 
 	$("#show").click(function(){

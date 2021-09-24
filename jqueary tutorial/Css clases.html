@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Css classes</title>
+<script type="text/javascript" src="jqueary.js"></script>
+<style type="text/css">
+.font{
+	font-family: arial;
+	font-size: 50px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+.text{
+	text-align: center;
+	text-decoration: underline;
+
+}
+
+.color{
+	color: gainsboro;
+	background-color: whitesmoke;
+
+}
+
+.size{
+   width: 300px;
+   height: 150px;
+   margin: 0 auto;
+   padding: 50px;
+}
+</style>
+</head>
+<body>
+<h1>My name is pappu saha</h1>
+<p>I am a web developer</p>
+<button id="button_add">Click here for add CSS</button>
+<button id="button_remove">Click here for remove CSS</button>
+
+<script type="text/javascript">
+$("document").ready(function(){
+	$("#button_add").click(function(){
+       $("p,h1").addClass("color");
+       $("p,h1").addClass("font"); 
+	})
+
+	$("#button_remove").click(function(){
+       $("p,h1").removeClass("color");
+       
+	})
+})
+</script>
+</body>
+</html>

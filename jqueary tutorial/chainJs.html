@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Slide</title>
+<style type="text/css">
+	#question{
+		width: 100%;
+		height: 150px;
+		margin-top: 50px;
+		background-color: #ddd;
+		border: 2px solid black;
+
+	}
+
+	#question p{
+		text-align: center;
+		color: black;
+		font-size: 30px;
+		font-family: arial;
+		font-weight: bold;
+	}
+
+	#question_button{
+		font-size: 15px;
+		padding: 10px;
+		background-color: #ddd;
+		color: black;
+		margin-left: 680px;
+	}
+
+
+	#answer{
+		width: 50%;
+		height: 179px;
+		margin-top: 5px;
+		margin-left: 350px;
+		background-color: #ddd;
+		display: none;
+		border: 2px solid black;
+		background-image: url("jack1.jpg");
+		background-repeat: no-repeat;
+	}
+
+	#answer p{
+		text-align:center;
+		color: white;
+		font-size: 30px;
+		font-family: arial;
+		font-weight: bold;
+		padding: 52px;
+		
+	}
+</style>
+<script type="text/javascript" src="jqueary.js"></script>
+</head>
+<body>
+<div id="question">
+	<p>What is the national fruit of Bangladesh?</p>
+	<button id="question_button">Show Answer</button>
+</div>
+<div id="answer">
+	<p>jackfruit</p>
+</div>
+
+<script type="text/javascript">
+/*$("#question_button").click(function(){
+	$("#answer").slideDown(1000);
+})*/
+
+$("#question_button").click(function(){
+	$("#answer").slideDown("slow").slideUp(3000);
+})
+
+</script>
+</body>
+</html>

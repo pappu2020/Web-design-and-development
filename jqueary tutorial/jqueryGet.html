@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jquery text</title>
+<script type="text/javascript" src="jqueary.js"></script>
+</head>
+<body>
+<p id="pappu">My name is pappu saha</p>
+<button id="showText">Show text</button>
+<button id="showHtml">Show Html</button>
+<p>First Name: <input type="text" name="fname" value="pappu" id="text"></p>
+<button id="value">Show Input Value</button>
+
+
+<script type="text/javascript">
+$("documnet").ready(function(){
+	$("#showText").click(function(){
+		alert("Text: "+$("#pappu").text());
+	})
+
+	$("#showHtml").click(function(){
+		alert("Html: "+$("#pappu").html());
+	})
+
+	$("#value").click(function(){
+		alert("You entered: "+ $("#text").val());
+	})
+})
+</script>
+</body>
+</html>

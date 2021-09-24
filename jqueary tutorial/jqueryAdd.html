@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jquery Add</title>
+<script type="text/javascript" src="jqueary.js"></script>
+
+<style type="text/css">
+    P{
+        display: inline;
+    }
+</style>
+</head>
+<body>
+    <ol>
+    	<li>pappu saha</li>
+    </ol>
+
+    <p>pappu saha</p><br>
+    <button id="button_append">Append</button>
+    <button id="button_prepend">prepend</button>
+     <button id="button_after">After</button>
+
+
+<script type="text/javascript">
+	$("#button_append").click(function(){
+        $("ol").append("<li>My name is pappu saha </li>")
+    })
+
+    $("#button_prepend").click(function(){
+        $("ol").prepend("<li>I am a web developer </li>")
+    })
+
+    $("#button_after").click(function(){
+        $("p").after("<b>Is a web developer</b>");
+    })
+</script>
+</body>
+</html>
