@@ -1,0 +1,565 @@
+<!--Property	          Description
+align-content	          Modifies the behavior of the flex-wrap property. It is similar to align-items, butinstead of aligning flex items, it aligns flex lines
+align-items	Vertically aligns the flex items when the items do not use all available space on the cross-axis
+display	Specifies the type of box used for an HTML element
+flex-direction	Specifies the direction of the flexible items inside a flex container
+flex-flow	A shorthand property for flex-direction and flex-wrap
+flex-wrap	Specifies whether the flex items should wrap or not, if there is not enough room for them on one flex line
+justify-content	Horizontally aligns the flex items when the items do not use all available space on the main-axis
+!-->
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Display Flex</title>
+<style type="text/css">
+	
+	.container{
+		display: flex;
+		background: black;
+	}
+
+
+
+	.paragrah{
+		text-align: center;
+		margin: 30px;
+		padding: 20px;
+		background: red;
+		color: white;
+		padding: 50px;
+	}
+
+
+	.container2{
+		display: flex;
+		background: black;
+		margin-top: 10px;
+		flex-wrap: wrap;
+	}
+
+
+
+	.paragrah2{
+		text-align: center;
+		margin: 30px;
+		padding: 20px;
+		background: red;
+		color: white;
+		padding: 50px;
+	}
+
+
+	.container21{
+		display: flex;
+		background: black;
+		margin-top: 10px;
+		flex-flow: row wrap;
+	}
+
+
+
+	.paragrah21{
+		text-align: center;
+		margin: 30px;
+		padding: 20px;
+		background: red;
+		color: white;
+		padding: 50px;
+	}
+
+
+	.container3{
+		display: flex;
+		background: black;
+		margin-top: 10px;
+		flex-direction: column;
+	}
+
+
+
+	.paragrah3{
+		text-align: center;
+		margin: 10px;
+		width: 100px;
+		background: red;
+		color: white;
+		
+	}
+
+
+	.container4{
+		display: flex;
+		background: black;
+		margin-top: 10px;
+		justify-content: center;
+	}
+
+
+
+	.paragrah4{
+		text-align: center;
+		margin: 10px;
+		width: 100px;
+		background: red;
+		color: white;
+		
+	}
+
+	.container5{
+		display: flex;
+		background: black;
+		margin-top: 10px;
+		justify-content: flex-end;
+	}
+
+
+
+	.paragrah5{
+		text-align: center;
+		margin: 10px;
+		width: 100px;
+		background: red;
+		color: white;
+		
+	}
+
+
+	.container6{
+		display: flex;
+		background: black;
+		margin-top: 10px;
+		justify-content: space-around;
+	}
+
+
+
+	.paragrah6{
+		text-align: center;
+		margin: 10px;
+		width: 100px;
+		background: red;
+		color: white;
+		line-height: 20px;
+		
+	}
+
+	.container7{
+		display: flex;
+		background: black;
+		margin-top: 10px;
+		height: 350px;
+		align-items: center;
+	}
+
+
+
+	.paragrah7{
+		text-align: center;
+		margin: 10px;
+		width: 100px;
+		background: red;
+		color: white;
+		line-height: 20px;
+		
+	}
+
+	.container8{
+		display: flex;
+		background: black;
+		margin-top: 10px;
+		height: 350px;
+		align-items: flex-start;
+	}
+
+
+
+	.paragrah8{
+		text-align: center;
+		margin: 10px;
+		width: 100px;
+		background: red;
+		color: white;
+		line-height: 20px;
+		
+	}
+
+
+	.container9{
+		display: flex;
+		background: black;
+		margin-top: 10px;
+		height: 350px;
+		align-items: flex-end;
+	}
+
+
+
+	.paragrah9{
+		text-align: center;
+		margin: 10px;
+		width: 100px;
+		background: red;
+		color: white;
+		line-height: 20px;
+		
+	}
+
+
+   .container10{
+		display: flex;
+		background: black;
+		margin-top: 10px;
+		height: 650px;
+		flex-wrap: wrap;
+		align-content: space-between;
+	}
+
+
+
+	.paragrah10{
+		text-align: center;
+		margin: 10px;
+		width: 100px;
+		background: red;
+		color: white;
+		line-height: 20px;
+		
+	}
+
+
+	.container11{
+		display: flex;
+		background: black;
+		margin-top: 10px;
+		height: 350px;
+		justify-content: center;
+		align-items: center;
+	}
+
+
+
+	.paragrah11{
+		text-align: center;
+		margin: 10px;
+		width: 100px;
+		background: red;
+		color: white;
+		line-height: 20px;
+		
+	}
+
+</style>
+</head>
+<body>
+
+<div class="container">
+<div class="paragrah">
+	<p>flex direction row</p>
+</div>
+
+<div class="paragrah">
+	<p>flex direction row</p>
+</div>
+
+<div class="paragrah">
+	<p>flex direction row</p>
+</div>
+
+<div class="paragrah">
+	<p>flex direction row</p>
+</div>
+
+<div class="paragrah">
+	<p>flex direction row</p>
+</div>
+
+</div>
+
+
+<div class="container2">
+<div class="paragrah2">
+	<p>flex direction wrap</p>
+</div>
+
+<div class="paragrah2">
+	<p>flex direction wrap</p>
+</div>
+
+<div class="paragrah2">
+	<p>flex direction wrap</p>
+</div>
+
+<div class="paragrah2">
+	<p>flex direction wrap</p>
+</div>
+
+<div class="paragrah2">
+	<p>flex direction wrap</p>
+</div>
+
+<div class="paragrah2">
+	<p>flex direction wrap</p>
+</div>
+<div class="paragrah2">
+	<p>flex direction wrap</p>
+</div>
+<div class="paragrah2">
+	<p>flex direction wrap</p>
+</div>
+<div class="paragrah2">
+	<p>flex direction wrap</p>
+</div>
+<div class="paragrah2">
+	<p>flex direction wrap</p>
+</div>
+<div class="paragrah2">
+	<p>flex direction wrap</p>
+</div>
+
+</div>
+
+
+<div class="container21">
+<div class="paragrah21">
+	<p>flex direction wrap</p>
+</div>
+
+<div class="paragrah21">
+	<p>flex direction wrap</p>
+</div>
+
+<div class="paragrah21">
+	<p>flex direction wrap</p>
+</div>
+
+<div class="paragrah21">
+	<p>flex direction wrap</p>
+</div>
+
+<div class="paragrah21">
+	<p>flex direction wrap</p>
+</div>
+
+<div class="paragrah21">
+	<p>flex direction wrap</p>
+</div>
+<div class="paragrah21">
+	<p>flex direction wrap</p>
+</div>
+<div class="paragrah21">
+	<p>flex direction wrap</p>
+</div>
+<div class="paragrah21">
+	<p>flex direction wrap</p>
+</div>
+<div class="paragrah21">
+	<p>flex direction wrap</p>
+</div>
+<div class="paragrah21">
+	<p>flex direction wrap</p>
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+<div class="container3">
+<div class="paragrah3">
+	<p>flex direction column</p>
+</div>
+
+<div class="paragrah3">
+	<p>flex direction column</p>
+</div>
+
+<div class="paragrah3">
+	<p>flex direction column</p>
+</div>
+
+<div class="paragrah3">
+	<p>flex direction column</p>
+</div>
+
+<div class="paragrah3">
+	<p>flex direction column</p>
+</div>
+</div>
+
+
+
+
+
+
+<div class="container4">
+<div class="paragrah4">
+	<p>Justify content center</p>
+</div>
+
+<div class="paragrah4">
+	<p>Justify content center</p>
+</div>
+
+<div class="paragrah4">
+	<p>Justify content center</p>
+</div>
+
+</div>
+
+
+<div class="container5">
+<div class="paragrah5">
+	<p>Justify content font end</p>
+</div>
+
+<div class="paragrah5">
+	<p>Justify content font end</p>
+</div>
+
+<div class="paragrah5">
+	<p>Justify content font end</p>
+</div>
+
+</div>
+
+
+<div class="container6">
+<div class="paragrah6">
+	<p>Justify content space around</p>
+</div>
+
+<div class="paragrah6">
+	<p>Justify content space around</p>
+</div>
+
+<div class="paragrah6">
+	<p>Justify content space around</p>
+</div>
+
+</div>
+
+
+<div class="container7">
+<div class="paragrah7">
+	<p>align item center</p>
+</div>
+
+<div class="paragrah7">
+	<p>align item center</p>
+</div>
+
+<div class="paragrah7">
+	<p>align item center</p>
+</div>
+
+</div>
+
+
+<div class="container8">
+<div class="paragrah8">
+	<p>align item start</p>
+</div>
+
+<div class="paragrah8">
+	<p>align item start</p>
+</div>
+
+<div class="paragrah8">
+	<p>align item start</p>
+</div>
+
+</div>
+
+
+
+<div class="container9">
+<div class="paragrah9">
+	<p>align item end</p>
+</div>
+
+<div class="paragrah9">
+	<p>align item end</p>
+</div>
+
+<div class="paragrah9">
+	<p>align item end</p>
+</div>
+
+</div>
+
+
+
+<div class="container10">
+<div class="paragrah10">
+	<p>align item front-end</p>
+</div>
+
+<div class="paragrah10">
+	<p>align item front-end</p>
+</div>
+
+<div class="paragrah10">
+	<p>align item front-end</p>
+</div>
+
+<div class="paragrah10">
+	<p>align item front-end</p>
+</div>
+
+<div class="paragrah10">
+	<p>align item front-end</p>
+</div>
+
+<div class="paragrah10">
+	<p>align item front-end</p>
+</div>
+
+<div class="paragrah10">
+	<p>align item front-end</p>
+</div>
+
+<div class="paragrah10">
+	<p>align item front-end</p>
+</div>
+
+<div class="paragrah10">
+	<p>align item front-end</p>
+</div>
+
+<div class="paragrah10">
+	<p>align item front-end</p>
+</div>
+
+<div class="paragrah10">
+	<p>align item front-end</p>
+</div>
+
+<div class="paragrah10">
+	<p>align item front-end</p>
+</div>
+
+</div>
+
+
+<div class="container11">
+<div class="paragrah11">
+	<p>align item front-end</p>
+</div>
+</div>
+</body>
+</html>
