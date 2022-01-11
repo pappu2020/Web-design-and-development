@@ -1,0 +1,21 @@
+h2{
+	font-style: italic;
+	font-size: 30px;
+	color: red;
+	text-decoration: underline;
+}
+
+p {
+	font-size: 20px;
+	height: 400px;
+	overflow: scroll;
+}
+
+a{
+	font-size: 30px;
+	
+	background-color: black;
+	color: white;
+	text-decoration: none;
+}
+
