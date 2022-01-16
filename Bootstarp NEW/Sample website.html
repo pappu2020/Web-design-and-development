@@ -33,6 +33,41 @@
 			font-size: 39px;
 			
 		}
+
+		.link{
+			color: blue;
+			text-decoration: none;
+
+		}
+		.link:hover{
+			color: black;
+			text-decoration: underline;
+		}
+
+		.carousal_item{
+            padding: 2% 4%;
+            background-color:#0d0442;
+        }
+
+        .hr_style{
+            border: 5px dotted white;
+            border-bottom: none;
+            
+        }
+
+        .image_carousal{
+            width: 120px;
+            height: auto;
+        }
+
+        .carousel-item{
+            padding: 1% 2%;
+            text-align: center;
+        }
+
+        .carousel-indicators{
+            bottom: -20px;
+        }
         
 	</style>
 </head>
@@ -53,7 +88,7 @@
 				<ul class="navbar-nav ms-lg-auto">
 					<li class="nav-item"><a class="nav-link nav_menu" href="#">Home</a></li>
 					<li class="nav-item"><a class="nav-link nav_menu" href="#">Courses</a></li>
-					<li class="nav-item"><a class="nav-link nav_menu" href="#">Admission</a></li>
+					<li class="nav-item"><a class="nav-link nav_menu" href="Form.html">Admission</a></li>
 					<li class="nav-item"><a class="nav-link nav_menu" href="#">Branches</a></li>
 					<li class="nav-item"><a class="nav-link nav_menu" href="#">Contact</a></li>
 				</ul>
@@ -121,10 +156,10 @@
 			<h3 class="text-center text-success fs-3">About me</h3>
 		</div>
 		<div class="row">
-			<div class="col-lg-4">
-				<img src="img/pappusaha2.jpg" class="rounded-circle img-fluid">
+			<div class="col-lg-2">
+				<img style="width:180px" src="img/pappusaha2.jpg" class="rounded-circle">
 			</div>
-			<div class="col-sm-4 col-lg-8">
+			<div class="col-lg-10">
 				<p class="para">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                  
                 <!--collapse-->
@@ -145,42 +180,53 @@
 	</div>
 	</div>
 
-	<div class="review mt-3 text-center">
-		<h3 class="text-center text-success fs-3 text-decoration-underline fw-bolder"> Students review</h1>
+	<section class="carousal_item text-white mt-5">
+		<div class="heading_carousal text-center">
+			<h3 class="feedback_heading">Feedback</h3>
+			<hr class="hr_style text-center">
+		</div>
 		<div class="row">
-			<div class="col-sm-3 col-lg-4">
-				<blockquote class="blockquote">
-					<i class="fas fa-search p-2"></i>
-					<p>as quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio moles</p>
-					<footer class="blockquote-footer">
-						Pappu saha in <cite>youtube.com</cite>
-					</footer>
-				</blockquote>
+			<div class="col-lg-12">
+				<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="200ms" data-pause="hover">
+					<div class="carousel-indicators">
+					  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+					  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+					  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+					</div>
+					<div class="carousel-inner">
+					  <div class="carousel-item active">
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+	
+						<img src="img/b1.jpg" class="image_carousal rounded-circle">
+						<h3 class="fst-italic fw-bolder">Arurbo saha</h3>
+					  </div>
+					  <div class="carousel-item">
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+	
+						<img src="img/g1.jpg" class="image_carousal rounded-circle">
+						<h3 class="fst-italic fw-bolder">Anamika saha</h3>
+					  </div>
+					  <div class="carousel-item">
+						<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+	
+						<img src="img/g2.jpg" class="image_carousal rounded-circle">
+						<h3 class="fst-italic fw-bolder">Suporna saha</h3>
+					  </div>
+					</div>
+					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Previous</span>
+					</button>
+					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					  <span class="visually-hidden">Next</span>
+					</button>
+				  </div> 
 			</div>
+		</div>	
+	</section>
 
-			<div class="col-sm-3 col-lg-4">
-				<blockquote class="blockquote">
-					<i class="fas fa-search p-2"></i>
-					<p>as quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio moles</p>
-					<footer class="blockquote-footer">
-						Pappu saha in <cite>youtube.com</cite>
-					</footer>
-				</blockquote>
-			</div>
-
-			<div class="col-sm-3 col-lg-4">
-				<blockquote class="blockquote">
-					<i class="fas fa-search p-2"></i>
-					<p>as quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio moles</p>
-					<footer class="blockquote-footer">
-						Pappu saha in <cite>youtube.com</cite>
-					</footer>
-				</blockquote>
-			</div>
-		</div>
-		</div>
-
-		<div class="studentList mt-3">
+		<div class="studentList mt-5">
 		<h3 class="text-start text-success fs-3  fw-bolder">Course Requirements</h3>
         <div class="course_req">
         	<ul class="nav nav-pills">
@@ -196,6 +242,50 @@
         	</div>
         </div>
 		
+	</div>
+
+
+	<div class="schedule mt-5">
+		<div class="heading_schedule">
+			<h3 class="text-start text-success fs-3  fw-bolder">Upcoming Schedule</h3>
+		</div>
+			<table class="table table-bordered table-striped text-center col-lg-12 col-sm-6">
+				<thead class="table-primary fst-italic">
+					<tr>
+						<th>Course</th>
+						<th>Online Seminar Date</th>
+						<th>Instructor</th>
+						<th>Booking link</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Web design</td>
+						<td>23/1/2022</td>
+						<td>Pappu saha</td>
+						<td><a class=" link" href="#">Booking here</a>    
+						
+					</tr>
+					<tr>
+						<td>Web Developing</td>
+						<td>28/1/2022</td>
+						<td>Anup saha</td>
+						<td><a class=" link" href="#">Booking here</a>
+					</tr>
+					<tr>
+						<td>Php/react js</td>
+						<td>4/2/2022</td>
+						<td>Akhi saha</td>
+						<td><a class=" link" href="#">Booking here</a>
+					</tr>
+					<tr>
+						<td>Full stack web developing</td>
+						<td>10/2/2022</td>
+						<td>Pappu saha</td>
+						<td><a class=" link" href="#">Booking here</a>
+					</tr>
+	        </tbody>
+		</table>
 	</div>
     
 

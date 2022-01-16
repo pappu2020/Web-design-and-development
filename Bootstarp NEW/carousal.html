@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Courasal</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <style>
+        .carousal_item{
+            padding: 2% 4%;
+            background-color:#0d0442;
+        }
+
+        .hr_style{
+            border: 5px dotted white;
+            border-bottom: none;
+            
+        }
+
+        .image_carousal{
+            width: 120px;
+            height: auto;
+        }
+
+        .carousel-item{
+            padding: 1% 2%;
+            text-align: center;
+        }
+
+        .carousel-indicators{
+            bottom: -20px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<section class="carousal_item text-white">
+    <div class="heading_carousal text-center">
+        <h3 class="feedback_heading">Feedback</h3>
+        <hr class="hr_style text-center">
+    </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="200ms" data-pause="hover">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+
+                    <img src="img/b1.jpg" class="image_carousal rounded-circle">
+                    <h3 class="fst-italic fw-bolder">Arurbo saha</h3>
+                  </div>
+                  <div class="carousel-item">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+
+                    <img src="img/g1.jpg" class="image_carousal rounded-circle">
+                    <h3 class="fst-italic fw-bolder">Anamika saha</h3>
+                  </div>
+                  <div class="carousel-item">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+
+                    <img src="img/g2.jpg" class="image_carousal rounded-circle">
+                    <h3 class="fst-italic fw-bolder">Suporna saha</h3>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div> 
+        </div>
+    </div>	
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

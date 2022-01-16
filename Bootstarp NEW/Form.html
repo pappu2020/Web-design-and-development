@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>First Bootstarp</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        
+
+        .nav_menu{
+         	color: black;
+         	font-size: 20px;
+         }
+		.nav_menu:hover{
+			text-decoration: underline;
+			color: blue;
+		}
+
+        .submit{
+            margin-top: 10px;
+            margin-left: 190px;
+        }
+
+    </style>
+</head>
+<body class="bg-light">
+<div class="container">
+    <header class=" shadow-sm p-3 mb-5 bg-body rounded">
+	
+        <nav class="navbar navbar-expand-sm bg-light">
+            <a href="#" class="navbar-brand">
+                <img src="img/book.png" style="width:70px"> <h1 class="d-inline text-center heading text-dark">Study With Pappu</h1>
+            </a>
+
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+             <span class="navbar-toggler-icon nav_menu"></span>
+             </button>
+
+             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-lg-auto">
+                <li class="nav-item"><a class="nav-link nav_menu" href="Sample website.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link nav_menu" href="#">Courses</a></li>
+                <li class="nav-item"><a class="nav-link nav_menu" href="#">Admission</a></li>
+                <li class="nav-item"><a class="nav-link nav_menu" href="#">Branches</a></li>
+                <li class="nav-item"><a class="nav-link nav_menu" href="#">Contact</a></li>
+            </ul>
+
+        </div>
+        </nav>
+    
+
+</header>
+<div class="My_form col-lg-8 col-sm-4">
+    <div class="heading_form">
+        <h3 class="fw-bolder fst-italic text-info fs-2 mb-2 ">Admission Form</h3>
+    </div>
+
+    <form class="w-75 bg-light text-dark border-3">
+        <fieldset>
+        <div class="firstname mt-3">
+            <label for="fname" class="form-label fw-bolder">First Name:</label>
+            <input type="text" id="fname" class="form-control border-dark">
+        </div>
+
+        <div class="lastname mt-3">
+            <label for="lname" class="form-label fw-bolder">Last Name:</label>
+            <input type="text" id="lname" class="form-control border-dark">
+        </div>
+
+        <div class="email mt-3">
+            <label for="Email" class="form-label fw-bolder">Email:</label>
+            <input type="email" id="fname" class="form-control border-dark">
+        </div>
+         
+        <div class="gender mt-3">
+        <div class="form-check-inline">
+            <label for="male" class="fw-bolder">Male</label>
+            <input type="radio" class="form-check-input border-dark" id="male">
+        </div>
+        <div class="form-check-inline">
+            <label for="male" class="fw-bolder">FeMale</label>
+            <input type="radio" class="form-check-input border-dark" id="female">
+        </div>
+        </div>
+
+
+        <div class="select mt-3">
+             
+                <label for="course" class="mb-2 form-label fw-bolder">Course</label>
+                <select class="form-select border-dark" aria-label="Default select example" name="course" id="course">
+                  <option selected>Open this select menu</option>
+                  <option value="1">Web design</option>
+                  <option value="2">Web developer</option>
+                  <option value="3">Php/react js</option>
+                  <option value="3">Full stack web developer</option>
+                </select>
+              
+        </div>
+
+        <div class="educational_qualification mt-3">
+            <label for="EQ" class="form-label fw-bolder me-4 text-decoration-underline">Educational Qualification</label>
+             <label for="SSC" class="form-label fw-bolder me-4">SSC: </label>
+             <label for="board" class="form-label fw-bolder">Board</label>
+             <input type="text" name="board" class="form-control-inline"><br>
+             <label for="Institution" class="form-label fw-bolder">Institution</label>
+             <input type="text" name="Institution" class="form-control-inline">
+             <label for="Gpa" class="form-label fw-bolder">Gpa</label>
+             <input type="text" name="board" class="form-control-inline mb-3"><br>
+             
+             
+             <label for="SSC" class="form-label fw-bolder me-4">HSC: </label>
+             <label for="board" class="form-label fw-bolder">Board</label>
+             <input type="text" name="board" class="form-control-inline"><br>
+             <label for="Institution" class="form-label fw-bolder">Institution</label>
+             <input type="text" name="Institution" class="form-control-inline">
+             <label for="Gpa" class="form-label fw-bolder">Gpa</label>
+             <input type="text" name="board" class="form-control-inline mb-3"><br>
+
+
+             <label for="Undergraduate" class="form-label fw-bolder me-4">Undergraduate: </label>
+             <label for="Degree" class="form-label fw-bolder">Degree</label>
+             <input type="text" name="board" class="form-control-inline"><br>
+             <label for="Institution" class="form-label fw-bolder">Institution</label>
+             <input type="text" name="Institution" class="form-control-inline">
+             <label for="Gpa" class="form-label fw-bolder">Cgpa</label>
+             <input type="text" name="board" class="form-control-inline mb-3"><br>
+
+             <label for="postgraduate" class="form-label fw-bolder me-4">Master(If any): </label>
+             <label for="Degree" class="form-label fw-bolder">Degree</label>
+             <input type="text" name="board" class="form-control-inline"><br>
+             <label for="Institution" class="form-label fw-bolder">Institution</label>
+             <input type="text" name="Institution" class="form-control-inline">
+             <label for="Gpa" class="form-label fw-bolder">Cgpa</label>
+             <input type="text" name="board" class="form-control-inline">
+        </div>
+
+
+        <div class="address mt-3">
+            <label for="address" class="form-label fw-bolder">Present Address</label>
+            <input type="text-lg-start" name="address" class="form-control-inline border-dark"><br>
+        </div>
+
+        <div class="paraddress mt-3">
+            <label for="paraddress" class="form-label fw-bolder">Parmenent Address</label>
+            <input type="text-lg-start" name="paraddress" class="form-control-inline border-dark"><br>
+        </div>
+
+        <div class="dateofbirth mt-3">
+            <label for="dob" class="form-label fw-bolder">DOB</label>
+            <input type="date" name="dob" class="form-control-inline border-dark" ><br>
+        </div>
+
+        <div class="Contact mt-3">
+            <label for="contact" class="form-label fw-bolder">Contact Number</label>
+            <input type="number" name="dob" class="form-control-inline border-dark"><br>
+        </div>
+
+        <div class="check">
+            <div class="form-check-inline">
+                <input type="checkbox" class="form-check-input mt-4 border-dark" id="tac">
+                <label for="tac" class="fw-bolder mt-4">Accept terms and conditions</label>
+  
+            </div>
+        </div>
+
+        <div class="submit">
+            <button class="btn btn-outline-info btn-lg">Submit</button>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    </fieldset>
+    </form>
+</div>	
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
