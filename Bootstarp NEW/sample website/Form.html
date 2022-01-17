@@ -17,18 +17,35 @@
 			color: blue;
 		}
 
-        .submit{
-            margin-top: 10px;
-            margin-left: 190px;
+        .My_form{
+            height: 500px;
+            overflow: scroll;
         }
+
+        @media (min-width: 100px) and (max-width: 500px){
+            .back_img{
+            
+            display: none;
+        }
+
+        .My_form{
+            height: 1500px;
+            overflow: hidden;
+        }
+        
+       }
+
+
+
 
     </style>
 </head>
-<body class="bg-light">
+<body>
 <div class="container">
+    <div class="main_section">
     <header class=" shadow-sm p-3 mb-5 bg-body rounded">
 	
-        <nav class="navbar navbar-expand-sm bg-light">
+        <nav class="navbar navbar-expand-sm bg-light ">
             <a href="#" class="navbar-brand">
                 <img src="img/book.png" style="width:70px"> <h1 class="d-inline text-center heading text-dark">Study With Pappu</h1>
             </a>
@@ -51,10 +68,13 @@
     
 
 </header>
-<div class="My_form w-75 g-3 d-flex justify-content-lg-center justify-content-md-start">
+
+<div class="row">
+
+<div class="My_form  col-lg-5">
 
     <form class=" bg-light text-dark border-3 needs-validation" novalidate>
-        <legend>Admission Form</legend>
+        <legend class="fs-3 text-info fst-italic text-decoration-underline">Admission Form</legend>
         <div class="firstname mt-3">
             <label for="validationCustom01" class="form-label fw-bolder">First Name:</label>
             <input type="text" id="validationCustom01" class="form-control border-dark" required>
@@ -369,15 +389,13 @@
         <div class="submit">
             <button class="btn btn-outline-info btn-lg" type="submit">Submit</button>
         </div>
-    
-    
-    
-    
-    
-    
-    
-    
     </form>
+</div>
+
+<div class="col-lg-7 col-md-0">
+    <img src="img/back2.jpg" class="img-fluid back_img" style="height: 500px;">
+</div>
+</div>
 </div>	
 </div>
 
