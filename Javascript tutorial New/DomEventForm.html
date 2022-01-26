@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Admission Form-SWP</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        
+
+
+        .submit{
+            margin-top: 10px;
+            margin-left: 120px;
+        }
+
+    </style>
+</head>
+<body class="bg-light">
+<div class="container">
+<div class="My_form w-75 g-3 d-flex justify-content-lg-center justify-content-md-start">
+
+    <form class=" bg-light text-dark border-3 needs-validation" novalidate>
+        <legend>Admission Form</legend>
+        <div class="firstname mt-3">
+            <label for="fname" class="form-label fw-bolder">First Name:</label>
+            <input type="text" id="fname" name="fname" class="form-control border-dark" required>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+
+            <div class="invalid-feedback">
+                Please Enter the First Name.
+              </div>
+        </div>
+
+        <div class="lastname mt-3">
+            <label for="lname" class="form-label fw-bolder">Last Name:</label>
+            <input type="text" id="lname" class="form-control border-dark" required>
+
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+
+            <div class="invalid-feedback">
+                Please Enter the Last Name.
+              </div>
+        </div>
+
+        <div class="email mt-3">
+            <label for="Email" class="form-label fw-bolder">Email:</label>
+            <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+            <input type="email" id="email" class="form-control border-dark" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+                Please Enter the email.
+              </div>
+
+              <div class="valid-feedback">
+                Looks good!
+            </div>
+        </div>
+         
+        <div class="form-check mt-3">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="male">
+            <label class="form-check-label" for="male">
+              Male
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="flexRadioDefault" id="female">
+            <label class="form-check-label" for="female">
+                Female
+            </label>
+          </div>
+
+        
+        
+
+
+        <div class="select mt-3">
+             
+                <label for="course" class="mb-2 form-label fw-bolder">Course</label>
+                <select class="form-select border-dark" aria-label="Default select example" id="courseSelect" id="course" required>
+                  <option selected disabled value="">Open this select menu</option>
+                  <option value="Web design">Web design</option>
+                  <option value="Web developer">Web developer</option>
+                  <option value="Php/react js">Php/react js</option>
+                  <option value="Full stack web developer">Full stack web developer</option>
+                </select>
+
+                <div class="invalid-feedback">
+                    Please Select your course.
+                  </div>
+        
+                  <div class="valid-feedback">
+                    Looks good!
+                </div>
+              
+        </div>
+
+        <div class="educational_qualification mt-3">
+            <label for="EQ" class="form-label fw-bolder me-4 text-decoration-underline">Educational Qualification</label><br>
+             <label for="SSC" class="form-label fw-bolder me-4">SSC: </label>
+             
+             <div class="board">
+             <label for="board" class="form-label fw-bolder">Board</label>
+             <input type="text" name="board" class="form-control-inline" required><br>
+             
+             <div class="invalid-feedback">
+                Please Enter your board.
+              </div>
+    
+              <div class="valid-feedback">
+                Looks good!
+               </div>
+            </div>
+             
+            <div class="institution">
+            <label for="Institution" class="form-label fw-bolder">Institution</label>
+             <input type="text" name="Institution" class="form-control-inline" required>
+             <div class="invalid-feedback">
+                Please Enter your Institution.
+              </div>
+    
+              <div class="valid-feedback">
+                Looks good!
+            </div>
+
+           </div>
+
+              <div class="class_ssc">
+             <label for="Gpa" class="form-label fw-bolder">Gpa</label>
+             <input type="number" name="Gpa" class="form-control-inline mb-3" required><br>
+             <div class="invalid-feedback">
+                Please Enter your GPA.
+              </div>
+    
+              <div class="valid-feedback">
+                Looks good!
+            </div>
+            </div>
+             
+             
+            <label for="HSC" class="form-label fw-bolder me-4">HSC: </label>
+            
+            <div class="board_hsc">
+            <label for="board" class="form-label fw-bolder">Board</label>
+            <input type="text" name="board" class="form-control-inline" required><br>
+            <div class="invalid-feedback">
+               Please Enter your board.
+             </div>
+   
+             <div class="valid-feedback">
+               Looks good!
+           </div>
+        </div>
+
+             <div class="ins_hsc">
+            <label for="Institution" class="form-label fw-bolder">Institution</label>
+            <input type="text" name="Institution" class="form-control-inline" required>
+            <div class="invalid-feedback">
+               Please Enter your Institution.
+             </div>
+   
+             <div class="valid-feedback">
+               Looks good!
+           </div>
+        </div>
+
+            <div class="gpa_hsc">
+            <label for="Gpa" class="form-label fw-bolder">Gpa</label>
+            <input type="number" name="Gpa" class="form-control-inline mb-3" required><br>
+            <div class="invalid-feedback">
+               Please Enter your GPA.
+             </div>
+   
+             <div class="valid-feedback">
+               Looks good!
+           </div>
+        </div>
+
+           <label for="Undergraduted" class="form-label fw-bolder me-4">Undergraduted: </label>
+           
+           <div class="under_degree">
+           <label for="Degree" class="form-label fw-bolder">Degree</label>
+           <input type="text" name="Degree" class="form-control-inline" required><br>
+           <div class="invalid-feedback">
+              Please Enter your Degree.
+            </div>
+  
+            <div class="valid-feedback">
+              Looks good!
+          </div>
+        </div>
+
+           <div class="ins_under">
+           <label for="Institution" class="form-label fw-bolder">Institution</label>
+           <input type="text" name="Institution" class="form-control-inline" required>
+           <div class="invalid-feedback">
+              Please Enter your Institution.
+            </div>
+  
+            <div class="valid-feedback">
+              Looks good!
+          </div>
+        </div>
+
+           <div class="cgpa_under"></div>
+           <label for="CGPA" class="form-label fw-bolder">CGPA</label>
+           <input type="number" name="CGPA" class="form-control-inline mb-3" required><br>
+           <div class="invalid-feedback">
+              Please Enter your CGPA.
+            </div>
+            <div class="valid-feedback">
+                Looks good!
+            </div>
+
+        </div>
+        
+
+
+            <label for="Postgraduted" class="form-label fw-bolder me-4">POstgraduted: </label>
+           
+            <div class="post_degree">
+            <label for="Degree" class="form-label fw-bolder">Degree</label>
+           <input type="text" name="Degree" class="form-control-inline" required><br>
+           <div class="invalid-feedback">
+              Please Enter your Degree.
+            </div>
+  
+            <div class="valid-feedback">
+              Looks good!
+          </div>
+          </div>
+
+          <div class="post_ins">
+           <label for="Institution" class="form-label fw-bolder">Institution</label>
+           <input type="text" name="Institution" class="form-control-inline" required>
+           <div class="invalid-feedback">
+              Please Enter your Institution.
+            </div>
+  
+            <div class="valid-feedback">
+              Looks good!
+          </div>
+
+          </div>
+
+          <div class="post_cgpa">
+           <label for="CGPA" class="form-label fw-bolder">CGPA</label>
+           <input type="number" name="CGPA" class="form-control-inline mb-3" required><br>
+           <div class="invalid-feedback">
+              Please Enter your CGPA.
+            </div>
+  
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+        </div>
+
+
+        </div>
+
+
+        <div class="address mt-3">
+            <label for="address" class="form-label fw-bolder">Present Address</label>
+            <input type="text-lg-start" name="address" class="form-control-inline border-dark" required><br>
+
+            <div class="invalid-feedback">
+                Please Enter your present address.
+              </div>
+    
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+        </div>
+
+        <div class="paraddress mt-3">
+            <label for="paraddress" class="form-label fw-bolder">Parmenent Address</label>
+            <input type="text-lg-start" name="paraddress" class="form-control-inline border-dark" required><br>
+            <div class="invalid-feedback">
+                Please Enter your parmanant address.
+              </div>
+    
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+        </div>
+
+        <div class="dateofbirth mt-3">
+            <label for="dob" class="form-label fw-bolder">DOB</label>
+            <input type="date" name="dob" class="form-control-inline border-dark" required ><br>
+
+            <div class="invalid-feedback">
+                Please Enter your Date of birth.
+              </div>
+    
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+        </div>
+
+        <div class="Contact mt-3">
+            <label for="contact" class="form-label fw-bolder">Contact Number</label>
+            <input type="number" name="contact" class="form-control-inline border-dark" required><br>
+
+            <div class="invalid-feedback">
+                Please Enter your Contact mobile number.
+              </div>
+    
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+        </div>
+
+        <div class="check">
+            <div class="form-check-inline">
+                <input type="checkbox" class="form-check-input mt-4 border-dark" id="tac" required>
+                <label for="tac" class="fw-bolder mt-4">Accept terms and conditions</label>
+
+                <div class="invalid-feedback">
+                    Please check the terms and condition before submit.
+                  </div>
+        
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+  
+            </div>
+        </div>
+
+
+        <div class="admit_before2">
+          <h3>Are you admit here before?</h3>
+          <label for="admit_before" class="form-label fw-bolder">Yes
+          <input type="checkbox" name="admit_before" value="yes" class="form-check-input ms-2">
+          </label>
+
+           <label for="admit_before" class="form-label fw-bolder">No
+          <input type="checkbox" name="admit_before" value="no" class="form-check-input ms-2">
+          </label>
+
+
+  
+        </div>
+
+        <div class="submit">
+            <button class="btn btn-outline-info btn-lg" type="submit" id="submit">Submit</button>
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    </form>
+</div>
+
+<p>First Name <span id="firstName"></span></p>
+<p>Last Name <span id="lastName"></span></p>
+<p>Email <span id="email"></span></p>
+<p>Gender <span id="gender"></span></p>
+<p>Course <span id="Course"></span></p>
+<p>Are he/she admit here before? <span id="admitHere"></span></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="js/DomEventForm.js"></script>
+
+
+<script>
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
+</body>
+</html>
