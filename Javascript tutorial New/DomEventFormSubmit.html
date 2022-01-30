@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>First Bootstarp</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<style>
+	
+</style>
+</head>
+<body>
+<div class="container">
+<form class="w-75">
+    <div>
+        <label for="name" class="form-label">Name: </label>
+        <input type="text" name="name" id="name" class="form-control mb-3" required>
+    </div>
+
+    <div>
+        <label for="Email" class="form-label">Email: </label>
+        <input type="email" name="Email" id="Email" class="form-control mb-3" required>
+    </div>
+
+    <div>
+        <label for="Password" class="form-label">Password: </label>
+        <input type="password" name="Password" id="Password" class="form-control mb-3" min="8" max="25" required>
+    </div>
+
+    <div>
+        <label for="Confirm-password" class="form-label">Confirm-password: </label>
+        <input type="password" name="Confirm-password" id="Confirm-password" class="form-control mb-3" required>
+    </div>
+
+
+    <div>
+        <label for="male">Male
+            <input type="radio" class="form-check-input me-3" name="flexRadioDefault" id="male" value="male">
+        </label>
+
+        <label for="male">Female
+            <input type="radio" class="form-check-input me-3 mb-3" name="flexRadioDefault" id="Female" value="Female">
+        </label>
+    </div>
+
+
+    <div>
+        <select name="course" id="course" class="form-select">
+            <option value="Web design">Web design</option>
+            <option value="Web development">Web development</option>
+            <option value="Full stack web development">Full stack web development</option>
+        </select>
+    </div>
+
+    <div>
+        <input type="submit" class="btn btn-outline-primary" value="Submit">
+    </div>
+
+
+
+
+
+
+
+</form>
+
+
+<div class="form-output mt-5">
+    <h3>Output:</h3>
+    <p>Name: <span id="name_output"></span></p>
+    <p>Email: <span id="Email_output"></span></p>
+    <p>Password: <span id="Password_output"></span></p>
+    <p>Confirm-password: <span id="Confirm_password"></span></p>
+    <p>Gender: <span id="femaleMaleOutput"></span></p>
+    <p>Courses: <span id="courseOutput"></span></p>
+    
+</div>
+	
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="Js/DomEventFormSubmit.js"></script>
+</body>
+</html>

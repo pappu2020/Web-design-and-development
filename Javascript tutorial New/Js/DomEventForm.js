@@ -46,4 +46,15 @@ function cousreEventHandler(e){
 
 
 
+var Address = document.querySelector("textarea");
+
+Address.addEventListener("keyup",function(e){
+    document.getElementById("addressOutput").innerText = e.target.value;
+})
+
+
+
+
+
+
 

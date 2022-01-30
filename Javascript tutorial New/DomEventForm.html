@@ -263,31 +263,6 @@
         </div>
 
 
-        <div class="address mt-3">
-            <label for="address" class="form-label fw-bolder">Present Address</label>
-            <input type="text-lg-start" name="address" class="form-control-inline border-dark" required><br>
-
-            <div class="invalid-feedback">
-                Please Enter your present address.
-              </div>
-    
-              <div class="valid-feedback">
-                Looks good!
-              </div>
-        </div>
-
-        <div class="paraddress mt-3">
-            <label for="paraddress" class="form-label fw-bolder">Parmenent Address</label>
-            <input type="text-lg-start" name="paraddress" class="form-control-inline border-dark" required><br>
-            <div class="invalid-feedback">
-                Please Enter your parmanant address.
-              </div>
-    
-              <div class="valid-feedback">
-                Looks good!
-              </div>
-        </div>
-
         <div class="dateofbirth mt-3">
             <label for="dob" class="form-label fw-bolder">DOB</label>
             <input type="date" name="dob" class="form-control-inline border-dark" required ><br>
@@ -312,6 +287,22 @@
               <div class="valid-feedback">
                 Looks good!
               </div>
+        </div>
+
+
+        <div class="address">
+         <h6 class="mt-2">Present Address</h2>
+          <textarea name="address" id="address" cols="50" rows="3" class="form-text" required></textarea>
+
+
+          <div class="invalid-feedback">
+            Please Enter your Address.
+          </div>
+
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        
         </div>
 
         <div class="check">
@@ -365,6 +356,7 @@
 <p>Gender <span id="gender"></span></p>
 <p>Course <span id="Course"></span></p>
 <p>Are he/she admit here before? <span id="admitHere"></span></p>
+<p>Address <span id="addressOutput"></span></p>
 
 
 
