@@ -294,12 +294,21 @@
 
 //Find Function
 
-let number = [27,4,6,23,44,55,66,77,88];
+// let number = [27,4,6,23,44,55,66,77,88];
 
  
 
-var result =number.find(function(x){
-        return x%2===0;
-})
+// var result =number.find(function(x){
+//         return x%2===0;
+// })
 
-document.write(result);
+// document.write(result);
+
+
+//string method
+
+var string = "My name is Pappu saha";
+
+document.write(`Result: ${string.startsWith("My")} `);
+document.write(`Result: ${string.endsWith("saha")} `);
+document.write(`Result: ${string.includes("Pappu")} `);
