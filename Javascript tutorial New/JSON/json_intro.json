@@ -1,0 +1,76 @@
+
+{
+"Member":[
+{
+    "Name":"Papri saha",
+    "MiddleName":null,
+    "Age":24,
+    "Id":1,
+    "Address":"Ctg",
+    "Have visited":true,
+    "Language":[
+        "Bengali","English","Hindi"
+    ],
+    "Assistant":[
+        {
+            "Name":"Anupoma saha",
+            "Address":"Ctg"
+        },
+
+        {
+            "Name":"Anuradha saha",
+            "Address":"Jessor"
+        }
+    ]
+},
+
+{
+    "Name":"Bikash saha",
+    "MiddleName":null,
+    "Age":24,
+    "Id":2,
+    "Address":"Ctg",
+    "Have visited":true,
+    "Language":[
+        "Bengali","English"
+    ],
+    "Assistant":[
+        {
+            "Name":"Anu saha",
+            "Address":"Magura"
+        },
+
+        {
+            "Name":"Anup saha",
+            "Address":"Jessor"
+        }
+    ]
+}
+]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
