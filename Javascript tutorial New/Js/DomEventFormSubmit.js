@@ -7,7 +7,7 @@ const confirm_pass = form.querySelector("div #Confirm-password");
 const courses = document.querySelector("div #course");
 
 
-var genders=document.querySelectorAll("input[name=flexRadioDefault");
+var genders=document.querySelectorAll("input[name=flexRadioDefault]");
 
 Array.from(genders).map((flexRadioDefault) =>{
      flexRadioDefault.addEventListener("change", eventHandlerGender);
