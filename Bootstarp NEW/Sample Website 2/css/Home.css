@@ -10,7 +10,10 @@
 }
 
 #CourseSummary{
-    display: none;   
+    display: none;
+    font-family: 'Domine', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Rokkitt', serif;   
 }
 
 
@@ -74,6 +77,12 @@ font-family: 'Rokkitt', serif;
     background-color: #201736;
     height: 650px;
 }
+
+.courseSearch{
+    font-family: 'Domine', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Rokkitt', serif;
+}
 /* 
 .sectionStart{
     margin-left: 50px;
@@ -92,4 +101,43 @@ font-family: 'Rokkitt', serif;
     margin-left: -133px;
     z-index: 1500;
     margin-top: -87px;
+}
+
+
+
+/* .subSectionMain{
+    margin-top: 95px;
+    margin-left: 40px;
+} */
+
+
+.leftList{
+    margin-top: 103px;
+    margin-left: 49px;
+    
+}
+
+.leftListItem{
+    background-color: #131022;
+    color: white;
+}
+
+.subSectionContainer{
+    background-color: #131022;
+    font-family: 'Domine', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Rokkitt', serif;
+}
+
+.cardBody{
+   background-color: #1F1C2D;
+}
+
+.myCard{
+    border-radius: 2%;
+    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+}
+
+.courseCard{
+    margin-left: -28px;
 }
