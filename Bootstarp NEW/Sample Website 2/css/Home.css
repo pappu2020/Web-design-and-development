@@ -1,0 +1,95 @@
+.logoImage{
+    width: 190px;
+    height: 40px;
+}
+
+.mainHeader{
+    /* background-color: #6B5B95; */
+    background-color: #131022;
+    
+}
+
+#CourseSummary{
+    display: none;   
+}
+
+
+
+
+.courseList{
+    color: black;
+    font-size: 15;
+}
+
+.courseList:hover{
+    color: red;
+    font-size: 20px;
+}
+
+.courseHeading{
+    font-size: 25px;
+    
+    font-style: italic;
+    color: #7362F9 ;
+}
+.nav{
+    color: white;
+    font-family: 'Domine', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Rokkitt', serif;
+    
+}
+
+.nav:hover{
+    color:#6366F1;
+}
+.logo{
+    margin-top: -3px;
+}
+
+.welcomeHeading{
+    font-size: 29px;
+    margin-top: 140px;
+    font-family: 'Domine', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Rokkitt', serif;
+}
+
+.mainParagraph{
+    font-size: 70px;
+    font-family: 'Domine', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Rokkitt', serif;
+}
+
+.mainParagraph2{
+    font-size: 30px;
+    font-family: 'Domine', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Rokkitt', serif;
+}
+
+.mainSectionContainer{
+    margin-top: -16px;
+    background-color: #201736;
+    height: 650px;
+}
+/* 
+.sectionStart{
+    margin-left: 50px;
+} */
+
+
+
+.SubParagraph{
+    font-size: 20px;
+    font-family: 'Domine', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Rokkitt', serif;
+}
+
+.lastImage{
+    margin-left: -133px;
+    z-index: 1500;
+    margin-top: -87px;
+}

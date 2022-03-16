@@ -1,0 +1,125 @@
+/* h1{
+    color: aqua;
+    font-size: 60px;
+    background-color: aliceblue;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+} */
+
+/* body{
+    background-image: url("image/img1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+
+h1 {
+    border-right-style: dashed;
+    display: inline;
+    border-left-style: dashed;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+}
+
+.outline_border{
+    border: 6px solid greenyellow;
+    outline: black solid 10px;
+    
+}
+
+.space{
+    text-indent: 50px;
+    letter-spacing: 2px;
+    text-shadow: 0 0 3px #ff0000;
+}
+
+.image{
+  
+  position: relative;
+  
+}
+
+.para{
+    position: absolute;
+    
+    margin-left: 5px;
+    margin-top: -130px;
+}
+
+.floatImage{
+    float: left;
+    margin-right: 10px;
+}
+
+.floatImageright{
+    float: right;
+}
+
+.floatPara{
+    text-align: justify;
+}
+
+.imgCenter{
+    margin-left:auto;
+    margin-right: auto;
+    width: 40%;
+    display: block;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.clearfix > img{
+    float: right;
+    width: 260px;
+}
+
+.clearfix{
+    border: 5px solid blueviolet;
+}
+.backgroundImage{
+    width: 500px;
+    height: 500px;
+    background-image: url("image/img1.jpg"),url("image/img2.jpg");
+    background-position: left top,right top;
+    background-repeat: repeat,no-repeat;
+
+}
+
+.backgroundSize{
+    background-image: url(image/img1.jpg);
+    background-size: 100px 80px;
+    
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+
+.animation{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    animation-name: pappu;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    
+}
+
+@keyframes pappu{
+    0% {background-color: aqua; width: 200px; height: 200px; left: 0px; top: 0px;}
+    25% {background-color: rgb(172, 228, 19); width: 210px; height: 210px; left: 10px; top: 10px;}
+    50% {background-color: rgb(76, 0, 255); width: 220px; height: 220px; left: 20px; top: 20px;}
+    75% {background-color: rgb(255, 0, 212); width: 230px; height: 230px; left: 30px; top: 30px;}
+    100% {background-color: rgb(0, 12, 12); width: 240px; height: 240px; left: 40px; top: 40px;}
+}
+
+
