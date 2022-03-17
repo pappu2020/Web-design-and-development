@@ -135,9 +135,41 @@ font-family: 'Rokkitt', serif;
 
 .myCard{
     border-radius: 2%;
-    box-shadow: 4.0px 8.0px 8.0px hsl(0deg 0% 0% / 0.38);
+    
 }
 
 .courseCard{
     margin-left: -28px;
+}
+.subSectionContainer2{
+    background-color:#131022 ;
+    height: auto;
+    font-family: 'Domine', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Rokkitt', serif;
+    
+}
+.choosePara{
+    margin-top: 5px;
+    margin-left: 18px;
+    color: white; 
+}
+.chooseParaHeading{
+    margin-top: 240px;
+    margin-left: 18px;
+    color: white;  
+}
+
+.chooseHeading{
+    color: white;
+    font-size: 60px;
+    margin-left: 539px;
+    position: absolute;
+    margin-top: 96px;
+}
+.chooseImage{
+    margin-top: 181px;
+    margin-left: 127px;
+    width: 250px;
+    height: 250px;
 }
