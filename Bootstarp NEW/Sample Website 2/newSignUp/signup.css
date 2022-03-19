@@ -1,0 +1,39 @@
+#message{
+    display: none;
+    background-color: aliceblue;
+}
+
+#message p{
+    margin-left: 50px;
+}
+
+#heading{
+    font-size: 15px;
+    color: blue;
+    margin-left: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.valid{
+    color: green;
+    margin-left: 50px;
+}
+
+.valid::before{
+    content: "✔";
+    margin-right: 20px;
+    position: relative;
+
+}
+
+.invalid{
+    color: red;
+    margin-left: 50px;
+}
+
+.invalid::before{
+    content: "X";
+    margin-right: 20px;
+    position: relative;
+}
