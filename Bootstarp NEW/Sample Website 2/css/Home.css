@@ -1,5 +1,8 @@
 body{
     background-color:#131022 ;
+    font-family: 'Domine', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Rokkitt', serif;
 }
 
 
@@ -89,6 +92,22 @@ font-family: 'Rokkitt', serif;
     font-family: 'Domine', serif;
 font-family: 'Lobster', cursive;
 font-family: 'Rokkitt', serif;
+}
+
+.searchButton{
+    width: 45px;
+    height: 38px;
+}
+
+.searchicon{
+    margin-left: 10px;
+    margin-top: 4px;
+    position: absolute;
+}
+
+.searchButton a:hover{
+ 
+  color: blue;
 }
 /* 
 .sectionStart{
@@ -397,8 +416,14 @@ font-family: 'Rokkitt', serif;
 .sub6signup{
     background-color: #2A2838;
     width: 600px;
-    height: 657px;
+    height: 697px;
     border-radius: 2%;
+}
+.signInOther a{
+    color: white;
+}
+.signInOther a:hover{
+    color: blue;
 }
 
 

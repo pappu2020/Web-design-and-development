@@ -263,6 +263,14 @@ form.addEventListener("submit",eventHandler);
     return false;
    }
 
+   else{
+       confirm("Your registration complete!!!")
+   }
+
+   if(true){
+    window.location.assign("./Home.html");
+   }
+
 
   
 
