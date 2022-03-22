@@ -157,12 +157,10 @@ font-family: 'Rokkitt', serif;
 
 .cardBody{
    background-color: #1F1C2D;
+   width: 354px;
 }
 
-.myCard{
-    border-radius: 2%;
-    
-}
+
 
 .courseCard{
     margin-left: -28px;
@@ -428,7 +426,12 @@ font-family: 'Rokkitt', serif;
 
 
 
-
+.leftFooterMain{
+    position: absolute;
+    margin-left: 1px;
+    background-color:black ;
+    width: 1488px;
+}
 
 .leftFooterImg{
     float: left;
@@ -437,6 +440,19 @@ font-family: 'Rokkitt', serif;
 
 .leftfooterpara{
     width: 500px;
+    margin-left:20px ;
+}
+
+.subtonews{
+    margin-left: 20px;
+}
+
+.footerInput{
+    margin-left: 20px;
+}
+
+.copyright{
+    margin-left: 20px; 
 }
 
 .leftfooterpara p{
@@ -454,12 +470,84 @@ font-family: 'Rokkitt', serif;
     color: blue;
     font-size: 17px;
 }
-
+.listStyle{
+    margin-top: 33px;
+}
 .listStyle li:hover{
     text-decoration: underline;
 }
 
 footer{
+    
     background-color:#131022 ;
 }
+
+.topIcon{
+    font-size: 50px;
+    color: #6366F1;
+    animation-name: topIconAni;
+    animation-duration:2s ;
+    animation-iteration-count: infinite;
+
+}
+
+.topIcon:hover{
+    color: blue;
+}
+
+@keyframes topIconAni{
+    from{
+        margin-top: 8px;
+    }
+
+    to{
+        margin-bottom: -8px;
+    }
+}
+
+
+
+
+
+
+.textAnimation1 {
+    position: relative;
+    font-size: 29px;
+      margin-top: 140px;
+      font-family: 'Domine', serif;
+     font-family: 'Lobster', cursive;
+     font-family: 'Rokkitt', serif;
+  }
+  
+  .textAnimation1 .text-wrapper1 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .textAnimation1 .letter {
+    display: inline-block;
+    
+  }
+  
+  
+  
+  
+  .textAnimation2 {
+   font-size: 70px;
+  font-family: 'Domine', serif;
+  font-family: 'Lobster', cursive;
+  font-family: 'Rokkitt', serif;
+  }
+  
+  .textAnimation2 .text-wrapper2 {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .textAnimation2 .letter2 {
+    display: inline-block;
+    
+  }
 

@@ -1,738 +1,1007 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Online Pathshala</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/Home.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Lobster&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Online Pathshala</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/Home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Lobster&display=swap" rel="stylesheet">
 </head>
+
 <body>
-<div class="container-fluid">
-<header>
-    <div class="mainHeader">
+  <div class="container-fluid">
+    <header>
+      <div class="mainHeader" id="ForGoingTop">
         <div class="d-flex flex-row bd-highlight mb-3">
-            <div class="p-3 bd-highlight logo">
-             <a href="Home.html"><img src="img/logo.png" alt="" class="logoImage"></a>
-            </div>
-            <div class="p-3 bd-highlight"><a href="Home.html" class="text-decoration-none fs-4 nav">Home</a></div>
+          <div class="p-3 bd-highlight logo">
+            <a href="Home.html"><img src="img/logo.png" alt="" class="logoImage"></a>
+          </div>
+          <div class="p-3 bd-highlight"><a href="Home.html" class="text-decoration-none fs-4 nav">Home</a></div>
 
-            <div class="p-3 bd-highlight"><a href="Home.html" class="text-decoration-none fs-4 nav">About</a></div>
+          <div class="p-3 bd-highlight"><a href="Home.html" class="text-decoration-none fs-4 nav">About</a></div>
 
-            <div class="p-3 bd-highlight"><a href="Home.html" class="text-decoration-none fs-4 nav nav2" id="courses">Courses<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+          <div class="p-3 bd-highlight"><a href="Home.html" class="text-decoration-none fs-4 nav nav2"
+              id="courses">Courses<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" />
               </svg></a></div>
 
-            <div class="p-3 bd-highlight"><a href="Home.html" class="text-decoration-none fs-4 nav">Admission<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+          <div class="p-3 bd-highlight"><a href="#signUpFormForLink" class="text-decoration-none fs-4 nav">Admission<svg
+                xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" />
               </svg></a></div>
 
-            <div class="p-3 bd-highlight"><a href="Home.html" class="text-decoration-none fs-4  nav">Branches<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" class="bi bi-arrow-down-short" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z"/>
+          <div class="p-3 bd-highlight"><a href="Home.html" class="text-decoration-none fs-4  nav">Branches<svg
+                xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor"
+                class="bi bi-arrow-down-short" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                  d="M8 4a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 1 1 .708-.708L7.5 10.293V4.5A.5.5 0 0 1 8 4z" />
               </svg></a></div>
 
-              <div class="p-3 bd-highlight"><a href="Home.html" class="text-decoration-none fs-4 nav">Account</a></div>
-            
+          <div class="p-3 bd-highlight"><a href="Home.html" class="text-decoration-none fs-4 nav">Account</a></div>
+
+        </div>
+
+
+      </div>
+
+
+      <div id="CourseSummary">
+        <div class="row">
+          <div class="col-lg-4">
+            <p class="mb-2 courseHeading courseList">Graphic Design</p>
+            <ul class="list-group">
+              <li class="list-group-item " aria-current="true"><a href="#"
+                  class="text-decoration-none courseList">Professional Graphic Design</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Advanced Graphic
+                  Design</a></li>
+              <li class="list-group-item "><a href="#" class="text-decoration-none courseList">Digital Image Editing</a>
+              </li>
+              <li class="list-group-item "><a href="#" class="text-decoration-none courseList">UI/UX Design</a></li>
+              <li class="list-group-item "><a href="#" class="text-decoration-none courseList">Motion Graphics</a></li>
+            </ul>
           </div>
 
-    
-    </div>
+          <div class="col-lg-4">
+            <p class="mb-2 courseHeading courseList">Web & Software Training</p>
+            <ul class="list-group">
+              <li class="list-group-item" aria-current="true"><a href="#"
+                  class="text-decoration-none courseList">Professional Graphic Design</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Responsive web
+                  designing</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Web development</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">App Development</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Mern Stack development</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <p class="mb-2 courseHeading courseList">Digital Markrting Training</p>
+            <ul class="list-group">
+
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Digital Marketing</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Social media marketing</a>
+              </li>
+
+            </ul>
+          </div>
+
+          <div class="col-lg-4 mt-3">
+            <p class="mb-2 courseHeading courseList">Networking Training</p>
+            <ul class="list-group">
+              <li class="list-group-item" aria-current="true"><a href="#"
+                  class="text-decoration-none courseList">Professional Graphic Design</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">CCNA</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">CCMP</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Red Hat Server</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Windows server</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 mt-3">
+            <p class="mb-2 courseHeading courseList">Graphic Design</p>
+            <ul class="list-group">
+              <li class="list-group-item" aria-current="true"><a href="#"
+                  class="text-decoration-none courseList">Professional Graphic Design</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Advanced Graphic
+                  Design</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Digital Image Editing</a>
+              </li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">UI/UX Design</a></li>
+              <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Motion Graphics</a></li>
+            </ul>
+          </div>
 
 
-    <div id="CourseSummary">
-        <div class="row">
-            <div class="col-lg-4">
-                <p class="mb-2 courseHeading courseList">Graphic Design</p>
-                <ul class="list-group">
-                    <li class="list-group-item " aria-current="true"><a href="#" class="text-decoration-none courseList">Professional Graphic Design</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Advanced Graphic Design</a></li>
-                    <li class="list-group-item "><a href="#" class="text-decoration-none courseList">Digital Image Editing</a></li>
-                    <li class="list-group-item "><a href="#" class="text-decoration-none courseList">UI/UX Design</a></li>
-                    <li class="list-group-item "><a href="#" class="text-decoration-none courseList">Motion Graphics</a></li>
-                  </ul>
-            </div>
-
-            <div class="col-lg-4">
-                <p class="mb-2 courseHeading courseList">Web & Software Training</p>
-                <ul class="list-group">
-                    <li class="list-group-item" aria-current="true"><a href="#" class="text-decoration-none courseList">Professional Graphic Design</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Responsive web designing</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Web development</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">App Development</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Mern Stack development</a></li>
-                  </ul>
-            </div>
-
-            <div class="col-lg-4">
-                <p class="mb-2 courseHeading courseList">Digital Markrting Training</p>
-                <ul class="list-group">
-                    
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Digital Marketing</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Social media marketing</a></li>
-                    
-                  </ul>
-            </div>
-
-            <div class="col-lg-4 mt-3">
-                <p class="mb-2 courseHeading courseList">Networking Training</p>
-                <ul class="list-group">
-                    <li class="list-group-item" aria-current="true"><a href="#" class="text-decoration-none courseList">Professional Graphic Design</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">CCNA</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">CCMP</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Red Hat Server</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Windows server</a></li>
-                  </ul>
-            </div>
-
-            <div class="col-lg-4 mt-3">
-                <p class="mb-2 courseHeading courseList">Graphic Design</p>
-                <ul class="list-group">
-                    <li class="list-group-item" aria-current="true"><a href="#" class="text-decoration-none courseList">Professional Graphic Design</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Advanced Graphic Design</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Digital Image Editing</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">UI/UX Design</a></li>
-                    <li class="list-group-item"><a href="#" class="text-decoration-none courseList">Motion Graphics</a></li>
-                  </ul>
-            </div>
-
-            
         </div>
-    </div>
-</header>
+      </div>
+    </header>
 
 
 
 
 
-<section>
-    <div class="mainSectionContainer">
+    <section>
+      <div class="mainSectionContainer">
         <div class="mainSection">
-        <div class="row sectionStart ms-5">
+          <div class="row sectionStart ms-5">
             <div class="col-lg-7">
-                <h5 class="welcomeHeading text-light">WELCOME!</h5>
-                <p class="mainParagraph text-light">Learn <span class="text-info mainParagraph">IT ONLINE</span></p>
+              
 
-                  <p class="mainParagraph2 text-light"> And Grow Up Your IT skills with <span class="text-danger">no limits   </span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-emoji-smile-fill" viewBox="0 0 16 16">
-                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z"/>
-                  </svg></p>
-                <p class="SubParagraph text-light">Take advantage of our wide range of IT courses. Choose from over <span class="text-danger fs-4">25K ONLINE VIDIO COURSES </span>to enhance your IT knowledge now!</p>
-
-                <div class="d-flex flex-row bd-highlight mt-5">
-                <div class="search">
-                 <input type="text" id="searchContent" name="searchContent" placeholder="Search courses" class="form-control w-100 border-dark fw-bold courseSearch"> 
+              <div class="welcomeHeading text-light">
+                <h1 class="textAnimation1">
+                <span class="text-wrapper1">
+                <span class="letters1">Welcome</span>
+                </span>
+                </h1>
                 </div>
-                 <div class="selectOption">
-                 <select name="course" id="course" class="form-select border-dark w-100 bg-light fw-bold courseSearch">
+   
+                 <h1 class="textAnimation2">
+                <span class="text-wrapper2">
+                
+                  <p class="mainParagraph letters2 text-light ">Learn <span class="mainParagraph">IT ONLINE</span></p>
+                
+                </span>
+                </h1>
+
+
+
+              <p class="mainParagraph2 text-light"> And Grow Up Your IT skills with <span class="text-danger">no limits
+                </span><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                  class="bi bi-emoji-smile-fill" viewBox="0 0 16 16">
+                  <path
+                    d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zM4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM10 8c-.552 0-1-.672-1-1.5S9.448 5 10 5s1 .672 1 1.5S10.552 8 10 8z" />
+                </svg></p>
+              <p class="SubParagraph text-light">Take advantage of our wide range of IT courses. Choose from over <span
+                  class="text-danger fs-4">25K ONLINE VIDIO COURSES </span>to enhance your IT knowledge now!</p>
+
+              <div class="d-flex flex-row bd-highlight mt-5">
+                <div class="search">
+                  <input type="text" id="searchContent" name="searchContent" placeholder="Search courses"
+                    class="form-control w-100 border-dark fw-bold courseSearch">
+                </div>
+                <div class="selectOption">
+                  <select name="course" id="course" class="form-select border-dark w-100 bg-light fw-bold courseSearch">
                     <option selected disabled value="">Catagories</option>
                     <option>Web design</option>
                     <option value="Web development">Web development</option>
                     <option value="Javascript">Javascript</option>
-                </select>
-                 </div>
-
-                 <div class="searchButton  ms-3 bg-info rounded">
-                
-                 <span class="searchicon"><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                </svg></a></span> 
-                 
-                 </div>
-
-
-            
+                  </select>
                 </div>
+
+                <div class="searchButton  ms-3 bg-info rounded">
+
+                  <span class="searchicon"><a href="#" class=""><svg xmlns="http://www.w3.org/2000/svg" width="25"
+                        height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path
+                          d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                      </svg></a></span>
+
+                </div>
+
+
+
+              </div>
 
             </div>
 
 
             <div class="col-lg-5">
-                <img src="img/stu1.png" alt="" class="img-fluid rounded-circle w-50 mt-5">
-                <img src="img/stu2.png" alt="" class="img-fluid rounded-circle w-75 mt-5">
-                <img src="img/stu3.png" alt="" class="img-fluid rounded-circle position-absolute lastImage" width="250px" height="250px">
+              <img src="img/stu1.png" alt="" class="img-fluid rounded-circle w-50 mt-5">
+              <img src="img/stu2.png" alt="" class="img-fluid rounded-circle w-75 mt-5">
+              <img src="img/stu3.png" alt="" class="img-fluid rounded-circle position-absolute lastImage" width="250px"
+                height="250px">
             </div>
+          </div>
         </div>
-    </div>
-    </div>
+      </div>
 
 
-    <div class="subSectionContainer">
+      <div class="subSectionContainer">
         <div class="subSectionStart">
-            <div class="row subSectionMain">
-                <div class="col-lg-3">
-                    <div class="list-group  position-absolute leftList ">
-                        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
-                          Mobile app development
-                        </a>
-                        <a href="#" class="list-group-item list-group-item-action leftListItem">Game developing</a>
-                        <a href="#" class="list-group-item list-group-item-action leftListItem">Software testing</a>
-                        <a href="#" class="list-group-item list-group-item-action leftListItem">Network & security</a>
-                        <a href="#" class="list-group-item list-group-item-action leftListItem" tabindex="-1" aria-disabled="true">SEO</a>
-                        <a href="#" class="list-group-item list-group-item-action leftListItem">Motion graphics</a>
-                        <a href="#" class="list-group-item list-group-item-action leftListItem">Digital Image Editing</a>
-                        <a href="#" class="list-group-item list-group-item-action leftListItem">UI/UX design</a>
-                        <a href="#" class="btn btn-outline-info mt-3">See All Courses <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
-                          </svg></a>
-                      </div>
-                </div>
-
-
-                <div class="col-lg-9 courseCard">
-                    <h2 class="mt-5 mb-3 text-light fs-1">Popular Courses</h2>
-                    <div class="row">
-                        <div class="col-lg-4">
-                            <div class="card myCard border-dark">
-                                <img src="img/course1.png" alt="" class="card-img-top" width="300px" height="200px">
-                                <div class="card-body cardBody">
-                                    <h5 class="card-title"><a href="#" class="text-decoration-none text-light">Full Stack Web Development</a></h5>
-                                    <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur omnis alias quisquam </p>
-
-                                    <blockquote class="blockquote text-light">by Pappu saha</blockquote>
-                                    <p class="fw-bolder fs-5 text-light ">25000/-</p>
-                                    <a href="#" class="btn btn-outline-info text-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
-                                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
-                                      </svg></a>
-                                    
-                                    <a href="#" class="btn btn-outline-info text-light">Learn more...</a>
-                                </div>
-                                </div>
-                        </div>
-
-                        <div class="col-lg-4 ">
-                            <div class="card myCard border-dark">
-                                <img src="img/course2.jpg" alt="" class="card-img-top" width="300px" height="200px">
-                                <div class="card-body cardBody">
-                                    <h5 class="card-title"><a href="#" class="text-decoration-none text-light">Android app development</a></h5>
-                                    <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur omnis alias quisquam </p>
-
-                                    <blockquote class="blockquote text-light">by Pappu saha</blockquote>
-                                    <p class="fw-bolder fs-5 text-light">45000/-</p>
-                                    <a href="#" class="btn btn-outline-info text-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
-                                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
-                                      </svg></a>
-                                    
-                                    <a href="#" class="btn btn-outline-info text-light">Learn more...</a>
-                                </div>
-                                </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="card myCard border-dark">
-                                <img src="img/course3.jpg" alt="" class="card-img-top" width="300px" height="200px">
-                                <div class="card-body cardBody">
-                                    <h5 class="card-title"><a href="#" class="text-decoration-none text-light">Graphics Design</a></h5>
-                                    <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur omnis alias quisquam </p>
-
-                                    <blockquote class="blockquote text-light">by Pappu saha</blockquote>
-                                    <p class="fw-bolder fs-5 text-light">35000/-</p>
-                                    <a href="#" class="btn btn-outline-info text-light"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
-                                        <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
-                                      </svg></a>
-                                    
-                                    <a href="#" class="btn btn-outline-info text-light">Learn more...</a>
-                                </div>
-                                </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="row subSectionMain">
+            <div class="col-lg-3">
+              <div class="list-group  position-absolute leftList ">
+                <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+                  Mobile app development
+                </a>
+                <a href="#" class="list-group-item list-group-item-action leftListItem">Game developing</a>
+                <a href="#" class="list-group-item list-group-item-action leftListItem">Software testing</a>
+                <a href="#" class="list-group-item list-group-item-action leftListItem">Network & security</a>
+                <a href="#" class="list-group-item list-group-item-action leftListItem" tabindex="-1"
+                  aria-disabled="true">SEO</a>
+                <a href="#" class="list-group-item list-group-item-action leftListItem">Motion graphics</a>
+                <a href="#" class="list-group-item list-group-item-action leftListItem">Digital Image Editing</a>
+                <a href="#" class="list-group-item list-group-item-action leftListItem">UI/UX design</a>
+                <a href="#" class="btn btn-outline-info mt-3">See All Courses <svg xmlns="http://www.w3.org/2000/svg"
+                    width="16" height="16" fill="currentColor" class="bi bi-arrow-right-circle" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z" />
+                  </svg></a>
+              </div>
             </div>
+
+
+            <div class="col-lg-9 courseCard">
+              <h2 class="mt-5 mb-3 text-light fs-1">Popular Courses</h2>
+              <div class="row">
+                <div class="col-lg-4">
+                  <div class="card myCard">
+                    <img src="img/course1.png" alt="" class="card-img-top" width="300px" height="200px">
+                    <div class="card-body cardBody">
+                      <h5 class="card-title"><a href="#" class="text-decoration-none text-light">Full Stack Web
+                          Development</a></h5>
+                      <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur
+                        omnis alias quisquam </p>
+
+                      <blockquote class="blockquote text-light">by Pappu saha</blockquote>
+                      <p class="fw-bolder fs-5 text-light ">25000/-</p>
+                      <a href="#" class="btn btn-outline-info text-light"><svg xmlns="http://www.w3.org/2000/svg"
+                          width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                          <path
+                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                        </svg></a>
+
+                      <a href="#" class="btn btn-outline-info text-light">Learn more...</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4 ">
+                  <div class="card myCard">
+                    <img src="img/course2.jpg" alt="" class="card-img-top" width="300px" height="200px">
+                    <div class="card-body cardBody">
+                      <h5 class="card-title"><a href="#" class="text-decoration-none text-light">Android app
+                          development</a></h5>
+                      <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur
+                        omnis alias quisquam </p>
+
+                      <blockquote class="blockquote text-light">by Pappu saha</blockquote>
+                      <p class="fw-bolder fs-5 text-light">45000/-</p>
+                      <a href="#" class="btn btn-outline-info text-light"><svg xmlns="http://www.w3.org/2000/svg"
+                          width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                          <path
+                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                        </svg></a>
+
+                      <a href="#" class="btn btn-outline-info text-light">Learn more...</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-4">
+                  <div class="card myCard">
+                    <img src="img/course3.jpg" alt="" class="card-img-top" width="300px" height="200px">
+                    <div class="card-body cardBody">
+                      <h5 class="card-title"><a href="#" class="text-decoration-none text-light">Graphics Design</a>
+                      </h5>
+                      <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur
+                        omnis alias quisquam </p>
+
+                      <blockquote class="blockquote text-light">by Pappu saha</blockquote>
+                      <p class="fw-bolder fs-5 text-light">35000/-</p>
+                      <a href="#" class="btn btn-outline-info text-light"><svg xmlns="http://www.w3.org/2000/svg"
+                          width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                          <path
+                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                        </svg></a>
+
+                      <a href="#" class="btn btn-outline-info text-light">Learn more...</a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-4 mt-4">
+                  <div class="card myCard">
+                    <img src="img/course5.jpg" alt="" class="card-img-top" width="300px" height="200px">
+                    <div class="card-body cardBody">
+                      <h5 class="card-title"><a href="#" class="text-decoration-none text-light">Digital Marketing</a>
+                      </h5>
+                      <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur
+                        omnis alias quisquam </p>
+
+                      <blockquote class="blockquote text-light">by Pappu saha</blockquote>
+                      <p class="fw-bolder fs-5 text-light">25000/-</p>
+                      <a href="#" class="btn btn-outline-info text-light"><svg xmlns="http://www.w3.org/2000/svg"
+                          width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                          <path
+                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                        </svg></a>
+
+                      <a href="#" class="btn btn-outline-info text-light">Learn more...</a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-4 mt-4">
+                  <div class="card myCard">
+                    <img src="img/course6.jpg" alt="" class="card-img-top" width="300px" height="200px">
+                    <div class="card-body cardBody">
+                      <h5 class="card-title"><a href="#" class="text-decoration-none text-light">Professional
+                          Cybersequrity</a></h5>
+                      <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur
+                        omnis alias quisquam </p>
+
+                      <blockquote class="blockquote text-light">by Pappu saha</blockquote>
+                      <p class="fw-bolder fs-5 text-light">35000/-</p>
+                      <a href="#" class="btn btn-outline-info text-light"><svg xmlns="http://www.w3.org/2000/svg"
+                          width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                          <path
+                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                        </svg></a>
+
+                      <a href="#" class="btn btn-outline-info text-light">Learn more...</a>
+                    </div>
+                  </div>
+                </div>
+
+
+                <div class="col-lg-4 mt-4">
+                  <div class="card myCardk">
+                    <img src="img/course8.png" alt="" class="card-img-top" width="300px" height="200px">
+                    <div class="card-body cardBody">
+                      <h5 class="card-title"><a href="#" class="text-decoration-none text-light">Mern Stack
+                          Developing</a></h5>
+                      <p class="card-text text-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur
+                        omnis alias quisquam </p>
+
+                      <blockquote class="blockquote text-light">by Pappu saha</blockquote>
+                      <p class="fw-bolder fs-5 text-light">35000/-</p>
+                      <a href="#" class="btn btn-outline-info text-light"><svg xmlns="http://www.w3.org/2000/svg"
+                          width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                          <path
+                            d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z" />
+                        </svg></a>
+
+                      <a href="#" class="btn btn-outline-info text-light">Learn more...</a>
+                    </div>
+                  </div>
+                </div>
+
+
+
+
+
+              </div>
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
 
 
 
-   <div class="subSectionContainer2">
-       <div class="subSectionContainer2Main">
-        <p class="chooseHeading">How Does It Work?</p>
-        <img src="img/sub2.png" alt="" class="subBackImg rounded-circle">
-        <img src="img/sub3.png" alt="" class="subBackImg2">
+      <div class="subSectionContainer2">
+        <div class="subSectionContainer2Main">
+          <p class="chooseHeading">How Does It Work?</p>
+          <img src="img/sub2.png" alt="" class="subBackImg rounded-circle">
+          <img src="img/sub3.png" alt="" class="subBackImg2">
           <div class="row">
-              <div class="col-lg-4">
-                  <img src="img/choose5.jpg" alt="" class="rounded-circle chooseImage" id="chooseImageid">
-              </div>
-              <div class="col-lg-8">
-                <h1 class="chooseParaHeading" id="chooseParaHeadingid">Choose a course based on what interests you.</h1>
-                <p class="choosePara" id="chooseParaid">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe harum asperiores, cum ullam ut ex rem hic natus, dolorum, delectus adipisci sunt aspernatur dolore quasi.</p>
-              </div>
+            <div class="col-lg-4">
+              <img src="img/choose5.jpg" alt="" class="rounded-circle chooseImage" id="chooseImageid">
+            </div>
+            <div class="col-lg-8">
+              <h1 class="chooseParaHeading" id="chooseParaHeadingid">Choose a course based on what interests you.</h1>
+              <p class="choosePara" id="chooseParaid">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                harum asperiores, cum ullam ut ex rem hic natus, dolorum, delectus adipisci sunt aspernatur dolore
+                quasi.</p>
+            </div>
 
           </div>
 
           <div class="row">
             <div class="col-lg-4">
-                <img src="img/choose6.jpg" alt="" class="rounded-circle chooseImage" id="chooseImageid2">
+              <img src="img/choose6.jpg" alt="" class="rounded-circle chooseImage" id="chooseImageid2">
             </div>
             <div class="col-lg-8">
               <h1 class="chooseParaHeading" id="chooseParaHeadingid2">Learn by doing.</h1>
-              <p class="choosePara" id="chooseParaid2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe harum asperiores, cum ullam ut ex rem hic natus, dolorum, delectus adipisci sunt aspernatur dolore quasi.</p>
+              <p class="choosePara" id="chooseParaid2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                harum asperiores, cum ullam ut ex rem hic natus, dolorum, delectus adipisci sunt aspernatur dolore
+                quasi.</p>
             </div>
 
-        </div>
+          </div>
 
-        <div class="row">
+          <div class="row">
             <div class="col-lg-4">
-                <img src="img/choose7.png" alt="" class="rounded-circle chooseImage" id="chooseImageid3">
+              <img src="img/choose7.png" alt="" class="rounded-circle chooseImage" id="chooseImageid3">
             </div>
             <div class="col-lg-8">
               <h1 class="chooseParaHeading" id="chooseParaHeadingid3">Get instant expert feedback</h1>
-              <p class="choosePara" id="chooseParaid3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe harum asperiores, cum ullam ut ex rem hic natus, dolorum, delectus adipisci sunt aspernatur dolore quasi.</p>
+              <p class="choosePara" id="chooseParaid3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                harum asperiores, cum ullam ut ex rem hic natus, dolorum, delectus adipisci sunt aspernatur dolore
+                quasi.</p>
             </div>
 
-        </div>
+          </div>
 
-        <div class="row">
+          <div class="row">
             <div class="col-lg-4">
-                <img src="img/choose8.jpg" alt="" class="rounded-circle chooseImage" id="chooseImageid4">
+              <img src="img/choose8.jpg" alt="" class="rounded-circle chooseImage" id="chooseImageid4">
             </div>
             <div class="col-lg-8">
-              <h1 class="chooseParaHeading" id="chooseParaHeadingid4">Put your learning into practice & find your dream job</h1>
-              <p class="choosePara" id="chooseParaid4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe harum asperiores, cum ullam ut ex rem hic natus, dolorum, delectus adipisci sunt aspernatur dolore quasi.</p>
+              <h1 class="chooseParaHeading" id="chooseParaHeadingid4">Put your learning into practice & find your dream
+                job</h1>
+              <p class="choosePara" id="chooseParaid4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe
+                harum asperiores, cum ullam ut ex rem hic natus, dolorum, delectus adipisci sunt aspernatur dolore
+                quasi.</p>
             </div>
+
+          </div>
+
+
 
         </div>
-          
-
-           
-       </div>
-   </div>
-   
-   
+      </div>
 
 
 
-   <div class="subsectionContainer3">
-       <div class="subsectionContainerMain3">
-        <h1 class="getHeading">What you get ?</h1>
 
-        <div class="row d-flex justify-content-md-center">
+
+      <div class="subsectionContainer3">
+        <div class="subsectionContainerMain3">
+          <h1 class="getHeading">What you get ?</h1>
+
+          <div class="row d-flex justify-content-md-center">
             <div class="col-lg-3">
-                <div class="card getCard">
-                   <span class="ms-3"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16">
-                    <path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
+              <div class="card getCard">
+                <span class="ms-3"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-play-btn-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z" />
                   </svg></span>
-                    <div class="card-body">
-                        <h1 class="card-title">25k+ online video tutorials</h1>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur omnis alias quisquam, ipsa voluptates, aliquid doloribus assumenda amet ratione consectetur quae a architecto adipisci.</p>
-                
-                    </div>
-                    </div> 
+                <div class="card-body">
+                  <h1 class="card-title">25k+ online video tutorials</h1>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur omnis alias
+                    quisquam, ipsa voluptates, aliquid doloribus assumenda amet ratione consectetur quae a architecto
+                    adipisci.</p>
+
+                </div>
+              </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card getCard">
-                   <span class="ms-3"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-key-fill" viewBox="0 0 16 16">
-                    <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+              <div class="card getCard">
+                <span class="ms-3"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-key-fill" viewBox="0 0 16 16">
+                    <path
+                      d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
                   </svg></span>
-                    <div class="card-body">
-                        <h1 class="card-title">Lifetime access</h1>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur omnis alias quisquam, ipsa voluptates, aliquid doloribus assumenda amet ratione consectetur quae a architecto adipisci.</p>
-                
-                    </div>
-                    </div> 
+                <div class="card-body">
+                  <h1 class="card-title">Lifetime access</h1>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur omnis alias
+                    quisquam, ipsa voluptates, aliquid doloribus assumenda amet ratione consectetur quae a architecto
+                    adipisci.</p>
+
+                </div>
+              </div>
             </div>
 
             <div class="col-lg-3">
-                <div class="card getCard">
-                   <span class="ms-3"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-person-workspace" viewBox="0 0 16 16">
-                    <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/>
-                    <path d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z"/>
+              <div class="card getCard">
+                <span class="ms-3"> <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor"
+                    class="bi bi-person-workspace" viewBox="0 0 16 16">
+                    <path d="M4 16s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H4Zm4-5.95a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />
+                    <path
+                      d="M2 1a2 2 0 0 0-2 2v9.5A1.5 1.5 0 0 0 1.5 14h.653a5.373 5.373 0 0 1 1.066-2H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v9h-2.219c.554.654.89 1.373 1.066 2h.653a1.5 1.5 0 0 0 1.5-1.5V3a2 2 0 0 0-2-2H2Z" />
                   </svg></span>
-                    <div class="card-body">
-                        <h1 class="card-title">Mentor Based Learning</h1>
-                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur omnis alias quisquam, ipsa voluptates, aliquid doloribus assumenda amet ratione consectetur quae a architecto adipisci.</p>
-                
-                    </div>
-                    </div> 
+                <div class="card-body">
+                  <h1 class="card-title">Mentor Based Learning</h1>
+                  <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur omnis alias
+                    quisquam, ipsa voluptates, aliquid doloribus assumenda amet ratione consectetur quae a architecto
+                    adipisci.</p>
+
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-       </div>
-   </div>
+      </div>
 
 
-   <div class="subSectionContainer4">
-     <div class="subsectionContainerMain4">
-         
-        <div class="row">
-             <div class="col-lg-4 sub4LeftContent">
-                 <h1 class="sub4Heading">What Our Students Say About Online Courses</h1>
-             </div>
+      <div class="subSectionContainer4">
+        <div class="subsectionContainerMain4">
 
-             <div class="col-lg-6 sub4rightContent">
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="200ms" data-pause="hover">
-					<div class="carousel-indicators">
-					  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-					  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-					  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-					</div>
-					<div class="carousel-inner">
-					  <div class="carousel-item active">
-						<p class="carousalPara"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chat-square-quote" viewBox="0 0 16 16">
-                            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                            <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
-                          </svg>   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
-	
-						<img src="img/pappu1.jpeg" class="image_carousal rounded-circle">
-						<h3 class="fst-italic fw-bolder carousalHeading">Pappu saha</h3>
-					  </div>
-					  <div class="carousel-item">
-						<p class="carousalPara"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chat-square-quote" viewBox="0 0 16 16">
-                            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                            <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
-                          </svg>   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
-	
-						<img src="img/stu4.jpg" class="image_carousal rounded-circle">
-						<h3 class="fst-italic fw-bolder carousalHeading">Anamika saha</h3>
-					  </div>
-					  <div class="carousel-item">
-						<p class="carousalPara"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chat-square-quote" viewBox="0 0 16 16">
-                            <path d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
-                            <path d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z"/>
-                          </svg>      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
-	
-						<img src="img/stu6.png" class="image_carousal rounded-circle">
-						<h3 class="fst-italic fw-bolder carousalHeading">Suporna saha</h3>
-					  </div>
-					</div>
-					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-					  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					  <span class="visually-hidden">Previous</span>
-					</button>
-					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-					  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-					  <span class="visually-hidden">Next</span>
-					</button>
-				  </div> 
-			</div>
-         </div>
-     </div>  
-   </div>
+          <div class="row">
+            <div class="col-lg-4 sub4LeftContent">
+              <h1 class="sub4Heading">What Our Students Say About Online Courses</h1>
+            </div>
+
+            <div class="col-lg-6 sub4rightContent">
+              <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-interval="200ms"
+                data-pause="hover">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <p class="carousalPara"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        fill="currentColor" class="bi bi-chat-square-quote" viewBox="0 0 16 16">
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                        <path
+                          d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z" />
+                      </svg> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum
+                      magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet
+                      consectetur adipisicing elit</p>
+
+                    <img src="img/pappu1.jpeg" class="image_carousal rounded-circle">
+                    <h3 class="fst-italic fw-bolder carousalHeading">Pappu saha</h3>
+                  </div>
+                  <div class="carousel-item">
+                    <p class="carousalPara"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        fill="currentColor" class="bi bi-chat-square-quote" viewBox="0 0 16 16">
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                        <path
+                          d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z" />
+                      </svg> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum
+                      magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet
+                      consectetur adipisicing elit</p>
+
+                    <img src="img/stu4.jpg" class="image_carousal rounded-circle">
+                    <h3 class="fst-italic fw-bolder carousalHeading">Anamika saha</h3>
+                  </div>
+                  <div class="carousel-item">
+                    <p class="carousalPara"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        fill="currentColor" class="bi bi-chat-square-quote" viewBox="0 0 16 16">
+                        <path
+                          d="M14 1a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1h-2.5a2 2 0 0 0-1.6.8L8 14.333 6.1 11.8a2 2 0 0 0-1.6-.8H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2.5a1 1 0 0 1 .8.4l1.9 2.533a1 1 0 0 0 1.6 0l1.9-2.533a1 1 0 0 1 .8-.4H14a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+                        <path
+                          d="M7.066 4.76A1.665 1.665 0 0 0 4 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112zm4 0A1.665 1.665 0 0 0 8 5.668a1.667 1.667 0 0 0 2.561 1.406c-.131.389-.375.804-.777 1.22a.417.417 0 1 0 .6.58c1.486-1.54 1.293-3.214.682-4.112z" />
+                      </svg> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi sint quibusdam laborum
+                      magnam incidunt dolores earum optio molestias quis sapiente.Lorem ipsum dolor, sit amet
+                      consectetur adipisicing elit</p>
+
+                    <img src="img/stu6.png" class="image_carousal rounded-circle">
+                    <h3 class="fst-italic fw-bolder carousalHeading">Suporna saha</h3>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 
 
-   <div class="subSectionContainer5">
-       <div class="subSectionContainerMain">
-           
-           <h1 class="sub5Heading fs-1">Frequently Asked Question</h1>
-           <div class=" d-flex justify-content-center">
+      <div class="subSectionContainer5">
+        <div class="subSectionContainerMain">
+
+          <h1 class="sub5Heading fs-1">Frequently Asked Question</h1>
+          <div class=" d-flex justify-content-center">
             <div class="accordion w-75 acordionSection" id="accordionExample">
-                <div class="accordion-item rounded p-2 mb-2" >
-                  <h2 class="accordion-header" id="headingOne">
-                    <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                     Question #1
-                    </button>
-                  </h2>
-                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
+              <div class="accordion-item rounded p-2 mb-2">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Question #1
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+                    plugin adds the appropriate classes that we use to style each element. These classes control the
+                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                    this with custom CSS or overriding our default variables. It's also worth noting that just about any
+                    HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                   </div>
                 </div>
-                <div class="accordion-item rounded p-2 mb-2">
-                  <h2 class="accordion-header" id="headingTwo">
-                    <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                        Question #2
-                    </button>
-                  </h2>
-                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
+              </div>
+              <div class="accordion-item rounded p-2 mb-2">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Question #2
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the second item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
                   </div>
                 </div>
-                
-                <div class="accordion-item rounded p-2 mb-2">
-                  <h2 class="accordion-header" id="headingThree">
-                    <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                        Question #3
-                    </button>
-                  </h2>
-                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                    <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-                    </div>
-                  </div>
-               </div>
+              </div>
 
-               <div class="accordion-item rounded p-2 mb-2">
+              <div class="accordion-item rounded p-2 mb-2">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Question #3
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item rounded p-2 mb-2">
                 <h2 class="accordion-header" id="headingFour">
-                  <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                     Question #4
                   </button>
                 </h2>
-                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                  data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <strong>This is the fourth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>This is the fourth item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
                   </div>
                 </div>
-             </div>
+              </div>
 
 
-             <div class="accordion-item rounded p-2 mb-2">
+              <div class="accordion-item rounded p-2 mb-2">
                 <h2 class="accordion-header" id="headingFive">
-                  <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                     Question #5
                   </button>
                 </h2>
-                <div id="collapseFive" class="accordion-collapse collapse fs-5" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                <div id="collapseFive" class="accordion-collapse collapse fs-5" aria-labelledby="headingFive"
+                  data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <strong>This is the Fifth item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>This is the Fifth item's accordion body.</strong> It is hidden by default, until the
+                    collapse plugin adds the appropriate classes that we use to style each element. These classes
+                    control the overall appearance, as well as the showing and hiding via CSS transitions. You can
+                    modify any of this with custom CSS or overriding our default variables. It's also worth noting that
+                    just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit
+                    overflow.
                   </div>
                 </div>
-             </div>
+              </div>
 
 
-             <div class="accordion-item rounded p-2 mb-2">
+              <div class="accordion-item rounded p-2 mb-2">
                 <h2 class="accordion-header" id="headingSix">
-                  <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                  <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                     Question #6
                   </button>
                 </h2>
-                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+                  data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <strong>This is the 6th item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>This is the 6th item's accordion body.</strong> It is hidden by default, until the collapse
+                    plugin adds the appropriate classes that we use to style each element. These classes control the
+                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                    this with custom CSS or overriding our default variables. It's also worth noting that just about any
+                    HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                   </div>
                 </div>
-             </div>
+              </div>
 
-             <div class="accordion-item rounded p-2 mb-2">
+              <div class="accordion-item rounded p-2 mb-2">
                 <h2 class="accordion-header" id="headingSeven">
-                  <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                  <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                     Question #7
                   </button>
                 </h2>
-                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven"
+                  data-bs-parent="#accordionExample">
                   <div class="accordion-body">
-                    <strong>This is the 7th item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <strong>This is the 7th item's accordion body.</strong> It is hidden by default, until the collapse
+                    plugin adds the appropriate classes that we use to style each element. These classes control the
+                    overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of
+                    this with custom CSS or overriding our default variables. It's also worth noting that just about any
+                    HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                   </div>
-                </div>
-             </div>
-              
-            
-            
-            </div>
-           </div>
-
-       </div>
-   </div>
-
-
-
-
-
-   <div class="subSectionContainer6">
-     <div class="subSectionContainerMain">
-       <h1 class="sub6Heading">
-        Ready to Kick-Start Your Career?
-       </h1>
-       <h1  class="sub6Heading2">Start Learning Today</h1>
-
-
-       <div class="row">
-         <div class="col-lg-6 mt-5">
-             <img src="img/sign3.png" alt="" width="500px" height="600px" class="ms-5">
-         </div>
-
-         <div class="col-lg-6 mt-5 text-light sub6signup">
-          <h1 class="sub6Heading3">Sign up and get 20% off</h1>
-          <h1 class="sub6Heading4">for your first course!</h1>
-
-
-          <form class="w-50 mySignUpform">
-            <div class="Email">
-                <label for="email" class="form-label text-light">Email Address</label>
-                <input type="email" class="form-control  mb-3 border-dark" id="email" placeholder="Enter the Email" required>
-               </div>
-        
-               <div class="Password">
-                <label for="Password" class="form-label text-light">Password</label>
-                <input type="password" class="form-control border-dark" id="Password" placeholder="Enter the minimum 8 digit password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
-               </div>
-        
-               <div class="showPassword mt-3 mb-3">
-                   <input type="checkbox" class="form-check-input" onclick="showPassword()">
-                   <label for="showPassword" class="text-light">Show Password</label>
-               </div>
-        
-               <div id="message" class="text-light">
-                   <p id="heading">Password should be</p>
-                   <p id="lower">A <b> Lowercase </b>letter</p>
-                   <p id="upper">A<b> Uppercase</b> letter</p>
-                   <p id="num">A<b> number</b></p>
-                   <p id="min">At least<b> 8 character </b></p>
-               </div>
-        
-               <div class="Confirm-pass">
-                <label for="Confirm-password" class="form-label text-light">Confirm password</label>
-                <input type="password" class="form-control border-dark" id="Confirm_pass" placeholder="Enter the password again" required>
-               </div>
-               <div class="showConPassword mt-3 mb-3">
-                <input type="checkbox" class="form-check-input border-dark text-light" onclick="showConPassword()">
-                <label for="showPassword" class="text-light">Show Password</label>
-            </div>
-        
-              <div class="passwordCheck text-light">
-                  <p id="passwordCheck"></p>
-              </div>
-        
-        
-              <input type="submit" class="btn btn-outline-info submitButton"  name="submit" id="submit" value="Create free account">
-
-
-              <div class="signInOther">
-                <div class="headingSignInother">
-                  <p class="mt-3 fs-5">Or Sign Up Using</p>
-                </div>
-                <div class="d-flex flex-row bd-highlight">
-                  <div class="facebook me-4">
-                    <a href="http://www.facebook.com" target="_blank" class=""><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                      <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                    </svg></a>
-                  </div>
-
-                  <div class="twitter me-4">
-                    <a href="http://www.twitter.com" target="_blank" class=""><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                      <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                    </svg></a>
-                  </div>
-
-                  <div class="linkedin me-4">
-                    <a href="http://www.linkedin.com" target="_blank" class=""><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                      <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                    </svg></a>
-                  </div>
-
-                  <div class="Github me-4">
-                    <a href="http://www.github.com" target="_blank" class=""><svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                      <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                    </svg></a>
-                  </div>
-
-                
-
-                
-
-                  
                 </div>
               </div>
-        
-            </form>
-         </div>
-       
+
+
+
+            </div>
+          </div>
+
         </div>
-     </div>
-   </div>
-</section>
-
-
-
-
-
-<footer>
-  <div class="leftFooter">
-    <div class="leftFooterMain">
-
-
-
-
-
-
-      <div class="row">
-       <div class="col-lg-5">
-      
-      <p><img src="img/logo.png" alt="" width="180px" height="80px" class="leftFooterImg ms-3"><p class="p-1 text-info fs-3 fst-italic">Online Pathshala</p>
-      <div class="leftfooterpara">
-      <p class="mt-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed expedita quod eius rerum. Exercitationem rerum mollitia, laborum vitae distinctio quasi adipisci totam repellat possimus, ex suscipit aliquid debitis dolor! Fugiat nobis laborum unde impedit deserunt nihil accusamus, ratione deleniti magnam?</p>
       </div>
-      
-
-      <div class="subtonews mt-4">
-        <h4 class="text-light fs-3">Subscribe to Newsletter</h4>
-      </div>
-      
-      <div class="d-flex flex-row bd-highlight">
-      <div class="footerleftinput">
-        <input type="email" name="subs" id="subs" class="form-control me-5" placeholder="Enter the valid Email Address" required>
-      </div>
-      
-      
-      <div class="subsButton">
-      <button class="btn btn-outline-info">Subscribe</button>
-      </div>
-    </div>
 
 
-    <p class="mt-5 text-light" ><i class="fa-solid fa-copyright"></i> All RIGHTS RESERVE TO <img src="img/pappu1.jpeg" alt="" width="35px" height="35px"> Pappu Saha</p>
-    
+
+
+
+      <div class="subSectionContainer6">
+        <div class="subSectionContainerMain">
+          <h1 class="sub6Heading">
+            Ready to Kick-Start Your Career?
+          </h1>
+          <h1 class="sub6Heading2">Start Learning Today</h1>
+
+
+          <div class="row">
+            <div class="col-lg-6 mt-5">
+              <img src="img/sign3.png" alt="" width="500px" height="600px" class="ms-5">
+            </div>
+
+            <div class="col-lg-6 mt-5 text-light sub6signup">
+              <h1 class="sub6Heading3">Sign up and get 20% off</h1>
+              <h1 class="sub6Heading4">for your first course!</h1>
+
+
+              <form class="w-50 mySignUpform" id="signUpFormForLink">
+                <div class="Email">
+                  <label for="email" class="form-label text-light">Email Address</label>
+                  <input type="email" class="form-control  mb-3 border-dark" id="email" placeholder="Enter the Email"
+                    required>
+                </div>
+
+                <div class="Password">
+                  <label for="Password" class="form-label text-light">Password</label>
+                  <input type="password" class="form-control border-dark" id="Password"
+                    placeholder="Enter the minimum 8 digit password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    required
+                    title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters">
+                </div>
+
+                <div class="showPassword mt-3 mb-3">
+                  <input type="checkbox" class="form-check-input" onclick="showPassword()">
+                  <label for="showPassword" class="text-light">Show Password</label>
+                </div>
+
+                <div id="message" class="text-light">
+                  <p id="heading">Password should be</p>
+                  <p id="lower">A <b> Lowercase </b>letter</p>
+                  <p id="upper">A<b> Uppercase</b> letter</p>
+                  <p id="num">A<b> number</b></p>
+                  <p id="min">At least<b> 8 character </b></p>
+                </div>
+
+                <div class="Confirm-pass">
+                  <label for="Confirm-password" class="form-label text-light">Confirm password</label>
+                  <input type="password" class="form-control border-dark" id="Confirm_pass"
+                    placeholder="Enter the password again" required>
+                </div>
+                <div class="showConPassword mt-3 mb-3">
+                  <input type="checkbox" class="form-check-input border-dark text-light" onclick="showConPassword()">
+                  <label for="showPassword" class="text-light">Show Password</label>
+                </div>
+
+                <div class="passwordCheck text-light">
+                  <p id="passwordCheck"></p>
+                </div>
+
+
+                <input type="submit" class="btn btn-outline-info submitButton" name="submit" id="submit"
+                  value="Create free account">
+
+
+                <div class="signInOther">
+                  <div class="headingSignInother">
+                    <p class="mt-3 fs-5">Or Sign Up Using</p>
+                  </div>
+                  <div class="d-flex flex-row bd-highlight">
+                    <div class="facebook me-4">
+                      <a href="http://www.facebook.com" target="_blank" class=""><svg xmlns="http://www.w3.org/2000/svg"
+                          width="35" height="35" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                          <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                        </svg></a>
+                    </div>
+
+                    <div class="twitter me-4">
+                      <a href="http://www.twitter.com" target="_blank" class=""><svg xmlns="http://www.w3.org/2000/svg"
+                          width="35" height="35" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                          <path
+                            d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+                        </svg></a>
+                    </div>
+
+                    <div class="linkedin me-4">
+                      <a href="http://www.linkedin.com" target="_blank" class=""><svg xmlns="http://www.w3.org/2000/svg"
+                          width="35" height="35" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                          <path
+                            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                        </svg></a>
+                    </div>
+
+                    <div class="Github me-4">
+                      <a href="http://www.github.com" target="_blank" class=""><svg xmlns="http://www.w3.org/2000/svg"
+                          width="35" height="35" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                          <path
+                            d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                        </svg></a>
+                    </div>
+
+
+
+
+
+
+                  </div>
+                </div>
+
+              </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <footer>
+      <div class="leftFooter">
+        <div class="leftFooterMain">
+
+
+
+
+
+
+          <div class="row">
+            <div class="col-lg-5">
+
+              <p><img src="img/logo.png" alt="" width="180px" height="80px" class="leftFooterImg ms-3">
+              <p class="p-1 text-info fs-3 fst-italic">Online Pathshala</p>
+              <div class="leftfooterpara">
+                <p class="mt-4 text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed expedita quod
+                  eius rerum. Exercitationem rerum mollitia, laborum vitae distinctio quasi adipisci totam repellat
+                  possimus, ex suscipit aliquid debitis dolor! Fugiat nobis laborum unde impedit deserunt nihil
+                  accusamus, ratione deleniti magnam?</p>
+              </div>
+
+
+              <div class="subtonews mt-4">
+                <h4 class="text-light fs-3">Subscribe to Newsletter</h4>
+              </div>
+
+              <div class="d-flex flex-row bd-highlight footerInput">
+                <div class="footerleftinput">
+                  <input type="email" name="subs" id="subs" class="form-control me-5"
+                    placeholder="Enter the valid Email Address" required>
+                </div>
+
+
+                <div class="subsButton">
+                  <button class="btn btn-outline-info">Subscribe</button>
+                </div>
+              </div>
+
+
+              <p class="mt-5 text-light copyright"><i class="fa-solid fa-copyright"></i> All RIGHTS RESERVE TO <img
+                  src="img/pappu1.jpeg" alt="" width="35px" height="35px"> Pappu Saha</p>
+
+            </div>
+
+
+            <div class="col-lg-7 listStyle">
+              <div class="row">
+                <div class="col-lg-4">
+                  <ul class="">
+                    <li class="list-unstyled mb-2"><a href="./Home.html"
+                        class="text-decoration-none footerright ">Home</a></li>
+                    <li class="list-unstyled mb-2"><a href="./Home.html"
+                        class="text-decoration-none  footerright">About</a></li>
+                    <li class="list-unstyled mb-2"><a href="./Home.html"
+                        class="text-decoration-none  footerright ">Courses</a></li>
+                    <li class="list-unstyled mb-5"><a href="./Home.html"
+                        class="text-decoration-none footerright">Career</a></li>
+                    <li class="list-unstyled mb-2"><a href="./Home.html"
+                        class="text-decoration-none footerright">Blog</a></li>
+                    <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none footerright">Terms
+                        and conditions</a></li>
+                    <li class="list-unstyled mb-2"><a href="./Home.html"
+                        class="text-decoration-none footerright">Privacy Policy</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-lg-4">
+                  <ul class="list-group">
+                    <li class="list-unstyled mb-2"><a href="./Home.html"
+                        class="text-decoration-none  footerright">Facebook</a></li>
+                    <li class="list-unstyled mb-2"><a href="./Home.html"
+                        class="text-decoration-none footerright">Twitter</a></li>
+                    <li class="list-unstyled mb-2"><a href="./Home.html"
+                        class="text-decoration-none footerright ">Linkedin</a></li>
+                    <li class="list-unstyled mb-5"><a href="./Home.html"
+                        class="text-decoration-none footerright">instagram</a></li>
+
+                  </ul>
+                </div>
+
+
+                <div class="col-lg-4">
+                  <ul class="list-group">
+                    <li class="list-unstyled mb-2"><a href="./Home.html"
+                        class="text-decoration-none footerright">Contact US</a></li>
+                    <li class="list-unstyled mb-2"><a href="./Home.html"
+                        class="text-decoration-none footerright">Branches</a></li>
+                    <li class="list-unstyled mb-2"><a href="./Home.html"
+                        class="text-decoration-none  footerright ">Future Plan</a></li>
+                    <li class="list-unstyled mb-5"><a href="./Home.html" class="text-primary"><svg
+                          xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                          class="bi bi-envelope" viewBox="0 0 16 16">
+                          <path
+                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                        </svg> sahapappu018@gmail.com</a></li>
+
+
+                    <li class="list-unstyled mb-2"><a href="#ForGoingTop"
+                        class="text-decoration-none  footerright "><i class="fa-solid fa-arrow-up topIcon"></i></a></li>
+
+                  </ul>
+                </div>
+
+
+
+
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 
-
-  <div class="col-lg-7 listStyle">
-    <div class="row">
-      <div class="col-lg-4">
-        <ul class="">
-          <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none footerright ">Home</a></li>
-          <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none  footerright">About</a></li>
-          <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none  footerright ">Courses</a></li>
-          <li class="list-unstyled mb-5"><a href="./Home.html" class="text-decoration-none footerright">Career</a></li>
-          <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none footerright">Blog</a></li>
-          <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none footerright">Terms and conditions</a></li>
-          <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none footerright">Privacy Policy</a></li>
-        </ul>
-      </div>
-    
-      <div class="col-lg-4">
-        <ul class="list-group">
-          <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none  footerright">Facebook</a></li>
-          <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none footerright">Twitter</a></li>
-          <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none footerright ">Linkedin</a></li>
-          <li class="list-unstyled mb-5"><a href="./Home.html" class="text-decoration-none footerright">instagram</a></li>
-          
-        </ul>
-      </div>
-
-
-      <div class="col-lg-4">
-        <ul class="list-group">
-          <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none footerright">Contact US</a></li>
-          <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none footerright">Branches</a></li>
-          <li class="list-unstyled mb-2"><a href="./Home.html" class="text-decoration-none  footerright ">Future Plan</a></li>
-          <li class="list-unstyled mb-5"><a href="./Home.html" class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
-            <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-          </svg> sahapappu018@gmail.com</a></li>
-          
-        </ul>
-      </div>
-    
-    
-    
-    
-    </div>
-  </div>
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-</div>  
-</div>
-  </div>
-</footer>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/c6ddf9ac45.js" crossorigin="anonymous"></script>
-
-<script src="js/HomeJs.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/c6ddf9ac45.js" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  <script src="js/HomeJs.js"></script>
 </body>
+
 </html>
