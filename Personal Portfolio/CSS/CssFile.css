@@ -1,0 +1,100 @@
+.menu{
+    height: 60vh;
+    overflow: scroll;
+}
+
+.mainSectionLeft{
+    background-color: #F2F3F7;
+}
+
+.menu_sub a{
+     color: black;
+}
+
+
+.menu_sub a:hover{
+    color: blue;
+}
+
+.myImage2{
+    margin-top: -10px;
+    margin-left: 400px;
+    position: absolute;
+}
+
+.mainSectionRight{
+    background-color: #F0EAF0;
+}
+
+.SectionRightContentHeading{
+    margin-top: 270px;
+    margin-left: 35px;
+}
+
+.SectionRightContentHeading h1{
+    font-family: 'Domine', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Pacifico', cursive;
+     font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.SectionRightContentPara{
+    width: 400px;
+    height: 200px;
+    margin-top: 500px;
+    margin-left: -228px;
+    text-align: justify;
+}
+
+.SectionRightContentPara p{
+    font-family: 'Domine', serif;
+    font-size: 18px;
+}
+
+.SectionRightContentHeadingAnim{
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes anim1{
+    from{
+       margin-top:1000px ;
+       
+    }
+
+    to{
+        margin-top: 270px;
+        margin-left: 35px;
+    }
+}
+
+
+
+.SectionRightContentParaAnim{
+    animation-name: anim2;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes anim2{
+    from{
+       margin-top:1000px ;
+       
+    }
+
+    to{
+        margin-top: 500px;
+        margin-left: -228px;
+    }
+}
+
+.bg_img{
+    position: absolute;
+}

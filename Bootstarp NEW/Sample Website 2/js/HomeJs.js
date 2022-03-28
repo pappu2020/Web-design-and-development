@@ -3,7 +3,7 @@ var preloader = document.getElementById("preloader");
 window.addEventListener("load",function(){
     setTimeout(()=>{
     preloader.style.display="none";
-    },2500);
+    },500);
     
     
 }) 
@@ -36,6 +36,33 @@ var chooseParaid4 = document.getElementById("chooseParaid4");
 
 var branches = document.getElementById("branches");
 var branchesId= document.getElementById("branchesId");
+
+
+var cartButton = document.getElementById("cartButton");
+var Cartoutput  = document.getElementById("Cartoutput");
+var cartOutputButton = document.getElementById("cartOutputButton");
+var count = 0;
+
+cartButton.addEventListener("click",function(){
+    count++;
+    Cartoutput.innerText = count;
+})
+
+cartOutputButton.addEventListener("click",function(){
+    window.location.assign("./cart.html");
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
