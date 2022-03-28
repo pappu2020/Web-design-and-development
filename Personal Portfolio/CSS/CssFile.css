@@ -1,10 +1,22 @@
+
+
 .menu{
     height: 60vh;
     overflow: scroll;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.linkStyle{
+    color: black;
 }
 
 .mainSectionLeft{
     background-color: #F2F3F7;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 .menu_sub a{
@@ -44,7 +56,7 @@
     width: 400px;
     height: 200px;
     margin-top: 500px;
-    margin-left: -228px;
+    margin-left: -260px;
     text-align: justify;
 }
 
@@ -91,10 +103,193 @@
 
     to{
         margin-top: 500px;
-        margin-left: -228px;
+        margin-left: -260px;
     }
 }
 
 .bg_img{
     position: absolute;
+}
+
+.aboutPara{
+    text-align: justify;
+
+}
+
+.about{
+    margin-left: 15px;
+    margin-top: -153px;
+    font-size: 25px;
+    font-family: 'Domine', serif;
+    position: absolute;
+
+}
+#about{
+    height: 500px;
+   
+}
+.who{
+    margin-left: 15px;
+    margin-top: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Domine', serif;
+
+}
+
+
+
+.aboutanim{
+    animation-name: aboutMe;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes aboutMe{
+    from{
+       margin-top:1000px ;
+       
+    }
+
+    to{
+        margin-left: 15px;
+        margin-top: -153px;
+    }
+}
+
+
+.aboutContentanim1{
+    animation-name: aboutContent;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes aboutContent{
+    from{
+       margin-top:500px ;
+       
+    }
+
+    to{
+        
+        margin-top:0px;
+    }
+}
+
+
+.aboutContentanim2{
+    animation-name: aboutContent2;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes aboutContent2{
+    from{
+       margin-top:-500px ;
+       
+    }
+
+    to{
+        
+        margin-top:0px;
+    }
+}
+
+
+.aboutContentanim3{
+    animation-name: aboutContent3;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes aboutContent3{
+    from{
+       margin-top:500px ;
+       
+    }
+
+    to{
+        
+        margin-top:0px;
+    }
+}
+
+
+.aboutContentanim4{
+    animation-name: aboutContent;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0.2s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+@keyframes aboutContent4{
+    from{
+       margin-top:-500px ;
+       
+    }
+
+    to{
+        
+        margin-top:0px;
+    }
+}
+
+
+.whatToDo1{
+    background-color: rgb(250, 246, 246);
+    border-bottom: 2px solid blue;
+    margin-top: 0px;
+   
+}
+
+.whatToDo2{
+    background-color: rgb(250, 246, 246);
+    border-left: 2px solid green;
+    border-top: 2px solid green;
+}
+
+.whatToDo3{
+    background-color: rgb(250, 246, 246);
+    border-left: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+   
+}
+
+.whatToDo4{
+    background-color: rgb(250, 246, 246);
+    border-left: 2px solid rgb(238, 17, 17);
+    border-top: 2px solid rgb(238, 17, 17);;
+   
+}
+
+.icon1{
+    margin-left: 81px;
+    margin-top: 14px;
+}
+
+.whatPara1{
+    margin-left: 48px;
+    font-size: 23px;
+    margin-top: 4px;
+}
+
+.whatPara2{
+    margin-left: 27px;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.whatPara4{
+    margin-left: 32px;
+    font-size: 20px;
+    margin-top: 4px;
 }

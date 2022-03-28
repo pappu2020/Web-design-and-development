@@ -1,55 +1,134 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Pappu Saha</title>
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Lobster&family=Rokkitt:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Domine:wght@700&family=Lobster&family=Rokkitt:wght@300&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="CSS/CssFile.css">
 </head>
+
 <body>
-<div class="container">
-<div class="mainSectionContainer">
-	<div class="mainSectionContainerSub">
-		<div class="mainSection">
-			<div class="row">
-				<div class="col-lg-3 mainSectionLeft">
-					<div class="MyImage">
-						<img src="img/pappu.jpg" alt="pappu" width="160px" height="160px" class="img-fluid rounded-circle mt-5 ms-5">
-					</div>
+	<div class="container">
+		<div id="MainContainer">
+			<div class="mainSectionContainer">
+				<div class="mainSection">
+					<div class="row">
+						<div class="col-lg-3 mainSectionLeft">
+							<div class="MyImage">
+								<img src="img/pappu.jpg" alt="pappu" width="160px" height="160px"
+									class="img-fluid rounded-circle mt-5 ms-5">
+							</div>
 
-					<div class="myName mt-3">
-						<h3 class="fw-bolder fst-italic ms-5 ">Pappu saha</h3>
-						<p class="text-primary text-capitalize">Full-stack Web Developer <span class="text-dark"> in Bangladesh</span> </p>
-					</div>
+							<div class="myName mt-3">
+								<h3 class="fw-bolder fst-italic ms-5 ">Pappu saha</h3>
+								<p class="text-primary text-capitalize">Full-stack Web Developer <span
+										class="text-dark"> in Bangladesh</span> </p>
+							</div>
 
-                    <div class="menu w-50 ms-5">
-						<div class="d-flex flex-column bd-highlight mb-3 text-center menu_sub">
-							<div class="p-2 bd-highlight"><a href="#Homesection" class="text-decoration-none 
-							">Home</a></div>
-							<div class="p-2 bd-highlight"><a href="#" class="text-decoration-none ">About</a></div>
-							<div class="p-2 bd-highlight"><a href="#" class="text-decoration-none ">Services</a></div>
-							<div class="p-2 bd-highlight"><a href="#" class="text-decoration-none ">Skills</a></div>
-							<div class="p-2 bd-highlight"><a href="#" class="text-decoration-none ">Education</a></div>
-							<div class="p-2 bd-highlight"><a href="#" class="text-decoration-none ">Experiences</a></div>
-							<div class="p-2 bd-highlight"><a href="#" class="text-decoration-none ">Certification</a></div>
-							<div class="p-2 bd-highlight"><a href="#" class="text-decoration-none 
+							<div class="menu w-50 ms-5">
+								<div class="d-flex flex-column bd-highlight mb-3 text-center menu_sub">
+
+
+									<!-- <div class="p-2 bd-highlight"><a href="#Home" class="text-decoration-none btn btn-outline-info
+							        ">Home</a></div> -->
+
+									<!-- <div class="p-2 bd-highlight"><a href="#about" class="text-decoration-none btn btn-outline-info" >About</a></div> -->
+
+									<div class="p-2 bd-highlight"><button class="btn btn-outline-info linkStyle"
+											id="HomeButton">Home</button></div>
+
+
+									<div class="p-2 bd-highlight"><button class="btn btn-outline-info linkStyle"
+											id="aboutButton">About</button></div>
+
+									<!-- <div class="p-2 bd-highlight"><a href="#"
+											class="text-decoration-none btn btn-outline-info ">Services</a></div> -->
+
+									<div class="p-2 bd-highlight"><button class="btn btn-outline-info linkStyle"
+											id="ServicesButton">Services</button></div>
+
+
+
+									<!-- <div class="p-2 bd-highlight"><a href="#"
+											class="text-decoration-none btn btn-outline-info">Skills</a></div> -->
+
+									<div class="p-2 bd-highlight"><button class="btn btn-outline-info linkStyle"
+											id="SkillsButton">Skills</button></div>
+									
+									<div class="p-2 bd-highlight"><button class="btn btn-outline-info linkStyle"
+											id="EducationButton">Education</button></div>
+
+
+									<div class="p-2 bd-highlight"><button class="btn btn-outline-info linkStyle"
+											id="ExperiencesButton">Experiences</button></div>
+
+
+									<div class="p-2 bd-highlight"><button class="btn btn-outline-info linkStyle"
+											id="CertificationButton">Certification</button></div>
+
+											
+									<div class="p-2 bd-highlight"><button class="btn btn-outline-info linkStyle"
+											id="WorkButton">Work</button></div>
+
+
+
+									<div class="p-2 bd-highlight"><button class="btn btn-outline-info linkStyle"
+											id="Interest_WorkButton">Interest Work</button></div>
+
+
+
+									<div class="p-2 bd-highlight"><button class="btn btn-outline-info linkStyle"
+											id="Soft_SkillsButton">Soft Skills</button></div>
+
+
+									<div class="p-2 bd-highlight"><button class="btn btn-outline-info linkStyle"
+											id="Contact_MeButton">Contact Me</button></div>
+
+									
+									
+									
+									<!-- <div class="p-2 bd-highlight"><a href="#"
+									     class="text-decoration-none btn btn-outline-info">Education</a></div>
+
+
+									<div class="p-2 bd-highlight"><a href="#"
+											class="text-decoration-none btn btn-outline-info">Experiences</a></div>
+
+
+									<div class="p-2 bd-highlight"><a href="#"
+											class="text-decoration-none btn btn-outline-info ">Certification</a></div>
+
+
+									<div class="p-2 bd-highlight"><a href="#" class="text-decoration-none btn btn-outline-info
 							">Work</a></div>
-							<div class="p-2 bd-highlight"><a href="#" class="text-decoration-none ">Interest Work</a></div>
-							<div class="p-2 bd-highlight"><a href="#" class="text-decoration-none 
+
+
+									<div class="p-2 bd-highlight"><a href="#"
+											class="text-decoration-none btn btn-outline-info">Interest Work</a></div>
+
+
+									<div class="p-2 bd-highlight"><a href="#" class="text-decoration-none btn btn-outline-info
 							">Soft Skills</a></div>
-							<div class="p-2 bd-highlight"><a href="#" class="text-decoration-none ">Contact Me</a></div>
-						  </div>
-					</div>
-
-				</div>
 
 
-                <div class="col-lg-9 mainSectionRight" id="Homesection">
-                       <!-- <div>
+									<div class="p-2 bd-highlight"><a href="#"
+											class="text-decoration-none btn btn-outline-info ">Contact Me</a></div> -->
+								</div>
+							</div>
+
+						</div>
+
+
+						<div class="col-lg-9 mainSectionRight">
+							<!-- <div>
 						   <img src="img/pappu3.png" alt="" width="600px" height="1000vh" class="myImage2">
 					   </div>
 
@@ -58,48 +137,161 @@
 						   <p>my name is Pappu saha</p>
 					   </div> -->
 
-					   <div class="d-flex bd-highlight">
-						
-						<div class="bg_img">
-							<img src="img/bg.gif.gif" alt="" width="976px" height="234px">
+							<div class="d-flex bd-highlight" id="Home">
+
+								<div class="bg_img">
+									<img src="img/bg.gif.gif" alt="" width="976px" height="234px">
+								</div>
+
+
+								<div
+									class="me-auto bd-highlight SectionRightContentHeading SectionRightContentHeadingAnim">
+
+									<h1>I am a Full-Stack <span>
+											<p class="text-info"> Web Developer</p>
+										</span></h1>
+
+								</div>
+
+								<div class="SectionRightContentPara SectionRightContentParaAnim">
+									<p class="mt-3">To work in the creative department of different level of IT company
+										and freelancing sites as a Front-end developer of Bangladesh and abroad and grow
+										rapidly with increasing responsibilities</p>
+								</div>
+
+
+
+
+
+								<div class="bd-highlight mt-5">
+
+									<img src="img/pappu3.png" alt="" width="600px" height="900vh">
+
+								</div>
+
+							</div>
+
+
+
+							<div id="about">
+								<div class="aboutSectionContainer">
+									<div class="aboutSection">
+										<h5 class="about" id="aboutMeSection">About Me</h5>
+										<p class="who text-primary fst-italic" id="whoIamSection">W H O &nbsp;&nbsp; A M &nbsp;&nbsp; I ?</p>
+
+										<p class="ms-3 aboutPara me-3 mb-3">Lorem ipsum dolor sit amet consectetur
+											adipisicing elit. Asperiores quidem magni vel, enim consequuntur et
+											perspiciatis est reprehenderit inventore tenetur placeat molestiae nesciunt
+											odio quibusdam atque eum maiores, repellendus ipsum repudiandae quaerat amet
+											consequatur deserunt minima error? Modi perferendis, nesciunt explicabo
+											nobis nulla neque unde minima rerum, iste quae quibusdam?</p>
+
+										<p class="ms-3 aboutPara me-3 mb-3">Lorem ipsum dolor sit amet, consectetur
+											adipisicing elit. A debitis fuga repudiandae odio expedita unde asperiores
+											cupiditate consequuntur quidem facilis.</p>
+
+
+									</div>
+
+
+
+
+									<div class="aboutContentSection mt-5">
+										<div class="row">
+											<div class="col-lg-3 whatToDo1 d-flex flex-column p-3" id="aboutContentId1">
+												<span class="icon1">
+													<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55"
+														fill="currentColor" class="bi bi-code-square"
+														viewBox="0 0 16 16">
+														<path
+															d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+														<path
+															d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z" />
+													</svg>
+												</span>
+												<p class="whatPara1">Web design</p>
+											</div>
+
+
+											<div class="col-lg-3 whatToDo2 d-flex flex-column p-3 " id="aboutContentId2">
+												<span class="icon1">
+													<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55"
+														fill="currentColor" class="bi bi-code-square"
+														viewBox="0 0 16 16">
+														<path
+															d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z" />
+														<path
+															d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z" />
+													</svg>
+												</span>
+												<p class="whatPara2">Web development</p>
+											</div>
+
+
+											<div class="col-lg-3 whatToDo3 d-flex flex-column p-3" id="aboutContentId3">
+												<span class="icon1">
+													<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55"
+														fill="currentColor" class="bi bi-bar-chart" viewBox="0 0 16 16">
+														<path
+															d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z" />
+													</svg>
+												</span>
+												<p class="whatPara1">Data Entry</p>
+											</div>
+
+
+											<div class="col-lg-3 whatToDo4 d-flex flex-column p-3" id="aboutContentId4">
+												<span class="icon1">
+													<svg xmlns="http://www.w3.org/2000/svg" width="55" height="55"
+														fill="currentColor" class="bi bi-capslock" viewBox="0 0 16 16">
+														<path fill-rule="evenodd"
+															d="M7.27 1.047a1 1 0 0 1 1.46 0l6.345 6.77c.6.638.146 1.683-.73 1.683H11.5v1a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-1H1.654C.78 9.5.326 8.455.924 7.816L7.27 1.047zM14.346 8.5 8 1.731 1.654 8.5H4.5a1 1 0 0 1 1 1v1h5v-1a1 1 0 0 1 1-1h2.846zm-9.846 5a1 1 0 0 1 1-1h5a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1h-5a1 1 0 0 1-1-1v-1zm6 0h-5v1h5v-1z" />
+													</svg>
+												</span>
+												<p class="whatPara4">Digital Marketing</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
 						</div>
-						
-						
-						<div class="me-auto bd-highlight SectionRightContentHeading SectionRightContentHeadingAnim">
-
-                          <h1 class="">I am Full-Stack <span> <p class="text-info"> Web Developer</p></span></h1>
-						  
-						</div> 
-						  
-						<div class="SectionRightContentPara SectionRightContentParaAnim">
-						<p class="mt-3">To work in the creative department of different level of IT company and freelancing sites as a Front-end developer of Bangladesh and abroad and grow rapidly with increasing responsibilities</p>
-					    </div>
-
-						
-						
-						
-						
-						<div class="bd-highlight">
-							
-							<img src="img/pappu3.png" alt="" width="600px" height="1000vh">
-							
-						</div>
-						
-					  </div>
 
 
+
+
+					</div>
 				</div>
-
-
-
-
 			</div>
 		</div>
-	</div>
-</div>		
-</div>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-<script src="JS/JsFile.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+	<script src="https://kit.fontawesome.com/c6ddf9ac45.js" crossorigin="anonymous"></script>
+	<script src="JS/JsFile.js"></script>
 </body>
+
 </html>
