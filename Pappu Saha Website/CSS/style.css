@@ -1,3 +1,12 @@
+.MyImage{
+    background-image: url("img/bggif3.gif");
+    background-repeat: no-repeat;
+    opacity: 2;
+    background-size: cover;
+   
+}
+
+
 .MainSectionContainerRight{
     background-color: #F0EAF0;
 }
@@ -33,3 +42,72 @@
         
     }
 }
+
+
+
+
+
+
+
+
+    .whatToDo1{
+        background-color: rgb(250, 246, 246);
+        border-bottom: 2px solid blue;
+        margin-top: 0px;
+       
+    }
+    
+    .whatToDo2{
+        background-color: rgb(250, 246, 246);
+        border-left: 2px solid green;
+        border-top: 2px solid green;
+    }
+    
+    .whatToDo3{
+        background-color: rgb(250, 246, 246);
+        border-left: 2px solid orangered;
+        border-bottom: 2px solid orangered;
+       
+    }
+    
+    .whatToDo4{
+        background-color: rgb(250, 246, 246);
+        border-left: 2px solid rgb(238, 17, 17);
+        border-top: 2px solid rgb(238, 17, 17);;
+       
+    }
+  
+
+
+
+
+
+  @media (min-width: 576px) and (max-width: 800px) {
+    .whatToDo1{
+        background-color: rgb(250, 246, 246);
+        border-bottom: 2px solid blue;
+       
+       
+    }
+    
+    .whatToDo2{
+        background-color: rgb(250, 246, 246);
+        border-bottom: 2px solid green;
+        border-left: none;
+    }
+    
+    .whatToDo3{
+        background-color: rgb(250, 246, 246);
+        
+        border-bottom: 2px solid orangered;
+        border-left: none;
+       
+    }
+    
+    .whatToDo4{
+        background-color: rgb(250, 246, 246);
+        border-bottom: none;
+        border-left: none;
+       
+    }
+  }
