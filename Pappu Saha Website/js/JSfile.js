@@ -71,7 +71,7 @@ window.addEventListener("load",function(){
 
  stage1.addEventListener("mouseleave",function(){
     stage1.style.border = "none";
-    stage1Para.style.color = "black";
+    stage1Para.style.color = "white";
 })
 
 
@@ -82,7 +82,7 @@ stage1Para.addEventListener("mouseover",function(){
 
 stage1Para.addEventListener("mouseleave",function(){
    stage1.style.border = "none";
-   stage1Para.style.color = "black";
+   stage1Para.style.color = "white";
 })
 
 
@@ -95,7 +95,7 @@ stage2.addEventListener("mouseover",function(){
 
 stage2.addEventListener("mouseleave",function(){
    stage2.style.border = "none";
-   stage2Para.style.color = "black";
+   stage2Para.style.color = "white";
 })
 
 
@@ -106,7 +106,7 @@ stage2Para.addEventListener("mouseover",function(){
 
 stage2Para.addEventListener("mouseleave",function(){
   stage2.style.border = "none";
-  stage2Para.style.color = "black";
+  stage2Para.style.color = "white";
 })
 
 
@@ -118,7 +118,7 @@ stage3.addEventListener("mouseover",function(){
 
 stage3.addEventListener("mouseleave",function(){
     stage3.style.border = "none";
-    stage3Para.style.color = "black";
+    stage3Para.style.color = "white";
 })
 
 
@@ -129,7 +129,7 @@ stage3Para.addEventListener("mouseover",function(){
 
 stage3Para.addEventListener("mouseleave",function(){
     stage3.style.border = "none";
-    stage3Para.style.color = "black";
+    stage3Para.style.color = "white";
 })
 
 
@@ -142,7 +142,7 @@ stage4.addEventListener("mouseover",function(){
 
 stage4.addEventListener("mouseleave",function(){
     stage4.style.border = "none";
-    stage4Para.style.color = "black";
+    stage4Para.style.color = "white";
 })
 
 
@@ -153,7 +153,7 @@ stage4Para.addEventListener("mouseover",function(){
 
 stage4Para.addEventListener("mouseleave",function(){
     stage4.style.border = "none";
-    stage4Para.style.color = "black";
+    stage4Para.style.color = "white";
 })
 
 
@@ -165,7 +165,7 @@ stage5.addEventListener("mouseover",function(){
 
 stage5.addEventListener("mouseleave",function(){
     stage5.style.border = "none";
-    stage5Para.style.color = "black";
+    stage5Para.style.color = "white";
 })
 
 
@@ -176,7 +176,7 @@ stage5Para.addEventListener("mouseover",function(){
 
 stage5Para.addEventListener("mouseleave",function(){
     stage5.style.border = "none";
-    stage5Para.style.color = "black";
+    stage5Para.style.color = "white";
 })
 
 
@@ -187,7 +187,7 @@ stage6.addEventListener("mouseover",function(){
 
 stage6.addEventListener("mouseleave",function(){
     stage6.style.border = "none";
-    stage6Para.style.color = "black";
+    stage6Para.style.color = "white";
 })
 
 
@@ -198,7 +198,7 @@ stage6Para.addEventListener("mouseover",function(){
 
 stage6Para.addEventListener("mouseleave",function(){
     stage6.style.border = "none";
-    stage6Para.style.color = "black";
+    stage6Para.style.color = "white";
 })
 
 
@@ -210,7 +210,7 @@ stage7.addEventListener("mouseover",function(){
 
 stage7.addEventListener("mouseleave",function(){
     stage7.style.border = "none";
-    stage7Para.style.color = "black";
+    stage7Para.style.color = "white";
 })
 
 
@@ -221,5 +221,5 @@ stage7Para.addEventListener("mouseover",function(){
 
 stage7Para.addEventListener("mouseleave",function(){
     stage7.style.border = "none";
-    stage7Para.style.color = "black";
+    stage7Para.style.color = "white";
 })
