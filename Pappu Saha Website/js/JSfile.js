@@ -1,6 +1,7 @@
 var homeButton = document.querySelector(".homeButton");
 var aboutButton = document.querySelector(".aboutButton");
-var serviceButton = document.querySelector(".serviceButton"); 
+var serviceButton = document.querySelector(".serviceButton");
+var eduButton =  document.querySelector(".eduButton");
 
 
 
@@ -10,6 +11,7 @@ homeButton.addEventListener("click",function(){
     homeButton.style.color = "blue";
     aboutButton.style.color = "#C7C8C9";
     serviceButton.style.color = "#C7C8C9";
+    eduButton.style.color = "#C7C8C9";
 })
 
 aboutButton.addEventListener("click",function(){
@@ -17,6 +19,7 @@ aboutButton.addEventListener("click",function(){
     homeButton.style.color = "#C7C8C9";
     aboutButton.style.color = "blue";
     serviceButton.style.color = "#C7C8C9";
+    eduButton.style.color = "#C7C8C9";
 })
 
 
@@ -24,7 +27,17 @@ serviceButton.addEventListener("click",function(){
     window.location.assign("#serviceSection");
     homeButton.style.color = "#C7C8C9";
     aboutButton.style.color = "#C7C8C9";
+    eduButton.style.color = "#C7C8C9";
     serviceButton.style.color = "blue";
+})
+
+
+eduButton.addEventListener("click",function(){
+    window.location.assign("#educationalQualification");
+    homeButton.style.color = "#C7C8C9";
+    serviceButton.style.color = "#C7C8C9";
+    aboutButton.style.color = "#C7C8C9";
+    eduButton.style.color = "blue";
 })
 
 
@@ -223,3 +236,118 @@ stage7Para.addEventListener("mouseleave",function(){
     stage7.style.border = "none";
     stage7Para.style.color = "white";
 })
+
+
+
+
+// Educational Background
+
+
+var eduBack1 = document.getElementById("eduBack1");
+var edushow1 = document.querySelector(".edushow1");
+
+window.addEventListener("load",function(){
+    // eduBack1.style.marginTop = "50px";
+    // eduBack2.style.marginTop = "50px";
+    // eduBack3.style.marginTop = "50px";
+    // eduBack4.style.marginTop = "50px";
+
+    eduBack1.style.display = "none";
+    eduBack2.style.display = "none";
+    eduBack3.style.display = "none";
+    eduBack4.style.display = "none";
+
+})
+
+edushow1.addEventListener("mousemove",function(){
+
+    // eduBack1.style.display = "block";
+    eduBack1.classList.add("eduBack1Anim");
+    
+    setTimeout(()=>{
+
+        
+        eduBack1.style.display = "block";
+        // eduBack2.style.display = "block";
+        // eduBack3.style.display = "block";
+        // eduBack4.style.display = "block";
+
+    },100);
+    // eduBack2.style.display = "block";
+     eduBack2.classList.add("eduBack2Anim");
+    setTimeout(()=>{
+
+        
+        eduBack2.style.display = "block";
+
+    },200);
+    // eduBack3.style.display = "block";
+     eduBack3.classList.add("eduBack3Anim");
+    setTimeout(()=>{
+
+        
+        eduBack3.style.display = "block";
+
+    },300);
+    // eduBack4.style.display = "block";
+    eduBack4.classList.add("eduBack4Anim");
+    setTimeout(()=>{
+
+        
+        eduBack4.style.display = "block";
+
+    },400);
+    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// eduButton.addEventListener("click",function(){
+//     eduBack1.classList.add("eduBack1Anim");
+// })
+
+var eduBack2 = document.getElementById("eduBack2");
+
+// eduButton.addEventListener("click",function(){
+//     eduBack2.classList.add("eduBack2Anim");
+// })
+
+ var eduBack3 = document.getElementById("eduBack3");
+
+// eduButton.addEventListener("click",function(){
+//     eduBack3.classList.add("eduBack3Anim");
+// })
+
+var eduBack4 = document.getElementById("eduBack4");
+
+// eduButton.addEventListener("click",function(){
+//     eduBack4.classList.add("eduBack4Anim");
+// })
