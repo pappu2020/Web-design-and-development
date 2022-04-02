@@ -1,21 +1,71 @@
-.stickyMenuBig{
+.text{
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    min-height: 100vh;
+    box-sizing: border-box;
+    /* background-color: #343F4F; */
+
+    background-image: url("img/pappuback.jpg");
+    background-repeat: no-repeat;
     
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-   
+    background-size: cover;
+    
+    
 }
 
 @media (min-width: 576px) and (max-width: 800px){
-    .stickyMenu{
+    .text{
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        min-height: 100vh;
+        box-sizing: border-box;
+        /* background-color: #343F4F; */
     
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-       
+        background-image: url("img/pappuback.jpg");
+        background-repeat: no-repeat;
+        
+        background-size: cover;
+        
+        
     }
+}
 
-   
+
+
+
+.wrapper{
+    display: inline-flex;
+}
+
+@media (min-width: 576px) and (max-width: 800px){
+    .wrapper{
+        display: inline;
+    }
+} 
+
+
+
+
+.wrapper .static_text{
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 86px;
+
+}
+
+
+@media (min-width: 576px) and (max-width: 800px){
+    .wrapper .static_text{
+        color:white;
+        font-size: 25px;
+        font-weight: 800;
+        margin-left: -3px;
+        margin-top: 35px;
+    
+    }
 }
 
 
@@ -25,31 +75,241 @@
 
 
 
-.MyImage{
+
+.wrapper .dynamic_text{
+    margin-left: 15px;
+    line-height: 90px;
+    
+    height: 90px;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+
+@media (min-width: 576px) and (max-width: 800px){
+    .wrapper .dynamic_text{
+        margin-left: 85px;
+        line-height: 90px;
+        
+        height: 90px;
+        overflow: hidden;
+        margin-top: -63px;
+    }
+}
+
+
+
+
+
+.dynamic_text li{
+    color: white;
+    list-style: none;
+    font-size: 60px;
+    font-weight: 800;
+    animation: slide 6s steps(4) infinite;
+    position: relative;
+    top: 0;
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 800px){
+    .dynamic_text li{
+        color: white;
+        list-style: none;
+        font-size: 25px;
+        font-weight: 800;
+        animation: slide 6s steps(4) infinite;
+        position: relative;
+        top: 0;
+        margin-left: -25px;
+   
+    }
+}
+
+
+
+
+
+
+
+
+@keyframes slide {
+     100%{
+         top: -360px;
+     }
+    
+}
+
+@media (min-width: 576px) and (max-width: 800px){
+
+    @keyframes slide {
+        100%{
+            top: -360px;
+        }
+       
+   }
+
+}
+
+
+
+
+
+.dynamic_text li span{
+    position: relative;
+}
+
+.dynamic_text li span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #FC6D6D;
+    background: white;
+    
+    
+    animation: typing 1.5s steps(5) infinite;
+
+}
+
+
+@media (min-width: 576px) and (max-width: 800px){
+
+    .dynamic_text li span::after{
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 4px;
+        height: 100%;
+        width: 100%;
+        border-left: 2px solid #FC6D6D;
+        background: white;
+        animation: typing 1.5s steps(5) infinite;
+    
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+@keyframes typing {
+ 40%, 60%{
+left: calc(100% + 1110px);
+ }
+100%{
+left: 0;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.stickyMenuBig {
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .stickyMenu {
+
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+.MyImage {
     background-image: url("img/bggif3.gif");
     background-repeat: no-repeat;
     opacity: 2;
     background-size: cover;
-   
+
 }
 
 
-.MainSectionContainerRight{
+.MainSectionContainerRight {
     background-color: #F0EAF0;
 }
 
 
 
-.paraHome{
+.paraHome {
     text-align: justify;
 }
 
 
-.SectionRightContentHeading{
+.SectionRightContentHeading {
     margin-top: 35px;
-    
+
 }
-.SectionRightContentHeadingAnim{
+
+.SectionRightContentHeadingAnim {
     animation-name: anim1;
     animation-duration: 3s;
     animation-iteration-count: 1;
@@ -57,16 +317,16 @@
     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-@keyframes anim1{
-    from{
-       margin-top:1000px;
-       
+@keyframes anim1 {
+    from {
+        margin-top: 1000px;
+
     }
 
-    to{
+    to {
         margin-top: 35px;
-        
-        
+
+
     }
 }
 
@@ -77,179 +337,176 @@
 
 
 
-    .whatToDo1{
+.whatToDo1 {
+    background-color: rgb(250, 246, 246);
+    border-bottom: 2px solid blue;
+    margin-top: 0px;
+
+}
+
+.whatToDo2 {
+    background-color: rgb(250, 246, 246);
+    border-left: 2px solid green;
+    border-top: 2px solid green;
+}
+
+.whatToDo3 {
+    background-color: rgb(250, 246, 246);
+    border-left: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+
+}
+
+.whatToDo4 {
+    background-color: rgb(250, 246, 246);
+    border-left: 2px solid rgb(238, 17, 17);
+    border-top: 2px solid rgb(238, 17, 17);
+    ;
+
+}
+
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .whatToDo1 {
         background-color: rgb(250, 246, 246);
         border-bottom: 2px solid blue;
-        margin-top: 0px;
-       
-    }
-    
-    .whatToDo2{
-        background-color: rgb(250, 246, 246);
-        border-left: 2px solid green;
-        border-top: 2px solid green;
-    }
-    
-    .whatToDo3{
-        background-color: rgb(250, 246, 246);
-        border-left: 2px solid orangered;
-        border-bottom: 2px solid orangered;
-       
-    }
-    
-    .whatToDo4{
-        background-color: rgb(250, 246, 246);
-        border-left: 2px solid rgb(238, 17, 17);
-        border-top: 2px solid rgb(238, 17, 17);;
-       
-    }
-  
 
 
-
-
-
-  @media (min-width: 576px) and (max-width: 800px) {
-    .whatToDo1{
-        background-color: rgb(250, 246, 246);
-        border-bottom: 2px solid blue;
-       
-       
     }
-    
-    .whatToDo2{
+
+    .whatToDo2 {
         background-color: rgb(250, 246, 246);
         border-bottom: 2px solid green;
         border-left: none;
     }
-    
-    .whatToDo3{
+
+    .whatToDo3 {
         background-color: rgb(250, 246, 246);
-        
+
         border-bottom: 2px solid orangered;
         border-left: none;
-       
+
     }
-    
-    .whatToDo4{
+
+    .whatToDo4 {
         background-color: rgb(250, 246, 246);
         border-bottom: none;
         border-left: none;
-       
+
     }
-  }
-
-
-#serviceSection{
-    background-color: #131022;
-    
 }
 
-  .stagePara{
-      text-align: justify;
-      
-  }
 
-  
-  @media (min-width: 576px) and (max-width: 800px){
-    .eduTableBody{
-         overflow: scroll;
-         
+#serviceSection {
+    background-color: #131022;
+
+}
+
+.stagePara {
+    text-align: justify;
+
+}
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .eduTableBody {
+        overflow: scroll;
+
     }
 
-  }
-  
-
-
-  #educationalQualification{
-      background-color: white;
-      
-  }
-
-  .eduqualback{
-     background-color: #6366F1;
-     height: 700px;
-     
-  }
-
-  
+}
 
 
 
-  .eduBack1Anim{
+#educationalQualification {
+    background-color: white;
+
+}
+
+.eduqualback {
+    background-color: #6366F1;
+    height: 700px;
+
+}
+
+
+
+
+
+.eduBack1Anim {
     animation-name: animEduBack1;
     animation-duration: 3s;
     animation-iteration-count: 1;
     animation-delay: 0.1s;
     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-  }
+}
 
-  @keyframes animEduBack1{
-      from{
-          margin-top: 1000px;
-      }
+@keyframes animEduBack1 {
+    from {
+        margin-top: 1000px;
+    }
 
-      to{
-          margin-top: 0px;
-      }
-  }
+    to {
+        margin-top: 0px;
+    }
+}
 
 
-  .eduBack2Anim{
+.eduBack2Anim {
     animation-name: animEduBack2;
     animation-duration: 3s;
     animation-iteration-count: 1;
     animation-delay: 0.2s;
     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-  }
+}
 
-  @keyframes animEduBack2{
-      from{
-          margin-top: 1000px;
-      }
+@keyframes animEduBack2 {
+    from {
+        margin-top: 1000px;
+    }
 
-      to{
-          margin-top: 0px;
-      }
-  }
+    to {
+        margin-top: 0px;
+    }
+}
 
 
-  .eduBack3Anim{
+.eduBack3Anim {
     animation-name: animEduBack3;
     animation-duration: 3s;
     animation-iteration-count: 1;
     animation-delay: 0.3s;
     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-  }
+}
 
-  @keyframes animEduBack3{
-      from{
-          margin-top: 1000px;
-      }
+@keyframes animEduBack3 {
+    from {
+        margin-top: 1000px;
+    }
 
-      to{
-          margin-top: 0px;
-      }
-  }
+    to {
+        margin-top: 0px;
+    }
+}
 
-  .eduBack4Anim{
+.eduBack4Anim {
     animation-name: animEduBack4;
     animation-duration: 3s;
     animation-iteration-count: 1;
     animation-delay: 0.4s;
     animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
-  }
+}
 
-  @keyframes animEduBack4{
-      from{
-          margin-top: 1000px;
-      }
+@keyframes animEduBack4 {
+    from {
+        margin-top: 1000px;
+    }
 
-      to{
-          margin-top: 0px;
-      }
-  }
- 
-
-
-
+    to {
+        margin-top: 0px;
+    }
+}
