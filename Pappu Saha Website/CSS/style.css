@@ -1,3 +1,81 @@
+
+.introMyRighttext{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (min-width: 576px) and (max-width: 800px){
+    .introMyRighttext{
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+
+
+
+
+
+.objective{
+    margin-top: 246px;
+    margin-left: 47px;
+    width: 410px;
+    position: absolute;
+
+}
+
+
+@media (min-width: 576px) and (max-width: 800px){
+    .objective{
+        margin-top: 521px;
+        margin-left: 10px;
+        width: 410px;
+        position: absolute;
+    
+    }
+}
+
+.objective_para{
+    text-align: justify;
+    color: rgb(15, 2, 35);
+    font-weight: 500;
+    background-color: #ddd;
+    border-radius: 2%;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 10px;
+    border-right: 3px solid #0DCAF0;
+    border-left: 3px solid #0DCAF0;
+    font-style: italic;
+}
+
+
+.quaIcon{
+    font-size: 15px;
+}
+
+
+
+
+.downloadCv{
+    position: absolute;
+    margin-top: 404px;
+    margin-left: 47px;
+}
+
+@media (min-width: 576px) and (max-width: 800px){
+    .downloadCv{
+        margin-top: 471px;
+        margin-left: 10px;
+        
+        position: absolute;
+    
+    }
+}
+
+
+
+
 .text{
     display: flex;
     /* align-items: center;
@@ -285,7 +363,7 @@ left: 0;
 
 
 .MyImage {
-    background-image: url("img/bggif3.gif");
+    background-image: url("img/biggif4.gif");
     background-repeat: no-repeat;
     opacity: 2;
     background-size: cover;
