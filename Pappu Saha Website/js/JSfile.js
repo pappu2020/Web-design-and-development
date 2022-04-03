@@ -2,6 +2,7 @@ var homeButton = document.querySelector(".homeButton");
 var aboutButton = document.querySelector(".aboutButton");
 var serviceButton = document.querySelector(".serviceButton");
 var eduButton =  document.querySelector(".eduButton");
+var skillsButton = document.querySelector(".skillsButton");
 
 
 
@@ -12,6 +13,7 @@ homeButton.addEventListener("click",function(){
     aboutButton.style.color = "#C7C8C9";
     serviceButton.style.color = "#C7C8C9";
     eduButton.style.color = "#C7C8C9";
+    skillsButton.style.color = "#C7C8C9";
 })
 
 aboutButton.addEventListener("click",function(){
@@ -20,6 +22,7 @@ aboutButton.addEventListener("click",function(){
     aboutButton.style.color = "blue";
     serviceButton.style.color = "#C7C8C9";
     eduButton.style.color = "#C7C8C9";
+    skillsButton.style.color = "#C7C8C9";
 })
 
 
@@ -28,6 +31,7 @@ serviceButton.addEventListener("click",function(){
     homeButton.style.color = "#C7C8C9";
     aboutButton.style.color = "#C7C8C9";
     eduButton.style.color = "#C7C8C9";
+    skillsButton.style.color = "#C7C8C9";
     serviceButton.style.color = "blue";
 })
 
@@ -37,7 +41,18 @@ eduButton.addEventListener("click",function(){
     homeButton.style.color = "#C7C8C9";
     serviceButton.style.color = "#C7C8C9";
     aboutButton.style.color = "#C7C8C9";
+    skillsButton.style.color = "#C7C8C9";
     eduButton.style.color = "blue";
+})
+
+
+skillsButton.addEventListener("click",function(){
+    window.location.assign("#skillsSction");
+    homeButton.style.color = "#C7C8C9";
+    serviceButton.style.color = "#C7C8C9";
+    aboutButton.style.color = "#C7C8C9";
+    eduButton.style.color = "#C7C8C9";
+    skillsButton.style.color = "blue";
 })
 
 
