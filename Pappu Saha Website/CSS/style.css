@@ -367,6 +367,7 @@ left: 0;
     background-repeat: no-repeat;
     opacity: 2;
     background-size: cover;
+    
 
 }
 
@@ -587,4 +588,81 @@ left: 0;
     to {
         margin-top: 0px;
     }
+}
+
+
+
+
+
+
+/* <!-- -----Skills Section Start--------- --> */
+.skillsHeading{
+    text-align: center;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 40px;
+
+}
+#skillsSction{
+  background-color: #F9F9F9;
+  height: 600px;
+}
+
+.myCard{
+    height: 410px;
+}
+
+@media (min-width: 576px) and (max-width: 800px){
+    .myCard{
+        height: 435px;
+    }
+}
+
+
+
+.myCardSkills1{
+    border-radius: 3%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-top: 2px solid #FF0066;
+    
+}
+
+.myCardSkills1:hover{
+    box-shadow: rgba(104, 118, 248, 0.322) 0px 54px 55px, rgba(104, 118, 248, 0.322) 0px -12px 30px, rgba(104, 118, 248, 0.322) 0px 4px 6px, rgba(104, 118, 248, 0.322) 0px 12px 13px, rgba(104, 118, 248, 0.322) 0px -3px 5px;
+}
+
+.myCardSkills2{
+    border-radius: 3%;
+    border-bottom: 2px solid #FF0066;
+}
+
+.myCardSkills2:hover{
+    box-shadow: rgba(104, 118, 248, 0.322) 0px 54px 55px, rgba(104, 118, 248, 0.322) 0px -12px 30px, rgba(104, 118, 248, 0.322) 0px 4px 6px, rgba(104, 118, 248, 0.322) 0px 12px 13px, rgba(104, 118, 248, 0.322) 0px -3px 5px;
+}
+
+.myCardSkills3{
+    border-radius: 3%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-top: 2px solid #FF0066;
+}
+
+.myCardSkills3:hover{
+    box-shadow: rgba(104, 118, 248, 0.322) 0px 54px 55px, rgba(104, 118, 248, 0.322) 0px -12px 30px, rgba(104, 118, 248, 0.322) 0px 4px 6px, rgba(104, 118, 248, 0.322) 0px 12px 13px, rgba(104, 118, 248, 0.322) 0px -3px 5px;
+}
+
+.myCardTitle{
+    font-size: 30px;
+    margin-top: -20px;
+}
+.skillsIcon{
+   text-align: center;
+   padding: 30px;
+   font-size: 50px;
+   margin-top: 10px;
+   color: #FF0066;
+}
+
+.cardBody{
+    text-align: center;
+    padding: 20px;
 }
