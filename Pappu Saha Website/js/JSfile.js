@@ -3,6 +3,8 @@ var aboutButton = document.querySelector(".aboutButton");
 var serviceButton = document.querySelector(".serviceButton");
 var eduButton =  document.querySelector(".eduButton");
 var skillsButton = document.querySelector(".skillsButton");
+var portfolioButton = document.querySelector(".portfolioButton");
+var CertificationButton = document.querySelector(".CertificationButton");
 
 
 
@@ -10,49 +12,83 @@ var skillsButton = document.querySelector(".skillsButton");
 homeButton.addEventListener("click",function(){
     window.location.assign("#HomeId");
     homeButton.style.color = "blue";
-    aboutButton.style.color = "#C7C8C9";
-    serviceButton.style.color = "#C7C8C9";
-    eduButton.style.color = "#C7C8C9";
-    skillsButton.style.color = "#C7C8C9";
+    aboutButton.style.color = "white";
+    serviceButton.style.color = "white";
+    eduButton.style.color = "white";
+    skillsButton.style.color = "white";
+    portfolioButton.style.color = "white";
+    CertificationButton.style.color = "white";
 })
 
 aboutButton.addEventListener("click",function(){
     window.location.assign("#aboutSection");
-    homeButton.style.color = "#C7C8C9";
+    homeButton.style.color = "white";
     aboutButton.style.color = "blue";
-    serviceButton.style.color = "#C7C8C9";
-    eduButton.style.color = "#C7C8C9";
-    skillsButton.style.color = "#C7C8C9";
+    serviceButton.style.color = "white";
+    eduButton.style.color = "white";
+    skillsButton.style.color = "white";
+    CertificationButton.style.color = "white";
+    portfolioButton.style.color = "white";
 })
 
 
 serviceButton.addEventListener("click",function(){
     window.location.assign("#serviceSection");
-    homeButton.style.color = "#C7C8C9";
-    aboutButton.style.color = "#C7C8C9";
-    eduButton.style.color = "#C7C8C9";
-    skillsButton.style.color = "#C7C8C9";
+    homeButton.style.color = "white";
+    aboutButton.style.color = "white";
+    eduButton.style.color = "white";
+    skillsButton.style.color = "white";
+    portfolioButton.style.color = "white";
+    CertificationButton.style.color = "white";
     serviceButton.style.color = "blue";
 })
 
 
 eduButton.addEventListener("click",function(){
     window.location.assign("#educationalQualification");
-    homeButton.style.color = "#C7C8C9";
-    serviceButton.style.color = "#C7C8C9";
-    aboutButton.style.color = "#C7C8C9";
-    skillsButton.style.color = "#C7C8C9";
+    homeButton.style.color = "white";
+    serviceButton.style.color = "white";
+    aboutButton.style.color = "white";
+    skillsButton.style.color = "white";
+    portfolioButton.style.color = "white";
+    CertificationButton.style.color = "white";
     eduButton.style.color = "blue";
 })
 
 
 skillsButton.addEventListener("click",function(){
     window.location.assign("#skillsSction");
-    homeButton.style.color = "#C7C8C9";
-    serviceButton.style.color = "#C7C8C9";
-    aboutButton.style.color = "#C7C8C9";
-    eduButton.style.color = "#C7C8C9";
+    homeButton.style.color = "white";
+    serviceButton.style.color = "white";
+    aboutButton.style.color = "white";
+    eduButton.style.color = "white";
+    portfolioButton.style.color = "white";
+    CertificationButton.style.color = "white";
     skillsButton.style.color = "blue";
+})
+
+
+
+portfolioButton.addEventListener("click",function(){
+    window.location.assign("#portfolioSection");
+    homeButton.style.color = "white";
+    serviceButton.style.color = "white";
+    aboutButton.style.color = "white";
+    eduButton.style.color = "white";
+    skillsButton.style.color = "white";
+    CertificationButton.style.color = "white";
+    portfolioButton.style.color = "blue";
+})
+
+CertificationButton.addEventListener("click",function(){
+    window.location.assign("#Certicationsection");
+    homeButton.style.color = "white";
+    serviceButton.style.color = "white";
+    aboutButton.style.color = "white";
+    eduButton.style.color = "white";
+    skillsButton.style.color = "white";
+    portfolioButton.style.color = "white";
+    CertificationButton.style.color = "blue";
 })
 
 

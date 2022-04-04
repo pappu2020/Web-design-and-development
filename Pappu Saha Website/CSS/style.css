@@ -1,3 +1,31 @@
+.topIcon{
+    display: none;
+}
+
+
+@media (min-width: 576px) and (max-width: 800px){
+    .topIcon{
+        display: block;
+        
+    }
+
+
+    .topIcon:hover{
+       color: blue;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .introMyRighttext{
     font-size: 20px;
@@ -328,7 +356,6 @@ left: 0;
 
 
 
-
 .MyMenuStyle{
     background-color: #131022;
 }
@@ -344,17 +371,7 @@ left: 0;
 
 }
 
-@media (min-width: 576px) and (max-width: 800px) {
-    .stickyMenu {
 
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-
-    }
-
-
-}
 
 
 
@@ -509,7 +526,26 @@ left: 0;
 
 .eduqualback {
     background-color: #6366F1;
-    height: 700px;
+    height: 800px;
+
+}
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .eduqualback {
+        background-color: #6366F1;
+        height: 700px;
+    
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .eduqualback {
+        background-color: #6366F1;
+        height: 800px;
+    
+    }
 
 }
 
@@ -604,10 +640,22 @@ left: 0;
     font-size: 40px;
 
 }
+
+
+
 #skillsSction{
   background-color: #F9F9F9;
-  height: auto;
+  height: 750px;
 }
+
+@media (min-width: 576px) and (max-width: 800px){
+    #skillsSction{
+        background-color: #F9F9F9;
+        height: auto;
+      }
+}
+
+
 
 .myCard{
     height: 410px;
@@ -678,10 +726,28 @@ left: 0;
 /* portfolio section */
 
 
+#portfolioSection{
+    background-image: url("img/portfoliobg3.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+}
+
+
+@media (min-width: 576px) and (max-width: 800px){
+    #portfolioSection{
+        background-image: url("img/portfoliobg3.gif");
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+    }
+}
+
 .myPortfolio1{
-    border-radius: 3%;
+    border-radius: 2%;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-    border-top: 2px solid #FF0066;
+    /* border-top: 3px solid #FF0066; */
+    border-top: 4px solid blue;
     
 }
 
@@ -690,8 +756,9 @@ left: 0;
 }
 
 .myPortfolio2{
-    border-radius: 3%;
-    border-bottom: 2px solid #FF0066;
+    border-radius: 2%;
+    /* border-bottom: 3px solid #FF0066; */
+    border-bottom: 4px solid blue;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
@@ -700,9 +767,10 @@ left: 0;
 }
 
 .myPortfolio3{
-    border-radius: 3%;
+    border-radius: 2%;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
-    border-top: 2px solid #FF0066;
+    /* border-top: 3px solid #FF0066; */
+    border-top: 4px solid blue;
 }
 
 .myPortfolio3:hover{
@@ -718,4 +786,105 @@ left: 0;
     .MycardPortfolio1{
         height: 484px;
     }
+}
+
+
+
+
+
+
+
+
+
+.certicationHeading{
+    background-image: url("img/certification2.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+
+
+
+
+/* ContactMeSection */
+
+
+#ContactMeSection{
+   background-color: #131022;
+}
+
+.contactmeImage{
+    height: 760px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+@media (min-width: 576px) and (max-width: 800px){
+    .contactmeImage{
+        height: 600px;
+        width: 170px;
+        margin-top: 110px;
+        margin-left: 20px;
+    }
+}
+
+.ContactMerightForm{
+    background-color: #2A2838;
+    padding: 55px;
+    max-width: 500px;
+    max-height: 760px;
+    margin-top: 20px;
+    border-radius: 3%;
+}
+
+
+@media (min-width: 576px) and (max-width: 800px){
+    .ContactMerightForm{
+        background-color: #2A2838;
+        padding: 35px;
+        max-width: 500px;
+        max-height: 760px;
+        margin-top: 110px;
+        margin-left: -30px;
+        border-radius: 3%;
+    }
+    
+}
+
+.mySignUpform{
+    width: 400px;
+}
+
+
+.contactHeading{
+    color: white;
+    text-align: center;
+    
+    padding: 170px;
+    font-size: 50px;
+}
+
+
+
+
+@media (min-width: 576px) and (max-width: 800px){
+    .contactHeading{
+        color: white;
+        text-align: center;  
+        padding: 70px;
+        
+    }
+
+    .mySignUpform{
+        width: 240px;
+    }
+    
+    
+  
+    
 }
