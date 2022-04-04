@@ -606,7 +606,7 @@ left: 0;
 }
 #skillsSction{
   background-color: #F9F9F9;
-  height: 600px;
+  height: auto;
 }
 
 .myCard{
@@ -667,4 +667,55 @@ left: 0;
 .cardBody{
     text-align: center;
     padding: 20px;
+}
+
+
+
+
+
+
+
+/* portfolio section */
+
+
+.myPortfolio1{
+    border-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border-top: 2px solid #FF0066;
+    
+}
+
+.myPortfolio1:hover{
+    box-shadow: rgba(104, 118, 248, 0.322) 0px 54px 55px, rgba(104, 118, 248, 0.322) 0px -12px 30px, rgba(104, 118, 248, 0.322) 0px 4px 6px, rgba(104, 118, 248, 0.322) 0px 12px 13px, rgba(104, 118, 248, 0.322) 0px -3px 5px;
+}
+
+.myPortfolio2{
+    border-radius: 3%;
+    border-bottom: 2px solid #FF0066;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.myPortfolio2:hover{
+    box-shadow: rgba(104, 118, 248, 0.322) 0px 54px 55px, rgba(104, 118, 248, 0.322) 0px -12px 30px, rgba(104, 118, 248, 0.322) 0px 4px 6px, rgba(104, 118, 248, 0.322) 0px 12px 13px, rgba(104, 118, 248, 0.322) 0px -3px 5px;
+}
+
+.myPortfolio3{
+    border-radius: 3%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    border-top: 2px solid #FF0066;
+}
+
+.myPortfolio3:hover{
+    box-shadow: rgba(104, 118, 248, 0.322) 0px 54px 55px, rgba(104, 118, 248, 0.322) 0px -12px 30px, rgba(104, 118, 248, 0.322) 0px 4px 6px, rgba(104, 118, 248, 0.322) 0px 12px 13px, rgba(104, 118, 248, 0.322) 0px -3px 5px;
+}
+
+
+.MycardPortfolio1{
+    height: 440px;
+}
+
+@media (min-width: 576px) and (max-width: 800px){
+    .MycardPortfolio1{
+        height: 484px;
+    }
 }
