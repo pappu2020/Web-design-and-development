@@ -5,6 +5,7 @@ var eduButton =  document.querySelector(".eduButton");
 var skillsButton = document.querySelector(".skillsButton");
 var portfolioButton = document.querySelector(".portfolioButton");
 var CertificationButton = document.querySelector(".CertificationButton");
+var contactMeButton = document.querySelector(".contactMeButton");
 
 
 
@@ -18,6 +19,7 @@ homeButton.addEventListener("click",function(){
     skillsButton.style.color = "white";
     portfolioButton.style.color = "white";
     CertificationButton.style.color = "white";
+    contactMeButton.style.color = "white";
 })
 
 aboutButton.addEventListener("click",function(){
@@ -29,6 +31,7 @@ aboutButton.addEventListener("click",function(){
     skillsButton.style.color = "white";
     CertificationButton.style.color = "white";
     portfolioButton.style.color = "white";
+    contactMeButton.style.color = "white";
 })
 
 
@@ -41,6 +44,7 @@ serviceButton.addEventListener("click",function(){
     portfolioButton.style.color = "white";
     CertificationButton.style.color = "white";
     serviceButton.style.color = "blue";
+    contactMeButton.style.color = "white";
 })
 
 
@@ -53,6 +57,7 @@ eduButton.addEventListener("click",function(){
     portfolioButton.style.color = "white";
     CertificationButton.style.color = "white";
     eduButton.style.color = "blue";
+    contactMeButton.style.color = "white";
 })
 
 
@@ -65,6 +70,7 @@ skillsButton.addEventListener("click",function(){
     portfolioButton.style.color = "white";
     CertificationButton.style.color = "white";
     skillsButton.style.color = "blue";
+    contactMeButton.style.color = "white";
 })
 
 
@@ -78,6 +84,7 @@ portfolioButton.addEventListener("click",function(){
     skillsButton.style.color = "white";
     CertificationButton.style.color = "white";
     portfolioButton.style.color = "blue";
+    contactMeButton.style.color = "white";
 })
 
 CertificationButton.addEventListener("click",function(){
@@ -88,7 +95,21 @@ CertificationButton.addEventListener("click",function(){
     eduButton.style.color = "white";
     skillsButton.style.color = "white";
     portfolioButton.style.color = "white";
+    contactMeButton.style.color = "white";
     CertificationButton.style.color = "blue";
+})
+
+
+contactMeButton.addEventListener("click",function(){
+    window.location.assign("#ContactMeSection");
+    homeButton.style.color = "white";
+    serviceButton.style.color = "white";
+    aboutButton.style.color = "white";
+    eduButton.style.color = "white";
+    skillsButton.style.color = "white";
+    portfolioButton.style.color = "white";
+    CertificationButton.style.color = "white";
+    contactMeButton.style.color = "blue";
 })
 
 

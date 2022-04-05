@@ -811,14 +811,18 @@ left: 0;
 
 
 /* ContactMeSection */
-
+/* .contactHeading{
+    background-image:url("img/ContactMeHeadinggif.gif") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
 
 #ContactMeSection{
    background-color: #131022;
 }
 
 .contactmeImage{
-    height: 760px;
+    height: 870px;
     width: 300px;
     margin-top: 20px;
     margin-left: 140px;
@@ -827,7 +831,7 @@ left: 0;
 @media (min-width: 576px) and (max-width: 800px){
     .contactmeImage{
         height: 600px;
-        width: 170px;
+        width: 185px;
         margin-top: 110px;
         margin-left: 20px;
     }
@@ -837,7 +841,7 @@ left: 0;
     background-color: #2A2838;
     padding: 55px;
     max-width: 500px;
-    max-height: 760px;
+    height: auto;
     margin-top: 20px;
     border-radius: 3%;
 }
@@ -848,7 +852,7 @@ left: 0;
         background-color: #2A2838;
         padding: 35px;
         max-width: 500px;
-        max-height: 760px;
+        height: auto;
         margin-top: 110px;
         margin-left: -30px;
         border-radius: 3%;
@@ -884,7 +888,45 @@ left: 0;
         width: 240px;
     }
     
-    
-  
-    
+}
+
+
+
+.contactMebackRightImg{
+    width: 390px;
+    height: 190px;
+    margin-bottom: 30px;
+}
+
+
+@media (min-width: 576px) and (max-width: 800px){
+    .contactMebackRightImg{
+        width: 230px;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+#FooterSection{
+   
+    background-color: black;
+}
+
+.leftFooter{
+    padding: 60px;
+}
+
+.topIconfotter{
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+
+@media (min-width: 576px) and (max-width: 800px){
+    .topIconfotter{
+        font-size: 30px;
+        margin-top: 5px;
+    }
 }
