@@ -861,9 +861,9 @@ left: 0;
 
 @media (min-width: 576px) and (max-width: 800px){
     .contactmeImage{
-        height: 600px;
+        height: 500px;
         width: 185px;
-        margin-top: 110px;
+        margin-top: 410px;
         margin-left: 20px;
     }
 }
