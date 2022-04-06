@@ -408,7 +408,7 @@
 
 
                   <div class="downloadCv">
-                    <button class="btn btn-dark text-white">Download CV</button>
+                    <a class="btn btn-dark text-white" id="CvButton" href="#">Download CV</a>
                   </div>
 
                   <div class="text p-5">
@@ -461,9 +461,79 @@
                   consequatur deserunt minima error? Modi perferendis, nesciunt explicabo
                   nobis nulla neque unde minima rerum, iste quae quibusdam?</p>
 
-                <p class="ms-3 aboutPara me-3 mb-3">Lorem ipsum dolor sit amet, consectetur
+                <!-- <p class="ms-3 aboutPara me-3 mb-3">Lorem ipsum dolor sit amet, consectetur
                   adipisicing elit. A debitis fuga repudiandae odio expedita unde asperiores
-                  cupiditate consequuntur quidem facilis.</p>
+                  cupiditate consequuntur quidem facilis.</p> -->
+
+
+                  <div class="multipleTarget mt-4">
+                    <p>
+                      <a class="btn btn-primary ms-sm-3 me-lg-2" data-bs-toggle="collapse" data-bs-toggle="tooltip" data-bs-placement="top" title="CLICK IT" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Web Design</a>
+
+                      
+                      
+                      
+                      <button class="btn btn-primary me-lg-2" type="button" data-bs-toggle="collapse" data-bs-toggle="tooltip" data-bs-placement="top" title="CLICK IT" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Web Development</button>
+
+                      <button class="btn btn-primary me-lg-2" type="button" data-bs-toggle="collapse" data-bs-toggle="tooltip" data-bs-placement="top" title="CLICK IT"data-bs-target="#multiCollapseExample3" aria-expanded="false" aria-controls="multiCollapseExample3">Digital Marketing</button>
+
+                      <button class="btn btn-primary me-lg-2" type="button" data-bs-toggle="collapse" data-bs-toggle="tooltip" data-bs-placement="top" title="CLICK IT"data-bs-target="#multiCollapseExample4" aria-expanded="false" aria-controls="multiCollapseExample4">Data Entry</button>
+                      
+                      
+                      <button class="btn btn-primary mt-sm-3 mt-lg-0 allToogle me-lg-2" type="button" data-bs-toggle="collapse" data-bs-toggle="tooltip" data-bs-placement="top" title="CLICK IT"data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2 multiCollapseExample3 multiCollapseExample4">Toggle both elements</button>
+                    </p>
+                    
+                    
+                    <div class="row">
+                      
+                      
+                      
+                      
+                      <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                          <div class="card card-body border border-2 border-dark myToggle">
+                           <p class="togglePara"> <span class="text-primary fst-italic fs-5 fw-bold"> Web Design:</span> content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      
+                      
+                      
+                      <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                          <div class="card card-body border border-2 border-dark myToggle">
+                          <p class="togglePara"><span class="text-primary fst-italic fs-5 fw-bold"> Web Development:</span> Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+                          </div>
+                        </div>
+                       </div>
+
+
+                       <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample3">
+                          <div class="card card-body border border-2 border-dark myToggle">
+                          <p class="togglePara"><span class="text-primary fst-italic fs-5 fw-bold"> Digital Marketing:</span> Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+                          </div>
+                        </div>
+                       </div>
+
+
+                       <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample4">
+                          <div class="card card-body border border-2 border-dark myToggle">
+                          <p class="togglePara"> <span class="text-primary fst-italic fs-5 fw-bold"> Data Entry:</span> content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.</p>
+                          </div>
+                        </div>
+                       </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </div>
+                  </div>
               </div>
 
 
@@ -956,31 +1026,31 @@
                             </svg></span>
 
                           <div class="card-body cardBody">
-                            <h5 class="card-title myCardTitle">Web Development Skills</h5>
+                            <h5 class="card-title myCardTitle fst-italic">Web Development Skills</h5>
 
 
 
-                            <div class="progress mt-3">
+                            <div class="progress mt-3 " style="height: 25px;">
                               <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">HTML 5 : 80%
                               </div>
                             </div>
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped bg-success progress-bar-animated"
-                                role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                                role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
                                 aria-valuemax="100">CSS 3 : 70%</div>
                             </div>
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped bg-info progress-bar-animated"
                                 role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
                                 aria-valuemax="100">Javascript : 70%</div>
                             </div>
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated"
                                 role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
                                 aria-valuemax="100">Bootstrap 5 : 85%</div>
                             </div>
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
                                 role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
                                 aria-valuemax="100">ReactJs : 75%</div>
@@ -1008,7 +1078,7 @@
 
 
 
-                    <div class="col-lg-4 col-sm-6">
+                    <div class="col-lg-4 col-sm-6" >
 
                       <div class="myCardSkills2">
 
@@ -1017,31 +1087,31 @@
                           <span class="skillsIcon"><i class="fa-brands fa-uncharted"></i></span>
 
                           <div class="card-body cardBody">
-                            <h5 class="card-title myCardTitle">Programming Languages Skills</h5>
+                            <h5 class="card-title myCardTitle fst-italic">Programming Languages Skills</h5>
 
 
 
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Java : 80%
                               </div>
                             </div>
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped bg-success progress-bar-animated"
-                                role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                                role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
                                 aria-valuemax="100">C# : 70%</div>
                             </div>
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped bg-info progress-bar-animated"
                                 role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
                                 aria-valuemax="100">Python : 70%</div>
                             </div>
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated"
-                                role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                                role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
                                 aria-valuemax="100">C++ : 70%</div>
                             </div>
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
                                 role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
                                 aria-valuemax="100">Javascript : 75%</div>
@@ -1083,33 +1153,33 @@
                             </svg></span>
 
                           <div class="card-body cardBody">
-                            <h5 class="card-title myCardTitle">Software Skills</h5>
+                            <h5 class="card-title myCardTitle fst-italic">Software Skills</h5>
 
 
 
-                            <div class="progress mt-5">
+                            <div class="progress mt-5" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
                                 style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">Ms Word :
                                 80%</div>
                             </div>
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped bg-success progress-bar-animated"
-                                role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                                role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
                                 aria-valuemax="100">Ms Excel : 80%</div>
                             </div>
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped bg-info progress-bar-animated"
-                                role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0"
+                                role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
                                 aria-valuemax="100">Ms PowerPoint : 85%</div>
                             </div>
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped bg-warning progress-bar-animated"
-                                role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0"
+                                role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
                                 aria-valuemax="100">CodeBlocks/Vs Code/Netbeans: 65%</div>
                             </div>
-                            <div class="progress mt-3">
+                            <div class="progress mt-3" style="height: 25px;">
                               <div class="progress-bar progress-bar-striped bg-danger progress-bar-animated"
-                                role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0"
+                                role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="0"
                                 aria-valuemax="100">Autocad : 65%</div>
                             </div>
 

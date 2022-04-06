@@ -427,8 +427,39 @@ left: 0;
     }
 }
 
+/* About Section */
 
 
+.togglePara{
+    text-align: justify;
+    
+}
+
+.myToggle{
+    background-color: #ddd;
+    border-radius: 3%;
+    padding: 20px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.myToggle p{
+    font-weight: 400;
+}
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .myToggle{
+        background-color: #ddd;
+        width: 300px;
+        border-radius: 3%;
+
+    }
+
+    .allToogle{
+        display: none;
+    }
+
+    }
 
 
 
@@ -658,12 +689,12 @@ left: 0;
 
 
 .myCard{
-    height: 410px;
+    height: auto;
 }
 
 @media (min-width: 576px) and (max-width: 800px){
     .myCard{
-        height: 435px;
+        height: auto;
     }
 }
 

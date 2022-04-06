@@ -1,3 +1,16 @@
+// var CvButton = document.getElementById("CvButton");
+
+
+// CvButton.addEventListener("click",function(){
+//     window.location.assign("./Cv.html");
+// })
+
+
+
+
+
+
+
 var homeButton = document.querySelector(".homeButton");
 var aboutButton = document.querySelector(".aboutButton");
 var serviceButton = document.querySelector(".serviceButton");
