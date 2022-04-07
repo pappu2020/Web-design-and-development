@@ -529,6 +529,16 @@ left: 0;
 }
 
 
+
+
+
+
+
+
+
+
+
+/* service section */
 #serviceSection {
     background-color: #131022;
 
@@ -536,6 +546,9 @@ left: 0;
 
 .stagePara {
     text-align: justify;
+    border-left: 4px solid #0EC1E3;
+   
+    padding: 10px;
 
 }
 
@@ -548,7 +561,15 @@ left: 0;
 
 }
 
+/* service section end */
 
+
+
+
+
+
+
+/* Education section Start */
 
 #educationalQualification {
     background-color: white;
@@ -560,6 +581,8 @@ left: 0;
     height: 800px;
 
 }
+
+
 
 
 @media (min-width: 576px) and (max-width: 800px) {
@@ -658,7 +681,7 @@ left: 0;
     }
 }
 
-
+/* Education section end */
 
 
 
