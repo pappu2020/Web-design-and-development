@@ -1,17 +1,17 @@
-.topIcon{
+.topIcon {
     display: none;
 }
 
 
-@media (min-width: 576px) and (max-width: 800px){
-    .topIcon{
+@media (min-width: 576px) and (max-width: 800px) {
+    .topIcon {
         display: block;
-        
+
     }
 
 
-    .topIcon:hover{
-       color: blue;
+    .topIcon:hover {
+        color: blue;
     }
 }
 
@@ -27,13 +27,13 @@
 
 
 
-.introMyRighttext{
+.introMyRighttext {
     font-size: 20px;
     font-weight: 600;
 }
 
-@media (min-width: 576px) and (max-width: 800px){
-    .introMyRighttext{
+@media (min-width: 576px) and (max-width: 800px) {
+    .introMyRighttext {
         font-size: 16px;
         font-weight: 600;
     }
@@ -44,7 +44,7 @@
 
 
 
-.objective{
+.objective {
     margin-top: 246px;
     margin-left: 47px;
     width: 410px;
@@ -53,17 +53,17 @@
 }
 
 
-@media (min-width: 576px) and (max-width: 800px){
-    .objective{
+@media (min-width: 576px) and (max-width: 800px) {
+    .objective {
         margin-top: 521px;
         margin-left: 10px;
         width: 410px;
         position: absolute;
-    
+
     }
 }
 
-.objective_para{
+.objective_para {
     text-align: justify;
     color: rgb(15, 2, 35);
     font-weight: 500;
@@ -78,33 +78,33 @@
 }
 
 
-.quaIcon{
+.quaIcon {
     font-size: 15px;
 }
 
 
 
 
-.downloadCv{
+.downloadCv {
     position: absolute;
     margin-top: 404px;
     margin-left: 47px;
 }
 
-@media (min-width: 576px) and (max-width: 800px){
-    .downloadCv{
+@media (min-width: 576px) and (max-width: 800px) {
+    .downloadCv {
         margin-top: 471px;
         margin-left: 10px;
-        
+
         position: absolute;
-    
+
     }
 }
 
 
 
 
-.text{
+.text {
     display: flex;
     /* align-items: center;
     justify-content: center; */
@@ -114,47 +114,47 @@
 
     background-image: url("img/pappuback.jpg");
     background-repeat: no-repeat;
-    
+
     background-size: cover;
-    
-    
+
+
 }
 
-@media (min-width: 576px) and (max-width: 800px){
-    .text{
+@media (min-width: 576px) and (max-width: 800px) {
+    .text {
         display: flex;
         /* align-items: center;
         justify-content: center; */
         min-height: 100vh;
         box-sizing: border-box;
         /* background-color: #343F4F; */
-    
+
         background-image: url("img/pappuback.jpg");
         background-repeat: no-repeat;
-        
+
         background-size: cover;
-        
-        
+
+
     }
 }
 
 
 
 
-.wrapper{
+.wrapper {
     display: inline-flex;
 }
 
-@media (min-width: 576px) and (max-width: 800px){
-    .wrapper{
+@media (min-width: 576px) and (max-width: 800px) {
+    .wrapper {
         display: inline;
     }
-} 
+}
 
 
 
 
-.wrapper .static_text{
+.wrapper .static_text {
     color: white;
     font-size: 40px;
     font-weight: 800;
@@ -163,14 +163,14 @@
 }
 
 
-@media (min-width: 576px) and (max-width: 800px){
-    .wrapper .static_text{
-        color:white;
+@media (min-width: 576px) and (max-width: 800px) {
+    .wrapper .static_text {
+        color: white;
         font-size: 25px;
         font-weight: 800;
         margin-left: -3px;
         margin-top: 35px;
-    
+
     }
 }
 
@@ -182,21 +182,21 @@
 
 
 
-.wrapper .dynamic_text{
+.wrapper .dynamic_text {
     margin-left: 15px;
     line-height: 90px;
-    
+
     height: 90px;
     overflow: hidden;
     margin-top: 70px;
 }
 
 
-@media (min-width: 576px) and (max-width: 800px){
-    .wrapper .dynamic_text{
+@media (min-width: 576px) and (max-width: 800px) {
+    .wrapper .dynamic_text {
         margin-left: 85px;
         line-height: 90px;
-        
+
         height: 90px;
         overflow: hidden;
         margin-top: -63px;
@@ -207,7 +207,7 @@
 
 
 
-.dynamic_text li{
+.dynamic_text li {
     color: white;
     list-style: none;
     font-size: 60px;
@@ -220,8 +220,8 @@
 
 
 
-@media (min-width: 576px) and (max-width: 800px){
-    .dynamic_text li{
+@media (min-width: 576px) and (max-width: 800px) {
+    .dynamic_text li {
         color: white;
         list-style: none;
         font-size: 25px;
@@ -230,7 +230,7 @@
         position: relative;
         top: 0;
         margin-left: -25px;
-   
+
     }
 }
 
@@ -242,20 +242,20 @@
 
 
 @keyframes slide {
-     100%{
-         top: -360px;
-     }
-    
+    100% {
+        top: -360px;
+    }
+
 }
 
-@media (min-width: 576px) and (max-width: 800px){
+@media (min-width: 576px) and (max-width: 800px) {
 
     @keyframes slide {
-        100%{
+        100% {
             top: -360px;
         }
-       
-   }
+
+    }
 
 }
 
@@ -263,11 +263,11 @@
 
 
 
-.dynamic_text li span{
+.dynamic_text li span {
     position: relative;
 }
 
-.dynamic_text li span::after{
+.dynamic_text li span::after {
     content: "";
     position: absolute;
     left: 0;
@@ -275,16 +275,16 @@
     width: 100%;
     border-left: 2px solid #FC6D6D;
     background: white;
-    
-    
+
+
     animation: typing 1.5s steps(5) infinite;
 
 }
 
 
-@media (min-width: 576px) and (max-width: 800px){
+@media (min-width: 576px) and (max-width: 800px) {
 
-    .dynamic_text li span::after{
+    .dynamic_text li span::after {
         content: "";
         position: absolute;
         left: 0;
@@ -294,9 +294,9 @@
         border-left: 2px solid #FC6D6D;
         background: white;
         animation: typing 1.5s steps(5) infinite;
-    
+
     }
-    
+
 
 }
 
@@ -308,13 +308,16 @@
 
 
 @keyframes typing {
- 40%, 60%{
-left: calc(100% + 1110px);
- }
-100%{
-left: 0;
+
+    40%,
+    60% {
+        left: calc(100% + 1110px);
+    }
+
+    100% {
+        left: 0;
+    }
 }
-}
 
 
 
@@ -356,7 +359,7 @@ left: 0;
 
 
 
-.MyMenuStyle{
+.MyMenuStyle {
     background-color: #131022;
 }
 
@@ -381,11 +384,21 @@ left: 0;
 
 
 .MyImage {
-    background-image: url("img/biggif4.gif");
+    /* background-image: url("img/biggif4.gif");
     background-repeat: no-repeat;
     opacity: 2;
-    background-size: cover;
-    
+    background-size: cover; */
+
+    /* background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+
+    /* background-color: #FFDEE9;
+   background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%); */
+
+    background-color: #131022;
+
+
+
 
 }
 
@@ -430,36 +443,36 @@ left: 0;
 /* About Section */
 
 
-.togglePara{
+.togglePara {
     text-align: justify;
-    
+
 }
 
-.myToggle{
+.myToggle {
     background-color: #ddd;
     border-radius: 3%;
     padding: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-.myToggle p{
+.myToggle p {
     font-weight: 400;
 }
 
 
 @media (min-width: 576px) and (max-width: 800px) {
-    .myToggle{
+    .myToggle {
         background-color: #ddd;
         width: 300px;
         border-radius: 3%;
 
     }
 
-    .allToogle{
+    .allToogle {
         display: none;
     }
 
-    }
+}
 
 
 
@@ -540,14 +553,19 @@ left: 0;
 
 /* service section */
 #serviceSection {
-    background-color: #131022;
+    /* background-color: #131022; */
+
+    background: #136a8a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
 .stagePara {
     text-align: justify;
     border-left: 4px solid #0EC1E3;
-   
+
     padding: 10px;
 
 }
@@ -577,8 +595,13 @@ left: 0;
 }
 
 .eduqualback {
-    background-color: #6366F1;
+    /* background-color: #6366F1; */
     height: 800px;
+
+    background: #136a8a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 
 }
 
@@ -589,7 +612,7 @@ left: 0;
     .eduqualback {
         background-color: #6366F1;
         height: 700px;
-    
+
     }
 
 }
@@ -598,7 +621,7 @@ left: 0;
     .eduqualback {
         background-color: #6366F1;
         height: 800px;
-    
+
     }
 
 }
@@ -687,7 +710,7 @@ left: 0;
 
 
 /* <!-- -----Skills Section Start--------- --> */
-.skillsHeading{
+.skillsHeading {
     text-align: center;
     padding: 20px;
     font-weight: 500;
@@ -697,76 +720,77 @@ left: 0;
 
 
 
-#skillsSction{
-  background-color: #F9F9F9;
-  height: 750px;
+#skillsSction {
+    background-color: #F9F9F9;
+    height: 750px;
 }
 
-@media (min-width: 576px) and (max-width: 800px){
-    #skillsSction{
+@media (min-width: 576px) and (max-width: 800px) {
+    #skillsSction {
         background-color: #F9F9F9;
-        height: auto;
-      }
-}
-
-
-
-.myCard{
-    height: auto;
-}
-
-@media (min-width: 576px) and (max-width: 800px){
-    .myCard{
         height: auto;
     }
 }
 
 
 
-.myCardSkills1{
+.myCard {
+    height: auto;
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .myCard {
+        height: auto;
+    }
+}
+
+
+
+.myCardSkills1 {
     border-radius: 3%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-top: 2px solid #FF0066;
-    
+
 }
 
-.myCardSkills1:hover{
+.myCardSkills1:hover {
     box-shadow: rgba(104, 118, 248, 0.322) 0px 54px 55px, rgba(104, 118, 248, 0.322) 0px -12px 30px, rgba(104, 118, 248, 0.322) 0px 4px 6px, rgba(104, 118, 248, 0.322) 0px 12px 13px, rgba(104, 118, 248, 0.322) 0px -3px 5px;
 }
 
-.myCardSkills2{
+.myCardSkills2 {
     border-radius: 3%;
     border-bottom: 2px solid #FF0066;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-.myCardSkills2:hover{
+.myCardSkills2:hover {
     box-shadow: rgba(104, 118, 248, 0.322) 0px 54px 55px, rgba(104, 118, 248, 0.322) 0px -12px 30px, rgba(104, 118, 248, 0.322) 0px 4px 6px, rgba(104, 118, 248, 0.322) 0px 12px 13px, rgba(104, 118, 248, 0.322) 0px -3px 5px;
 }
 
-.myCardSkills3{
+.myCardSkills3 {
     border-radius: 3%;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     border-top: 2px solid #FF0066;
 }
 
-.myCardSkills3:hover{
+.myCardSkills3:hover {
     box-shadow: rgba(104, 118, 248, 0.322) 0px 54px 55px, rgba(104, 118, 248, 0.322) 0px -12px 30px, rgba(104, 118, 248, 0.322) 0px 4px 6px, rgba(104, 118, 248, 0.322) 0px 12px 13px, rgba(104, 118, 248, 0.322) 0px -3px 5px;
 }
 
-.myCardTitle{
+.myCardTitle {
     font-size: 30px;
     margin-top: -20px;
 }
-.skillsIcon{
-   text-align: center;
-   padding: 30px;
-   font-size: 50px;
-   margin-top: 10px;
-   color: #FF0066;
+
+.skillsIcon {
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    margin-top: 10px;
+    color: #FF0066;
 }
 
-.cardBody{
+.cardBody {
     text-align: center;
     padding: 20px;
 }
@@ -780,64 +804,77 @@ left: 0;
 /* portfolio section */
 
 
-#portfolioSection{
-    background-image: url("img/portfoliobg3.gif");
+#portfolioSection {
+    /* background-image: url("img/portfoliobg3.gif");
     background-size: cover;
-    background-repeat: no-repeat;
-  
+    background-repeat: no-repeat; */
+
+    background: #136a8a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 
-@media (min-width: 576px) and (max-width: 800px){
-    #portfolioSection{
-        background-image: url("img/portfoliobg3.gif");
+
+
+
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    #portfolioSection {
+        /* background-image: url("img/portfoliobg3.gif");
         background-size: cover;
-        background-repeat: no-repeat;
-      
+        background-repeat: no-repeat; */
+        background: #136a8a;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #267871, #136a8a);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #267871, #136a8a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
+
     }
 }
 
-.myPortfolio1{
+.myPortfolio1 {
     border-radius: 2%;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     /* border-top: 3px solid #FF0066; */
     border-top: 4px solid blue;
-    
+
 }
 
-.myPortfolio1:hover{
+.myPortfolio1:hover {
     box-shadow: rgba(104, 118, 248, 0.322) 0px 54px 55px, rgba(104, 118, 248, 0.322) 0px -12px 30px, rgba(104, 118, 248, 0.322) 0px 4px 6px, rgba(104, 118, 248, 0.322) 0px 12px 13px, rgba(104, 118, 248, 0.322) 0px -3px 5px;
 }
 
-.myPortfolio2{
+.myPortfolio2 {
     border-radius: 2%;
     /* border-bottom: 3px solid #FF0066; */
     border-bottom: 4px solid blue;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
-.myPortfolio2:hover{
+.myPortfolio2:hover {
     box-shadow: rgba(104, 118, 248, 0.322) 0px 54px 55px, rgba(104, 118, 248, 0.322) 0px -12px 30px, rgba(104, 118, 248, 0.322) 0px 4px 6px, rgba(104, 118, 248, 0.322) 0px 12px 13px, rgba(104, 118, 248, 0.322) 0px -3px 5px;
 }
 
-.myPortfolio3{
+.myPortfolio3 {
     border-radius: 2%;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
     /* border-top: 3px solid #FF0066; */
     border-top: 4px solid blue;
 }
 
-.myPortfolio3:hover{
+.myPortfolio3:hover {
     box-shadow: rgba(104, 118, 248, 0.322) 0px 54px 55px, rgba(104, 118, 248, 0.322) 0px -12px 30px, rgba(104, 118, 248, 0.322) 0px 4px 6px, rgba(104, 118, 248, 0.322) 0px 12px 13px, rgba(104, 118, 248, 0.322) 0px -3px 5px;
 }
 
 
-.MycardPortfolio1{
+.MycardPortfolio1 {
     height: 440px;
 }
 
-@media (min-width: 576px) and (max-width: 800px){
-    .MycardPortfolio1{
+@media (min-width: 576px) and (max-width: 800px) {
+    .MycardPortfolio1 {
         height: 484px;
     }
 }
@@ -850,7 +887,7 @@ left: 0;
 
 
 
-.certicationHeading{
+.certicationHeading {
     background-image: url("img/certification2.gif");
     background-repeat: no-repeat;
     background-size: cover;
@@ -871,19 +908,19 @@ left: 0;
     background-size: cover;
 } */
 
-#ContactMeSection{
-   background-color: #131022;
+#ContactMeSection {
+    background-color: #131022;
 }
 
-.contactmeImage{
+.contactmeImage {
     height: 870px;
     width: 300px;
     margin-top: 20px;
     margin-left: 140px;
 }
 
-@media (min-width: 576px) and (max-width: 800px){
-    .contactmeImage{
+@media (min-width: 576px) and (max-width: 800px) {
+    .contactmeImage {
         height: 500px;
         width: 185px;
         margin-top: 410px;
@@ -891,7 +928,7 @@ left: 0;
     }
 }
 
-.ContactMerightForm{
+.ContactMerightForm {
     background-color: #2A2838;
     padding: 55px;
     max-width: 500px;
@@ -901,8 +938,8 @@ left: 0;
 }
 
 
-@media (min-width: 576px) and (max-width: 800px){
-    .ContactMerightForm{
+@media (min-width: 576px) and (max-width: 800px) {
+    .ContactMerightForm {
         background-color: #2A2838;
         padding: 35px;
         max-width: 500px;
@@ -911,18 +948,18 @@ left: 0;
         margin-left: -30px;
         border-radius: 3%;
     }
-    
+
 }
 
-.mySignUpform{
+.mySignUpform {
     width: 400px;
 }
 
 
-.contactHeading{
+.contactHeading {
     color: white;
     text-align: center;
-    
+
     padding: 170px;
     font-size: 50px;
 }
@@ -930,31 +967,31 @@ left: 0;
 
 
 
-@media (min-width: 576px) and (max-width: 800px){
-    .contactHeading{
+@media (min-width: 576px) and (max-width: 800px) {
+    .contactHeading {
         color: white;
-        text-align: center;  
+        text-align: center;
         padding: 70px;
-        
+
     }
 
-    .mySignUpform{
+    .mySignUpform {
         width: 240px;
     }
-    
+
 }
 
 
 
-.contactMebackRightImg{
+.contactMebackRightImg {
     width: 390px;
     height: 190px;
     margin-bottom: 30px;
 }
 
 
-@media (min-width: 576px) and (max-width: 800px){
-    .contactMebackRightImg{
+@media (min-width: 576px) and (max-width: 800px) {
+    .contactMebackRightImg {
         width: 230px;
         height: 150px;
         margin-bottom: 30px;
@@ -963,23 +1000,23 @@ left: 0;
 
 
 
-#FooterSection{
-   
+#FooterSection {
+
     background-color: black;
 }
 
-.leftFooter{
+.leftFooter {
     padding: 60px;
 }
 
-.topIconfotter{
+.topIconfotter {
     font-size: 30px;
     margin-top: 40px;
 }
 
 
-@media (min-width: 576px) and (max-width: 800px){
-    .topIconfotter{
+@media (min-width: 576px) and (max-width: 800px) {
+    .topIconfotter {
         font-size: 30px;
         margin-top: 5px;
     }
