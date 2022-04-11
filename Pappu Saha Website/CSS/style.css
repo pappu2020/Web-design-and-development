@@ -1,3 +1,56 @@
+#preloader {
+    background: #191F26 url("img/preloader1.gif") no-repeat center center;
+    background-size: 40%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 3000;
+}
+
+.proloaderHeading {
+    position: absolute;
+    margin-top: 454px;
+    margin-left: 646px;
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    #preloader {
+        background: #191F26 url("img/preloader1.gif") no-repeat center center;
+        background-size: 100%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 3000;
+    }
+
+    .proloaderHeading {
+        position: absolute;
+        margin-top: 420px;
+        margin-left: 197px;
+        color: white;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .topIcon {
     display: none;
 }
@@ -567,7 +620,7 @@
 }
 
 
-.serviceSecParaTop{
+.serviceSecParaTop {
     text-align: justify;
 }
 
