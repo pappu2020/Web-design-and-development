@@ -11,7 +11,7 @@ var preloader = document.getElementById("preloader");
 window.addEventListener("load",function(){
     setTimeout(()=>{
     preloader.style.display="none";
-    },3500);
+    },500);
     
     
 }) 
@@ -23,6 +23,7 @@ window.addEventListener("load",function(){
 
 var homeButton = document.querySelector(".homeButton");
 var aboutButton = document.querySelector(".aboutButton");
+
 var serviceButton = document.querySelector(".serviceButton");
 var eduButton =  document.querySelector(".eduButton");
 var skillsButton = document.querySelector(".skillsButton");
@@ -47,6 +48,7 @@ homeButton.addEventListener("click",function(){
 
 aboutButton.addEventListener("click",function(){
     window.location.assign("#aboutSection");
+    
     homeButton.style.color = "white";
     aboutButton.style.color = "blue";
     serviceButton.style.color = "white";
@@ -56,6 +58,8 @@ aboutButton.addEventListener("click",function(){
     portfolioButton.style.color = "white";
     contactMeButton.style.color = "white";
 })
+
+
 
 
 serviceButton.addEventListener("click",function(){

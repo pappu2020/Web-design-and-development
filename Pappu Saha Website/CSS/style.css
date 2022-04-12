@@ -1,3 +1,6 @@
+
+
+
 #preloader {
     background: #191F26 url("img/preloader1.gif") no-repeat center center;
     background-size: 40%;
@@ -458,6 +461,13 @@
 
 .MainSectionContainerRight {
     background-color: #F0EAF0;
+    margin-left: -14px;
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .MainSectionContainerRight {
+        margin-left: 0px;
+    }
 }
 
 
@@ -494,6 +504,35 @@
 }
 
 /* About Section */
+
+
+.aboutSectionAnimation{
+    animation-name: aboutSectionAnim ;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-delay: 0.3s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+
+}
+
+@keyframes aboutSectionAnim{
+    from{
+        margin-top: -450px;
+        margin-left: 440px;
+    }
+
+    to{
+        margin-top: 0px;
+        margin-left: 0px;
+    }
+}
+
+
+
+
+
+
+
 
 
 .togglePara {
@@ -614,8 +653,17 @@
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #292E49, #536976);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-left: -14px;
+    
+
+}
 
 
+@media (min-width: 576px) and (max-width: 800px) {
+    #serviceSection {
+        margin-left: 0px;
+
+    }
 
 }
 
@@ -653,6 +701,16 @@
 
 #educationalQualification {
     background-color: white;
+    margin-left: -14px;
+
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    #educationalQualification {
+       
+        margin-left: 0px;
+    
+    }
 
 }
 
@@ -786,7 +844,7 @@
 
 
 #skillsSction {
-    background-color: #F9F9F9;
+    background-color: #f9f9f98f;
     height: 750px;
 }
 
@@ -813,8 +871,9 @@
 
 .myCardSkills1 {
     border-radius: 3%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    border-top: 2px solid #FF0066;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-top: 3px solid #FF0066;
 
 }
 
@@ -824,8 +883,10 @@
 
 .myCardSkills2 {
     border-radius: 3%;
-    border-bottom: 2px solid #FF0066;
+    border-bottom: 3px solid #FF0066;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+    
 }
 
 .myCardSkills2:hover {
@@ -834,8 +895,9 @@
 
 .myCardSkills3 {
     border-radius: 3%;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    border-top: 2px solid #FF0066;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-top: 3px solid #FF0066;
 }
 
 .myCardSkills3:hover {
@@ -881,8 +943,12 @@
     background: linear-gradient(to right, #928DAB, #1F1C2C);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+    margin-left: -14px;
+
 
 }
+
+
 
 
 
@@ -901,6 +967,7 @@
         /* Chrome 10-25, Safari 5.1-6 */
         background: linear-gradient(to right, #928DAB, #1F1C2C);
         /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        margin-left: 0px;
 
 
     }
@@ -955,7 +1022,18 @@
 
 
 
+/* certification section start */
 
+
+#Certicationsection{
+    margin-left: -14px;
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    #Certicationsection{
+        margin-left: 0px;
+    }
+}
 
 
 
