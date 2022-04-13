@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import "./index.css";
+import APP from "./App.js";
 
 // var name= "Pappu saha";
 // var id = 18;
@@ -15,9 +16,12 @@ import "./index.css";
 // const headerStyle = {
 //   color:"red",
 //   bagroundColor: "black",
-  
+
 //   padding:"20px"
 // }
+// making a componet
+
+
 
 
 ReactDOM.render(
@@ -29,35 +33,9 @@ ReactDOM.render(
   //   <p>id: {id}</p>
   //   <p>Department: {department}</p>
   //   <h1>{new Date().getDate()}</h1>
-    
+
   // </div>,
 
-  <div className='MyCard'>
-  <div className='MyCard1'>
-    <h1 className='card_title'>Pappu saha</h1>
-    <div className='card_body'><img src='img/pappu.jpg' className='cardImage'></img></div>
-    <p className='card_footer'>My Name is Pappu saha. I live in Dhaka.</p>
-
-
-  </div>
-
-  <div className='MyCard2'>
-    <h1 className='card_title'>Pappu saha</h1>
-    <div className='card_body'><img src='img/pappu.jpg' className='cardImage'></img></div>
-    <p className='card_footer'>My Name is Pappu saha. I live in Dhaka.</p>
-
-
-  </div>
-
-  <div className='MyCard3'>
-    <h1 className='card_title'>Pappu saha</h1>
-    <div className='card_body'><img src='img/pappu.jpg' className='cardImage'></img></div>
-    <p className='card_footer'>My Name is Pappu saha. I live in Dhaka.</p>
-
-
-  </div>
-  </div>,
-  document.getElementById('root')
-);
+<div><APP/></div>,document.getElementById('root'));
 
 
