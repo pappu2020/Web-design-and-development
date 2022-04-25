@@ -29,3 +29,26 @@
     font-weight: bold;
 
 }
+
+.introMainDiv{
+    background-color: aliceblue;
+    margin-top: 50px;
+    padding: 50px;
+    border: 4px solid blueviolet;
+    border-radius: 3%;
+}
+
+.introMainheading{
+    
+    text-align: center;
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.introMainPara{
+    text-align: justify;
+    font-size: 20px;
+    
+}

@@ -1,0 +1,46 @@
+/* Header Section Big start */
+
+.headerSectionContainer{
+    background-color: #FD6506;
+}
+
+
+
+.SearchDiv{
+    margin-left: 132px;
+}
+
+
+.searchHeading{
+    width: 600px;
+   
+    height: 50px;
+   
+    
+}
+
+.searchIcon{
+    position: absolute;
+    margin-top: 28px;
+    margin-left: 995px;
+}
+
+.headerSectionSmallStart{
+    display: none;
+}
+
+
+
+
+/* Header Section small start */
+
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .headerSectionSmallStart{
+        display: block;
+    }
+    .headerSectionBigStart{
+        display: none;
+    }
+}
