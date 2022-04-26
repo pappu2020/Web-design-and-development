@@ -43,6 +43,14 @@
     .headerSectionBigStart{
         display: none;
     }
+
+    .helpDiv{
+        display: none;
+    }
+
+    .callDiv{
+        display: none;
+    }
 }
 
 
@@ -54,6 +62,8 @@
     width: 300px;
     position: relative;
     margin-bottom: 15px;
+    z-index: 1500;
+    
 
 }
 
@@ -80,9 +90,10 @@
     list-style-type: none;
 	padding: 20px;
 	position: absolute;
-	margin-top: 99999px;
+	margin-left: -99999px;
 	transition: 0.7s all ease;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    background-color: #FFFFFF;
 }
 
 .catagoriesList li ul:hover{
@@ -90,7 +101,7 @@
 }
 
 .catagoriesList li:hover ul{
-	margin-top: 0px;
+	margin-left: 0px;
 }
 
 
@@ -102,4 +113,35 @@
         margin-bottom: 15px;
     
     }
+}
+
+
+
+
+
+/* upper Section Left Start */
+
+
+
+.upperSectionleft{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.usecHeading{
+    background-color: #FD6506;
+    font-size: 18px;
+    padding: 10px;
+    border-radius:3% 3% 0% 0%;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.usecHeadingDiv{
+    padding: 12px;
+}
+
+.cataIconUpperLeft{
+    font-size: 25px;
+    margin-left: 6px;
 }
