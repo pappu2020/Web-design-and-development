@@ -145,3 +145,20 @@
     font-size: 25px;
     margin-left: 6px;
 }
+
+
+/* upperSectionRight Section start */
+
+.srctionRightSlider{
+    margin-left: 15px;
+}
+
+.uppersecSliderImg{
+    height: 500px;
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .uppersecSliderImg{
+        height: 300px;
+    }
+}
