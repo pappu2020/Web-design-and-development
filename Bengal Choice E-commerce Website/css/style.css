@@ -1,7 +1,7 @@
 /* Header Section Big start */
 
 .headerSectionContainer{
-    background-color: #FD6506;
+    background-color: blue;
 }
 
 
@@ -71,8 +71,8 @@
     text-decoration: none;
     font-size: 17px;
     color: black;
-    padding: 15px;
-    text-align: center;
+    padding: 8px;
+    
    
 
 }
@@ -111,7 +111,13 @@
         width: 250px;
         position: relative;
         margin-bottom: 15px;
+        
     
+    }
+
+    .catagoriesList li ul{
+        z-index: 1500;
+        background-color:white;
     }
 }
 
