@@ -1,0 +1,442 @@
+/* header menu style start */
+.menuSectionContainerStart {
+    border-bottom: 2px solid black;
+}
+
+.menuListdesign li {
+    margin-left: 40px;
+    font-size: 20px;
+    color: black;
+}
+
+.menuListdesign li :last-child {
+    margin-left: 10px;
+
+}
+
+
+.menuListdesign li a {
+    color: black;
+}
+
+.menuListdesign li :hover {
+    background-color: blue;
+    color: white;
+    border-radius: 10%;
+
+}
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .menuListdesign li {
+        margin-left: 4px;
+        font-size: 23px;
+        color: black;
+    }
+
+    .menuListdesign li :hover {
+        background-color: blue;
+        color: white;
+        border-radius: 0%;
+        padding-left: 10px;
+
+    }
+}
+
+
+
+/* section start left */
+
+.sectionLeftContainer{
+    animation-name: leftSection;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 0.1s;
+    animation-timing-function: cubic-bezier(0, 0, 0.71, 0.46);
+    box-shadow: #2A6877 5px 5px, #2A6877 10px 10px, #2A6877 15px 15px, #2A6877 20px 20px, #2A6877 25px 25px;
+}
+
+@keyframes leftSection {
+    from {
+        margin-left: 650px;
+        box-shadow: #2A6877 5px 5px, #2A6877 10px 10px, #2A6877 15px 15px, #2A6877 20px 20px, #2A6877 25px 25px;
+    }
+
+    to {
+        margin-left: 0px;
+
+
+    }
+}
+
+
+.introMyRighttext {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .introMyRighttext {
+        font-size: 16px;
+        font-weight: 600;
+    }
+}
+
+
+
+
+
+
+.objective {
+    margin-top: 246px;
+    margin-left: 47px;
+    width: 410px;
+    position: absolute;
+
+}
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .objective {
+        margin-top: 521px;
+        margin-left: 10px;
+        width: 410px;
+        position: absolute;
+
+    }
+}
+
+.objective_para {
+    text-align: justify;
+    color: rgb(15, 2, 35);
+    font-weight: 500;
+    background-color: #ddd;
+    border-radius: 2%;
+    margin-right: 2px;
+    margin-left: 2px;
+    padding: 10px;
+    border-right: 3px solid #0DCAF0;
+    border-left: 3px solid #0DCAF0;
+    font-style: italic;
+}
+
+
+.quaIcon {
+    font-size: 15px;
+}
+
+
+
+
+.downloadCv {
+    position: absolute;
+    margin-top: 404px;
+    margin-left: 47px;
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .downloadCv {
+        margin-top: 471px;
+        margin-left: 10px;
+
+        position: absolute;
+
+    }
+}
+
+
+
+
+.text {
+    display: flex;
+    /* align-items: center;
+    justify-content: center; */
+    min-height: 112vh;
+    box-sizing: border-box;
+    background-color: #2A6877;
+
+    /* background-image: url("img/pappuback.jpg");
+    background-repeat: no-repeat;
+   
+    background-size: 1600px 1300px;
+     */
+
+
+
+
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .text {
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        min-height: 100vh;
+        box-sizing: border-box;
+        /* background-color: #343F4F; */
+
+        background-image: url("img/pappuback.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vh;
+
+
+
+
+    }
+}
+
+
+
+
+.wrapper {
+    display: inline-flex;
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .wrapper {
+        display: inline;
+    }
+}
+
+
+
+
+.wrapper .static_text {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 86px;
+
+}
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .wrapper .static_text {
+        color: white;
+        font-size: 25px;
+        font-weight: 800;
+        margin-left: -3px;
+        margin-top: 35px;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+.wrapper .dynamic_text {
+    margin-left: 15px;
+    line-height: 90px;
+
+    height: 90px;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .wrapper .dynamic_text {
+        margin-left: 85px;
+        line-height: 90px;
+
+        height: 90px;
+        overflow: hidden;
+        margin-top: -63px;
+    }
+}
+
+
+
+
+
+.dynamic_text li {
+    color: white;
+    list-style: none;
+    font-size: 40px;
+    font-weight: 800;
+    animation: slide 6s steps(4) infinite;
+    position: relative;
+    top: 0;
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .dynamic_text li {
+        color: white;
+        list-style: none;
+        font-size: 25px;
+        font-weight: 800;
+        animation: slide 6s steps(4) infinite;
+        position: relative;
+        top: 0;
+        margin-left: -25px;
+
+    }
+}
+
+
+
+
+
+
+
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+
+    @keyframes slide {
+        100% {
+            top: -360px;
+        }
+
+    }
+
+}
+
+
+
+
+
+.dynamic_text li span {
+    position: relative;
+}
+
+.dynamic_text li span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    height: 100%;
+    width: 100%;
+    border-left: 2px solid #FC6D6D;
+    background: #2A6877;
+
+
+    animation: typing 1.5s steps(5) infinite;
+
+}
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+
+    .dynamic_text li span::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 4px;
+        height: 100%;
+        width: 100%;
+        border-left: 2px solid #FC6D6D;
+        background: white;
+        animation: typing 1.5s steps(5) infinite;
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@keyframes typing {
+
+    40%,
+    60% {
+        left: calc(100% + 1110px);
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+
+
+
+.bgImageCartoon {
+    position: absolute;
+    margin-top: -570px;
+    margin-left: 470px;
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+
+    .bgImageCartoon {
+        display: none;
+    }
+}
+
+
+/* sectionRightMyIntroStart */
+
+.myIntroDiv {
+    margin-left: -80px;
+    margin-top: 10px;
+}
+
+
+.sectionRightMyIntroContainer {
+    background-color: #C7D9E5;
+    margin-left: -24px;
+    animation-name: rightSectionIntro;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 0.1s;
+    animation-timing-function: cubic-bezier(0, 0, 0.71, 0.46);
+}
+
+@keyframes rightSectionIntro {
+    from {
+        margin-left: -250px;
+
+    }
+
+    to {
+        margin-left: -24px;
+
+
+    }
+}
+
+.myImage2 {
+    margin-left: 25px;
+    margin-top: -50px;
+    border: 5px solid blue;
+
+}
+
+.mailIconDiv {
+    margin-top: -6px;
+
+}
+
+.phoneIconDiv{
+    margin-top: -4px;
+    margin-left: -11px;
+}
+
+.introPart {
+    font-weight: 600;
+}
+
+.introPartHeading {
+    border-bottom: 2px solid black;
+    margin-top: 10px;
+}
