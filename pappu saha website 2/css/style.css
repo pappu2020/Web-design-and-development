@@ -1,4 +1,5 @@
 /* header menu style start */
+
 .menuSectionContainerStart {
     border-bottom: 2px solid black;
 }
@@ -53,13 +54,13 @@
     animation-iteration-count: 1;
     animation-delay: 0.1s;
     animation-timing-function: cubic-bezier(0, 0, 0.71, 0.46);
-    box-shadow: #2A6877 5px 5px, #2A6877 10px 10px, #2A6877 15px 15px, #2A6877 20px 20px, #2A6877 25px 25px;
+    /* box-shadow: #2A6877 5px 5px, #2A6877 10px 10px, #2A6877 15px 15px, #2A6877 20px 20px, #2A6877 25px 25px; */
 }
 
 @keyframes leftSection {
     from {
         margin-left: 650px;
-        box-shadow: #2A6877 5px 5px, #2A6877 10px 10px, #2A6877 15px 15px, #2A6877 20px 20px, #2A6877 25px 25px;
+        /* box-shadow: #2A6877 5px 5px, #2A6877 10px 10px, #2A6877 15px 15px, #2A6877 20px 20px, #2A6877 25px 25px; */
     }
 
     to {
@@ -92,8 +93,13 @@
     margin-left: 47px;
     width: 410px;
     position: absolute;
+    
 
 }
+
+/* .objective p{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+} */
 
 
 @media (min-width: 576px) and (max-width: 800px) {
@@ -115,9 +121,10 @@
     margin-right: 2px;
     margin-left: 2px;
     padding: 10px;
-    border-right: 3px solid #0DCAF0;
-    border-left: 3px solid #0DCAF0;
+    border-right: 6px solid #0DCAF0;
+    border-left: 6px solid #0DCAF0;
     font-style: italic;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 
@@ -151,7 +158,7 @@
     display: flex;
     /* align-items: center;
     justify-content: center; */
-    min-height: 112vh;
+    min-height: 115vh;
     box-sizing: border-box;
     background-color: #2A6877;
 
@@ -440,3 +447,164 @@
     border-bottom: 2px solid black;
     margin-top: 10px;
 }
+
+
+
+
+
+/* about Section Start */
+.aboutSectionStart{
+    margin-left: 195px;
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+
+    .aboutSectionStart{
+        margin-left: 0px;
+    }
+}
+
+.aboutSectionLeft{
+    width: 550px;
+    height: 400px;
+    background-color: #4E4E4E;
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1.5s ease-in-out;   
+}
+
+.active{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* .animaboutLeftSec{
+    animation-name: aboutSecleftAnim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 0.1s;
+    animation-timing-function: cubic-bezier(0, 0, 0.71, 0.46);
+    
+}
+
+@keyframes aboutSecleftAnim {
+    from {
+        margin-right: 850px;
+
+    }
+
+    to {
+        margin-right: 0px;
+
+
+    }
+} */
+
+
+
+.aboutLeftDesign1{
+    padding: 50px;
+    text-align: center;
+    color: white;
+    border-right: 3px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.aboutLeftDesign2{
+    padding: 50px;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid white;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.aboutLeftDesign3{
+    padding: 50px;
+    text-align: center;
+    color: white;
+    border-top: 3px solid white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.aboutLeftDesign4{
+    padding: 50px;
+    text-align: center;
+    color: white;
+    border-left: 3px solid white;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+   
+}
+
+
+/* aboutRightSecStart */
+
+.aboutSectionRight{
+    width: 550px;
+    height: 400px;
+    background-color: #FF7A57;
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1.5s ease-in-out;
+    
+}
+
+.active{
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* .animaboutRightSec{
+    
+    animation-name: aboutSecRightAnim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-delay: 0.1s;
+    animation-timing-function: cubic-bezier(0, 0, 0.71, 0.46);
+    
+
+}
+
+
+@keyframes aboutSecRightAnim {
+    from {
+        margin-left: -850px;
+
+    }
+
+    to {
+        margin-left: 0px;
+
+
+    }
+} */
+
+
+
+.aboutRightSecHeading{
+  margin-top: 30px;
+  margin-left: 30px;
+  color: white;
+  text-decoration: underline;
+}
+
+.aboutRightSecParaHeading{
+    margin-left: 53px;
+    font-size: 45px;
+    color: white;
+    line-height: 40px;
+    font-weight: bold;
+}
+
+.aboutRightSecPara{
+    color: white;
+    padding: 28px;
+    text-align: justify;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.cvButton{
+    margin-left:30px ;
+    margin-top: -33px;
+    font-weight: bold;
+}
+
