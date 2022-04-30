@@ -48,19 +48,19 @@
 
 /* section start left */
 
-.sectionLeftContainer{
+/* .sectionLeftContainer{
     animation-name: leftSection;
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-delay: 0.1s;
     animation-timing-function: cubic-bezier(0, 0, 0.71, 0.46);
-    /* box-shadow: #2A6877 5px 5px, #2A6877 10px 10px, #2A6877 15px 15px, #2A6877 20px 20px, #2A6877 25px 25px; */
-}
+    
+}  */
 
-@keyframes leftSection {
+ /* @keyframes leftSection {
     from {
         margin-left: 650px;
-        /* box-shadow: #2A6877 5px 5px, #2A6877 10px 10px, #2A6877 15px 15px, #2A6877 20px 20px, #2A6877 25px 25px; */
+        
     }
 
     to {
@@ -68,7 +68,7 @@
 
 
     }
-}
+}  */
 
 
 .introMyRighttext {
@@ -280,7 +280,7 @@
         list-style: none;
         font-size: 25px;
         font-weight: 800;
-        animation: slide 6s steps(4) infinite;
+        animation: slide 6s steps(5) infinite;
         position: relative;
         top: 0;
         margin-left: -25px;
@@ -402,14 +402,14 @@
 .sectionRightMyIntroContainer {
     background-color: #C7D9E5;
     margin-left: -24px;
-    animation-name: rightSectionIntro;
+    /* animation-name: rightSectionIntro;
     animation-duration: 1s;
     animation-iteration-count: 1;
     animation-delay: 0.1s;
-    animation-timing-function: cubic-bezier(0, 0, 0.71, 0.46);
+    animation-timing-function: cubic-bezier(0, 0, 0.71, 0.46); */
 }
 
-@keyframes rightSectionIntro {
+/* @keyframes rightSectionIntro {
     from {
         margin-left: -250px;
 
@@ -420,7 +420,7 @@
 
 
     }
-}
+} */
 
 .myImage2 {
     margin-left: 25px;
@@ -470,7 +470,8 @@
     background-color: #4E4E4E;
     opacity: 0;
     transform: scale(0.1);
-    transition: all 1.5s ease-in-out;   
+    transition: all 1.5s ease-in-out;
+     
 }
 
 .active{
@@ -503,14 +504,14 @@
 
 
 .aboutLeftDesign1{
-    padding: 50px;
+    padding: 50px;  
     text-align: center;
     color: white;
     border-right: 3px solid white;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 .aboutLeftDesign2{
-    padding: 50px;
+    padding: 50px;  
     text-align: center;
     color: white;
     border-bottom: 3px solid white;
@@ -518,7 +519,7 @@
 }
 
 .aboutLeftDesign3{
-    padding: 50px;
+    padding: 50px;  
     text-align: center;
     color: white;
     border-top: 3px solid white;
@@ -526,7 +527,7 @@
 }
 
 .aboutLeftDesign4{
-    padding: 50px;
+    padding: 50px;  
     text-align: center;
     color: white;
     border-left: 3px solid white;
@@ -607,4 +608,97 @@
     margin-top: -33px;
     font-weight: bold;
 }
+
+
+
+/* services section start */
+
+.serviceSectionContainer{
+   padding-top: 90px;
+   padding-left: 50px;
+   background-color: #FFF7EA;
+}
+.servicesWhatIDo{
+    padding: 30px;
+}
+.myCard{
+    padding: 30px;
+    width: 400px;
+    
+}
+
+
+
+.serviceSectionAnimClass{
+    animation-name: serviceSectionAnim;
+    animation-duration: 0.8s;
+    animation-iteration-count: 1;
+    animation-delay: 0.1s;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes serviceSectionAnim {
+    0%   {background-color: #ddd; width: 400px; height: 70px;}
+    25%  {background-color: #ddd; width: 400px; height: 140px;}
+    50%  {background-color: #ddd; width: 400px; height: 210px;}
+    75%  {background-color: #ddd; width: 400px; height: 280px;}
+    100% {background-color: #ddd; width: 400px; height: 352px;}
+  }
+
+  @media (min-width: 576px) and (max-width: 800px) {
+    @keyframes serviceSectionAnim {
+        0%   {background-color: #ddd; width: 267px; height: 70px;}
+        25%  {background-color: #ddd; width: 267px; height: 140px;}
+        50%  {background-color: #ddd; width: 267px; height: 210px;}
+        75%  {background-color: #ddd; width: 267px; height: 280px;}
+        100% {background-color: #ddd; width: 267px; height: 352px;}
+      }
+
+
+  }
+
+
+.myCard:hover{
+    background-color:#ddd ;
+}
+.myCardTitle{
+    font-weight: bold;
+    font-size: 45px;
+}
+.cardIcon{
+    padding: 15px;
+    background-color: #F7AF24;
+    display: inline-block;
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    .serviceSectionContainer{
+        padding-top: 0px;
+        padding-left: 0px;
+        background-color: #FFF7EA;
+     }
+     .servicesWhatIDo{
+         padding: 0px;
+     }
+     .myCard{
+         padding: 20px;
+         width: 100%;
+     }
+     .myCardTitle{
+         font-weight: bold;
+         font-size: 25px;
+     }
+     .cardIcon{
+         padding: 15px;
+         background-color: #F7AF24;
+         display: inline-block;
+     }
+     .serviceSectionHeading{
+         padding-top: 20px;
+         padding-left: 10px;
+     }
+    
+}
+
+
 
