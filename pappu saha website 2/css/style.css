@@ -769,4 +769,59 @@
 }
 
 
+/* skillsSection Start */
+
+.skillsSectionContainer{
+    padding-top: 90px;
+    padding-left: 50px;
+    background-color: #FFF7EA;
+}
+
+.skillsParaHeading{
+    text-align: justify;
+    font-size: 20px;
+    color: black;
+    margin-top: 15px;
+    margin-left: 48px;
+}
+.MyskillsHeading{
+    margin-left: -11px;
+}
+.skillsIconHeading{
+    padding: 7px;
+    background-color: #FF724C;
+}
+.SkillswrittingStart{
+    padding: 50px;
+}
+
+.mySkillsIntropara{
+    margin-left: 65px;
+    margin-top: 25px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.skillsLeftHeadingDiv{
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    margin-top: 13px;
+    border: 2px solid #FF724C;
+   
+}
+
+.skillsLeftHeadingDiv:hover{
+    background-color:#FF724C ;
+}
+
+.skillsLeftHeading{
+    margin-left: 50px;
+    margin-top: 11px;
+}
+
+.ProgressBar{
+    margin-left: 62px;
+}
+
 
