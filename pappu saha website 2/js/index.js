@@ -204,6 +204,91 @@ myCardDivid6.addEventListener("mouseleave", function () {
 
 
 
+window.addEventListener("scroll", () => {
+    let progressBar1 = document.getElementById("progressBar1");
 
+    let contentPositionprogressBar1 = progressBar1.getBoundingClientRect().top;
+
+
+    let screenPositionForprogressBar1 = window.innerHeight;
+
+
+    if (contentPositionprogressBar1 < screenPositionForprogressBar1) {
+        progressBar1.classList.add("progressSectionAnimClass1");
+    }
+    else {
+        progressBar1.classList.remove("progressSectionAnimClass1");
+    }
+})
+
+
+window.addEventListener("scroll", () => {
+    let progressBar2 = document.getElementById("progressBar2");
+
+    let contentPositionprogressBar2 = progressBar2.getBoundingClientRect().top;
+
+
+    let screenPositionForprogressBar2 = window.innerHeight;
+
+
+    if (contentPositionprogressBar2 < screenPositionForprogressBar2) {
+        progressBar2.classList.add("progressSectionAnimClass2");
+    }
+    else {
+        progressBar2.classList.remove("progressSectionAnimClass2");
+    }
+})
+
+window.addEventListener("scroll", () => {
+    let progressBar3 = document.getElementById("progressBar3");
+
+    let contentPositionprogressBar3 = progressBar3.getBoundingClientRect().top;
+
+
+    let screenPositionForprogressBar3 = window.innerHeight;
+
+
+    if (contentPositionprogressBar3 < screenPositionForprogressBar3) {
+        progressBar3.classList.add("progressSectionAnimClass3");
+    }
+    else {
+        progressBar3.classList.remove("progressSectionAnimClass3");
+    }
+})
+
+
+window.addEventListener("scroll", () => {
+    let progressBar4 = document.getElementById("progressBar4");
+
+    let contentPositionprogressBar4 = progressBar4.getBoundingClientRect().top;
+
+
+    let screenPositionForprogressBar4 = window.innerHeight;
+
+
+    if (contentPositionprogressBar4 < screenPositionForprogressBar4) {
+        progressBar4.classList.add("progressSectionAnimClass4");
+    }
+    else {
+        progressBar4.classList.remove("progressSectionAnimClass4");
+    }
+})
+
+window.addEventListener("scroll", () => {
+    let progressBar5 = document.getElementById("progressBar5");
+
+    let contentPositionprogressBar5 = progressBar5.getBoundingClientRect().top;
+
+
+    let screenPositionForprogressBar5 = window.innerHeight;
+
+
+    if (contentPositionprogressBar5 < screenPositionForprogressBar5) {
+        progressBar5.classList.add("progressSectionAnimClass5");
+    }
+    else {
+        progressBar5.classList.remove("progressSectionAnimClass5");
+    }
+})
 
 
