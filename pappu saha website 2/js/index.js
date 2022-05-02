@@ -122,10 +122,10 @@ window.addEventListener("scroll", () => {
 
 
     if (contentPositionServiceSec6 < screenPositionForServiceSec6) {
-        serviceSectionContainerId6.classList.add("active1");
+        serviceSectionContainerId6.classList.add("active2");
     }
     else {
-        serviceSectionContainerId6.classList.remove("active1");
+        serviceSectionContainerId6.classList.remove("active2");
     }
 })
 
@@ -288,6 +288,67 @@ window.addEventListener("scroll", () => {
     }
     else {
         progressBar5.classList.remove("progressSectionAnimClass5");
+    }
+})
+
+
+
+
+
+
+
+
+
+window.addEventListener("scroll", () => {
+    let Myportfolioid = document.getElementById("Myportfolioid");
+
+    let contentPositionMyportfolioid = Myportfolioid.getBoundingClientRect().top;
+
+
+    let screenPositionForMyportfolioid = window.innerHeight;
+
+
+    if (contentPositionMyportfolioid < screenPositionForMyportfolioid) {
+        Myportfolioid.classList.add("portfolioSectionAnimClass1");
+    }
+    else {
+        Myportfolioid.classList.remove("portfolioSectionAnimClass1");
+    }
+})
+
+
+
+window.addEventListener("scroll", () => {
+    let Myportfolioid2 = document.getElementById("myPortfolioCardid2");
+
+    let contentPositionMyportfolioid2 = Myportfolioid2.getBoundingClientRect().top;
+
+
+    let screenPositionForMyportfolioid2 = window.innerHeight;
+
+
+    if (contentPositionMyportfolioid2 < screenPositionForMyportfolioid2) {
+        Myportfolioid2.classList.add("portfolioSectionAnimClass2");
+    }
+    else {
+        Myportfolioid2.classList.remove("portfolioSectionAnimClass2");
+    }
+})
+
+window.addEventListener("scroll", () => {
+    let Myportfolioid3 = document.getElementById("myPortfolioCardid3");
+
+    let contentPositionMyportfolioid3 = Myportfolioid3.getBoundingClientRect().top;
+
+
+    let screenPositionForMyportfolioid3 = window.innerHeight;
+
+
+    if (contentPositionMyportfolioid3 < screenPositionForMyportfolioid3) {
+        Myportfolioid3.classList.add("portfolioSectionAnimClass1");
+    }
+    else {
+        Myportfolioid3.classList.remove("portfolioSectionAnimClass1");
     }
 })
 

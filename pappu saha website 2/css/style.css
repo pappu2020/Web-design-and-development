@@ -1099,6 +1099,7 @@
     margin-top: 25px;
     margin-right: 20px;
     margin-left: 60px;
+    
 }
 
 .myModalPortfolio{
@@ -1116,4 +1117,82 @@
 .myPortfolioCard{
     width: 400px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 320px;
+    
+    
 }
+
+
+.portfolioSectionAnimClass1{
+    animation-name: portfolioSectionAnim1;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.1s;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes portfolioSectionAnim1 {
+   
+    from{
+        margin-left: -500px;
+    }
+
+    to{
+        margin-left: 0px;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 800px) {
+    @keyframes portfolioSectionAnim1 {
+        from{
+            margin-left: -100px;
+        }
+    
+        to{
+            margin-left: 0px;
+        }
+      }
+  }
+
+
+  .portfolioSectionAnimClass2{
+    animation-name: portfolioSectionAnim2;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    animation-delay: 0.1s;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes portfolioSectionAnim2 {
+   
+    from{
+        margin-bottom: 500px;
+    }
+
+    to{
+        margin-bottom: 0px;
+    }
+  }
+
+  @media (min-width: 576px) and (max-width: 800px) {
+    @keyframes portfolioSectionAnim1 {
+        from{
+            margin-left: -100px;
+        }
+    
+        to{
+            margin-left: 0px;
+        }
+      }
+  }
+
+
+
+
+
+  
+
+
+  
+
+
