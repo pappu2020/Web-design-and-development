@@ -353,3 +353,33 @@ window.addEventListener("scroll", () => {
 })
 
 
+
+
+
+window.addEventListener("scroll", () => {
+    let myForm = document.querySelector(".myForm")
+
+    let contentPositionmyForm = myForm.getBoundingClientRect().top;
+
+
+    let screenPositionFormyForm = window.innerHeight/0.9;
+
+
+    if (contentPositionmyForm < screenPositionFormyForm) {
+        myForm.classList.add("active3");
+    }
+    else {
+        myForm.classList.remove("active3");
+    }
+})
+
+
+
+
+
+var aboutMeMenu = document.querySelector(".aboutMeMenu");
+aboutMeMenu.addEventListener("click",function(){
+    aboutMeMenu.style.color = "red";
+})
+
+
