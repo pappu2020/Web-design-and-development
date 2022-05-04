@@ -1,23 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Source+Serif+Pro:ital,wght@1,600&display=swap');
+
 .HeadingStyleAll {
     font-family: 'Allerta Stencil', sans-serif;
     font-family: 'Source Serif Pro', serif;
     font-size: 42px;
 
 }
+
 /* header menu style start */
 
 .menuSectionContainerStart {
     border-bottom: 2px solid black;
     background-color: #F3F3F3;
-    
+
 }
 
-.stickyMenu{
+.stickyMenu {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 1500;
+    z-index: 500;
     background-color: #F3F3F3;
 }
 
@@ -26,7 +28,7 @@
     /* font-size: 20px; */
     font-size: 18px;
     color: black;
-    
+
 }
 
 .menuListdesign li :last-child {
@@ -42,7 +44,7 @@
 .menuListdesign li :hover {
     /* background-color: blue; */
     color: orangered;
-    
+
     border-bottom: 2px solid orangered;
 
 }
@@ -51,16 +53,22 @@
 @media (min-width: 576px) and (max-width: 800px) {
     .menuListdesign li {
         margin-left: 4px;
-        font-size: 17px;
+        font-size: 18px;
         color: black;
     }
 
     .menuListdesign li :hover {
-        background-color: blue;
+        /* background-color: blue;
         color: white;
         border-radius: 0%;
         padding-left: 10px;
-        border-bottom: none;
+        border-bottom: none; */
+
+        color: orangered;
+
+        border-bottom: 2px solid orangered;
+
+        display: inline-block;
 
     }
 }
@@ -821,14 +829,14 @@
     padding: 15px;
     background-color: #F7AF24;
     display: inline-block;
-    
+
 }
 
 @media (min-width: 576px) and (max-width: 800px) {
     .serviceSectionContainer {
         padding-top: 0px;
         padding-left: 0px;
-        
+
         background-color: #FFF7EA;
     }
 
@@ -930,7 +938,7 @@
 
 
 @media (min-width: 576px) and (max-width: 800px) {
-    
+
 
 
     .skillsSectionContainer {
@@ -961,7 +969,7 @@
     .skillsIconHeading {
         padding: 7px;
         background-color: #FF724C;
-        
+
     }
 
 
@@ -1348,6 +1356,12 @@
 
 
 
+/* .EducationSectionContainer{
+    width: 400px;
+} */
+
+
+
 
 
 /* skills Right Section start */
@@ -1361,40 +1375,40 @@
 
 } */
 
-.CommunicationStyleDiv{
-	background: #FFF7EA;
-	margin-top: 30px;
+.CommunicationStyleDiv {
+    background: #FFF7EA;
+    margin-top: 30px;
     margin-left: 50px;
 
 }
 
-.skillsCircleAnim{
-	width: 160px;
-	height: 160px;
-	background: #FFF7EA;
-	position: relative;
+.skillsCircleAnim {
+    width: 160px;
+    height: 160px;
+    background: #FFF7EA;
+    position: relative;
 }
 
-.outerCircleAnim{
-	width: 160px;
-	height: 160px;
-	border-radius: 50%;
-	padding: 20px;
-	box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
-	            -6px -6px 10px -1px rgba(255,255,255,0.7);
-	
+.outerCircleAnim {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+
 }
 
-.innerCircleAnim{
-	width: 120px;
-	height: 120px;
-	border-radius: 50%;
-	
-	box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
-	            inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
-                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
-                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
-                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+.innerCircleAnim {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+        inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+        -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+        0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+        0px 12px 10px -10px rgba(0, 0, 0, 0.05);
 
     display: flex;
     align-items: center;
@@ -1402,97 +1416,97 @@
 
 }
 
-#numberCircleAnimCommunication{
-	font-weight: 600px;
-	color: #555;
-    font-size: 23px;
-}
-
-#numberCircleAnimTeamWork{
+#numberCircleAnimCommunication {
     font-weight: 600px;
-	color: #555;
+    color: #555;
     font-size: 23px;
 }
 
-#numberCircleAnimProject{
+#numberCircleAnimTeamWork {
     font-weight: 600px;
-	color: #555;
+    color: #555;
     font-size: 23px;
 }
 
-#numberCircleAnimCreativity{
+#numberCircleAnimProject {
     font-weight: 600px;
-	color: #555;
+    color: #555;
+    font-size: 23px;
+}
+
+#numberCircleAnimCreativity {
+    font-weight: 600px;
+    color: #555;
     font-size: 23px;
 }
 
 
-.MyCircleSkills{
-	fill: none;
-	stroke: url(#GradientColor);
-	stroke-width: 20px;
-	stroke-dasharray: 472;
-	stroke-dashoffset:472;
-	animation: animCircleSkills 2s linear forwards;
+.MyCircleSkills {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animCircleSkills 2s linear forwards;
     animation-iteration-count: 1;
 }
 
-.MyCircleSkills1{
-	fill: none;
-	stroke: url(#GradientColor);
-	stroke-width: 20px;
-	stroke-dasharray: 472;
-	stroke-dashoffset:472;
-	animation: animCircleSkills1 2s linear forwards;
+.MyCircleSkills1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: animCircleSkills1 2s linear forwards;
     animation-iteration-count: 1;
 }
 
-@keyframes animCircleSkills{
-	100%{
-		stroke-dashoffset:118;
-	}
+@keyframes animCircleSkills {
+    100% {
+        stroke-dashoffset: 118;
+    }
 }
 
-@keyframes animCircleSkills1{
-	100%{
-		stroke-dashoffset:118;
-	}
+@keyframes animCircleSkills1 {
+    100% {
+        stroke-dashoffset: 118;
+    }
 }
 
 
 
 
 
-.MyCircleSkillsteamWork{
-	fill: none;
-	stroke: url(#GradientColor);
-	stroke-width: 20px;
-	stroke-dasharray: 472;
-	stroke-dashoffset:472;
-	animation: MyCircleSkillsteamWork 2s linear forwards;
+.MyCircleSkillsteamWork {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: MyCircleSkillsteamWork 2s linear forwards;
     animation-iteration-count: 1;
 }
 
-.MyCircleSkillsteamWork1{
-	fill: none;
-	stroke: url(#GradientColor);
-	stroke-width: 20px;
-	stroke-dasharray: 472;
-	stroke-dashoffset:472;
-	animation: MyCircleSkillsteamWork1 2s linear forwards;
+.MyCircleSkillsteamWork1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: MyCircleSkillsteamWork1 2s linear forwards;
     animation-iteration-count: 1;
 }
 
-@keyframes MyCircleSkillsteamWork{
-	100%{
-		stroke-dashoffset:141;
-	}
+@keyframes MyCircleSkillsteamWork {
+    100% {
+        stroke-dashoffset: 141;
+    }
 }
 
-@keyframes MyCircleSkillsteamWork1{
-	100%{
-		stroke-dashoffset:141;
-	}
+@keyframes MyCircleSkillsteamWork1 {
+    100% {
+        stroke-dashoffset: 141;
+    }
 }
 
 
@@ -1500,82 +1514,82 @@
 
 
 
-.MyCircleSkillsProject{
-	fill: none;
-	stroke: url(#GradientColor);
-	stroke-width: 20px;
-	stroke-dasharray: 472;
-	stroke-dashoffset:472;
-	animation: MyCircleSkillsProject 2s linear forwards;
+.MyCircleSkillsProject {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: MyCircleSkillsProject 2s linear forwards;
     animation-iteration-count: 1;
 }
 
-.MyCircleSkillsProject1{
-	fill: none;
-	stroke: url(#GradientColor);
-	stroke-width: 20px;
-	stroke-dasharray: 472;
-	stroke-dashoffset:472;
-	animation: MyCircleSkillsProject1 2s linear forwards;
+.MyCircleSkillsProject1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: MyCircleSkillsProject1 2s linear forwards;
     animation-iteration-count: 1;
 }
 
-@keyframes MyCircleSkillsProject{
-	100%{
-		stroke-dashoffset:70;
-	}
+@keyframes MyCircleSkillsProject {
+    100% {
+        stroke-dashoffset: 70;
+    }
 }
 
-@keyframes MyCircleSkillsProject1{
-	100%{
-		stroke-dashoffset:70;
-	}
+@keyframes MyCircleSkillsProject1 {
+    100% {
+        stroke-dashoffset: 70;
+    }
 }
 
 
 
 
-.MyCircleSkillsCreativity{
-	fill: none;
-	stroke: url(#GradientColor);
-	stroke-width: 20px;
-	stroke-dasharray: 472;
-	stroke-dashoffset:472;
-	animation: MyCircleSkillsCreativity 2s linear forwards;
+.MyCircleSkillsCreativity {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: MyCircleSkillsCreativity 2s linear forwards;
     animation-iteration-count: 1;
 }
 
-.MyCircleSkillsCreativity1{
-	fill: none;
-	stroke: url(#GradientColor);
-	stroke-width: 20px;
-	stroke-dasharray: 472;
-	stroke-dashoffset:472;
-	animation: MyCircleSkillsCreativity1 2s linear forwards;
+.MyCircleSkillsCreativity1 {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: MyCircleSkillsCreativity1 2s linear forwards;
     animation-iteration-count: 1;
 }
 
-@keyframes MyCircleSkillsCreativity{
-	100%{
-		stroke-dashoffset:94;
-	}
+@keyframes MyCircleSkillsCreativity {
+    100% {
+        stroke-dashoffset: 94;
+    }
 }
 
-@keyframes MyCircleSkillsCreativity1{
-	100%{
-		stroke-dashoffset:94;
-	}
+@keyframes MyCircleSkillsCreativity1 {
+    100% {
+        stroke-dashoffset: 94;
+    }
 }
 
 
 
-.skillsCircleSvg{
-	margin-top:-188px;
-	left: 0;
-	
+.skillsCircleSvg {
+    margin-top: -188px;
+    left: 0;
+
 }
 
-.AllCircleBottomHeading1{
+.AllCircleBottomHeading1 {
     margin-left: 65px;
     font-size: 20px;
     margin-top: 22px;
@@ -1583,7 +1597,7 @@
     font-family: 'Source Serif Pro', serif;
 }
 
-.AllCircleBottomHeading2{
+.AllCircleBottomHeading2 {
     margin-left: 87px;
     font-size: 20px;
     margin-top: 22px;
@@ -1591,7 +1605,7 @@
     font-family: 'Source Serif Pro', serif;
 }
 
-.AllCircleBottomHeading3{
+.AllCircleBottomHeading3 {
     margin-left: 47px;
     font-size: 20px;
     margin-top: 22px;
@@ -1599,7 +1613,7 @@
     font-family: 'Source Serif Pro', serif;
 }
 
-.AllCircleBottomHeading4{
+.AllCircleBottomHeading4 {
     margin-left: 93px;
     font-size: 20px;
     margin-top: 22px;
@@ -1678,6 +1692,7 @@
     height: 670px;
     margin-left: -350px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    z-index: 2000;
 
 }
 
@@ -1828,7 +1843,7 @@
 /* certification Section start */
 .certificationSectionContainer {
     background-color: #FFF7EA;
-    
+
 }
 
 .certificationHeadingDiv {
@@ -2122,7 +2137,7 @@
 
 /* Footer section Start */
 
-.footerSectionStart{
+.footerSectionStart {
     padding: 20px;
     background-color: #4E4E4E;
     color: white;
@@ -2130,7 +2145,7 @@
 }
 
 @media (min-width: 576px) and (max-width: 800px) {
-    .footerSectionStart{
+    .footerSectionStart {
         padding: 20px;
         background-color: #4E4E4E;
         color: white;
