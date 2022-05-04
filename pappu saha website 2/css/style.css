@@ -821,6 +821,7 @@
     padding: 15px;
     background-color: #F7AF24;
     display: inline-block;
+    
 }
 
 @media (min-width: 576px) and (max-width: 800px) {
@@ -960,7 +961,9 @@
     .skillsIconHeading {
         padding: 7px;
         background-color: #FF724C;
+        
     }
+
 
     .SkillswrittingStart {
         padding: 50px;
@@ -1349,14 +1352,303 @@
 
 /* skills Right Section start */
 
-.skillsSectionRightImg {
+/* .skillsSectionRightImg {
     width: 550px;
     height: 500px;
     margin-top: 500px;
     margin-left: 100px;
     border: 5px solid black;
 
+} */
+
+.CommunicationStyleDiv{
+	background: #FFF7EA;
+	margin-top: 30px;
+    margin-left: 50px;
+
 }
+
+.skillsCircleAnim{
+	width: 160px;
+	height: 160px;
+	background: #FFF7EA;
+	position: relative;
+}
+
+.outerCircleAnim{
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+	padding: 20px;
+	box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+	            -6px -6px 10px -1px rgba(255,255,255,0.7);
+	
+}
+
+.innerCircleAnim{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	
+	box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+	            inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+                -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+                0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#numberCircleAnimCommunication{
+	font-weight: 600px;
+	color: #555;
+    font-size: 23px;
+}
+
+#numberCircleAnimTeamWork{
+    font-weight: 600px;
+	color: #555;
+    font-size: 23px;
+}
+
+#numberCircleAnimProject{
+    font-weight: 600px;
+	color: #555;
+    font-size: 23px;
+}
+
+#numberCircleAnimCreativity{
+    font-weight: 600px;
+	color: #555;
+    font-size: 23px;
+}
+
+
+.MyCircleSkills{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 20px;
+	stroke-dasharray: 472;
+	stroke-dashoffset:472;
+	animation: animCircleSkills 2s linear forwards;
+    animation-iteration-count: 1;
+}
+
+.MyCircleSkills1{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 20px;
+	stroke-dasharray: 472;
+	stroke-dashoffset:472;
+	animation: animCircleSkills1 2s linear forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes animCircleSkills{
+	100%{
+		stroke-dashoffset:118;
+	}
+}
+
+@keyframes animCircleSkills1{
+	100%{
+		stroke-dashoffset:118;
+	}
+}
+
+
+
+
+
+.MyCircleSkillsteamWork{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 20px;
+	stroke-dasharray: 472;
+	stroke-dashoffset:472;
+	animation: MyCircleSkillsteamWork 2s linear forwards;
+    animation-iteration-count: 1;
+}
+
+.MyCircleSkillsteamWork1{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 20px;
+	stroke-dasharray: 472;
+	stroke-dashoffset:472;
+	animation: MyCircleSkillsteamWork1 2s linear forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes MyCircleSkillsteamWork{
+	100%{
+		stroke-dashoffset:141;
+	}
+}
+
+@keyframes MyCircleSkillsteamWork1{
+	100%{
+		stroke-dashoffset:141;
+	}
+}
+
+
+
+
+
+
+.MyCircleSkillsProject{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 20px;
+	stroke-dasharray: 472;
+	stroke-dashoffset:472;
+	animation: MyCircleSkillsProject 2s linear forwards;
+    animation-iteration-count: 1;
+}
+
+.MyCircleSkillsProject1{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 20px;
+	stroke-dasharray: 472;
+	stroke-dashoffset:472;
+	animation: MyCircleSkillsProject1 2s linear forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes MyCircleSkillsProject{
+	100%{
+		stroke-dashoffset:70;
+	}
+}
+
+@keyframes MyCircleSkillsProject1{
+	100%{
+		stroke-dashoffset:70;
+	}
+}
+
+
+
+
+.MyCircleSkillsCreativity{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 20px;
+	stroke-dasharray: 472;
+	stroke-dashoffset:472;
+	animation: MyCircleSkillsCreativity 2s linear forwards;
+    animation-iteration-count: 1;
+}
+
+.MyCircleSkillsCreativity1{
+	fill: none;
+	stroke: url(#GradientColor);
+	stroke-width: 20px;
+	stroke-dasharray: 472;
+	stroke-dashoffset:472;
+	animation: MyCircleSkillsCreativity1 2s linear forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes MyCircleSkillsCreativity{
+	100%{
+		stroke-dashoffset:94;
+	}
+}
+
+@keyframes MyCircleSkillsCreativity1{
+	100%{
+		stroke-dashoffset:94;
+	}
+}
+
+
+
+.skillsCircleSvg{
+	margin-top:-188px;
+	left: 0;
+	
+}
+
+.AllCircleBottomHeading1{
+    margin-left: 65px;
+    font-size: 20px;
+    margin-top: 22px;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.AllCircleBottomHeading2{
+    margin-left: 87px;
+    font-size: 20px;
+    margin-top: 22px;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.AllCircleBottomHeading3{
+    margin-left: 47px;
+    font-size: 20px;
+    margin-top: 22px;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.AllCircleBottomHeading4{
+    margin-left: 93px;
+    font-size: 20px;
+    margin-top: 22px;
+    font-family: 'Allerta Stencil', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

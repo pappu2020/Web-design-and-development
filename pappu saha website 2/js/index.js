@@ -297,6 +297,217 @@ window.addEventListener("scroll", () => {
 
 
 
+window.addEventListener("scroll", () => {
+    let CommunicationStyleDiv = document.querySelector(".CommunicationStyleDiv");
+    let MyCircleSkills = document.querySelector(".MyCircleSkills");
+    let MyCircleSkillsteamWork = document.querySelector(".MyCircleSkillsteamWork");
+    let MyCircleSkillsProject = document.querySelector(".MyCircleSkillsProject");
+    let MyCircleSkillsCreativity = document.querySelector(".MyCircleSkillsCreativity");
+
+
+    let contentPositionCommunicationStyleDiv = CommunicationStyleDiv.getBoundingClientRect().top;
+
+
+
+    let screenPositionForCommunicationStyleDiv = window.innerHeight;
+
+    if (contentPositionCommunicationStyleDiv < screenPositionForCommunicationStyleDiv) {
+       
+        MyCircleSkills.classList.add("MyCircleSkills1");
+        MyCircleSkillsteamWork.classList.add("MyCircleSkillsteamWork1");
+        MyCircleSkillsProject.classList.add("MyCircleSkillsProject1");
+        MyCircleSkillsCreativity.classList.add("MyCircleSkillsCreativity1");
+        
+        
+        let number = document.getElementById("numberCircleAnimCommunication");
+        let numberCircleAnimTeamWork = document.getElementById("numberCircleAnimTeamWork");
+        let numberCircleAnimProject = document.getElementById("numberCircleAnimProject");
+        let numberCircleAnimCreativity = document.getElementById("numberCircleAnimCreativity");
+        
+        let countCommunication = 0;
+        let countTeamWork = 0;
+        let CountProject = 0;
+        let CountCreativity = 0;
+
+        setInterval(() => {
+            if (countCommunication == 75) {
+                clearInterval();
+            }
+
+            else {
+                countCommunication += 1;
+                
+                number.innerHTML = countCommunication + "%";
+                
+            }
+
+
+
+
+            if(countTeamWork == 70){
+                clearInterval();
+            }
+
+            else{
+                countTeamWork += 1;
+                numberCircleAnimTeamWork.innerHTML = countTeamWork + "%";
+            }
+
+
+
+
+            if(CountProject == 85){
+                clearInterval();
+            }
+
+            else{
+                CountProject += 1;
+                numberCircleAnimProject.innerHTML = CountProject + "%";
+            }
+
+
+
+
+
+            if(CountCreativity == 80){
+                clearInterval();
+            }
+
+            else{
+                CountCreativity += 1;
+                numberCircleAnimCreativity.innerHTML = CountCreativity + "%";
+            }
+
+
+        }, 28);
+
+
+
+    }
+
+    else {
+        
+        let number = document.getElementById("numberCircleAnimCommunication");
+        let numberCircleAnimTeamWork = document.getElementById("numberCircleAnimTeamWork");
+        let numberCircleAnimProject = document.getElementById("numberCircleAnimProject");
+        let numberCircleAnimCreativity = document.getElementById("numberCircleAnimCreativity");
+        
+        let countCommunication = 0;
+        let countTeamWork = 0;
+        let CountProject = 0;
+        let CountCreativity = 0;
+
+        setInterval(() => {
+            if (countCommunication == 75) {
+                clearInterval();
+            }
+
+            else {
+                countCommunication += 1;
+                
+                number.innerHTML = countCommunication + "%";
+                
+            }
+
+
+
+
+            if(countTeamWork == 70){
+                clearInterval();
+            }
+
+            else{
+                countTeamWork += 1;
+                numberCircleAnimTeamWork.innerHTML = countTeamWork + "%";
+            }
+
+
+
+
+            if(CountProject == 85){
+                clearInterval();
+            }
+
+            else{
+                CountProject += 1;
+                numberCircleAnimProject.innerHTML = CountProject + "%";
+            }
+
+
+
+
+
+            if(CountCreativity == 80){
+                clearInterval();
+            }
+
+            else{
+                CountCreativity += 1;
+                numberCircleAnimCreativity.innerHTML = CountCreativity + "%";
+            }
+
+
+        }, 28);
+
+
+
+        MyCircleSkills.classList.remove("MyCircleSkills1");
+        MyCircleSkillsteamWork.classList.remove("MyCircleSkillsteamWork1");
+        MyCircleSkillsProject.classList.remove("MyCircleSkillsProject1");
+        MyCircleSkillsCreativity.classList.remove("MyCircleSkillsCreativity1");
+    }
+
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 window.addEventListener("scroll", () => {
@@ -362,7 +573,7 @@ window.addEventListener("scroll", () => {
     let contentPositionmyForm = myForm.getBoundingClientRect().top;
 
 
-    let screenPositionFormyForm = window.innerHeight/0.9;
+    let screenPositionFormyForm = window.innerHeight / 0.9;
 
 
     if (contentPositionmyForm < screenPositionFormyForm) {
@@ -378,7 +589,7 @@ window.addEventListener("scroll", () => {
 
 
 var aboutMeMenu = document.querySelector(".aboutMeMenu");
-aboutMeMenu.addEventListener("click",function(){
+aboutMeMenu.addEventListener("click", function () {
     aboutMeMenu.style.color = "red";
 })
 
