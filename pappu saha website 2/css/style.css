@@ -1,9 +1,90 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Source+Serif+Pro:ital,wght@1,600&display=swap');
 
+
+#preloader {
+    background: url("img/prelpader2.gif") no-repeat center center;
+    background-color: #0E0E0E;
+    background-size: 7%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 3000;
+}
+
+
+
+.proloaderHeading {
+    position: absolute;
+    margin-top: 454px;
+    margin-left: 646px;
+    font-size: 32px;
+    font-weight: 700;
+
+    background: #59ff00;
+
+    background: -webkit-linear-gradient(to right, #59ff00, #ed1707);
+
+    background: linear-gradient(to right, #59ff00, #ed1707);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+
+
+
+}
+
+
+
+@media (min-width: 576px) and (max-width: 800px) {
+    #preloader {
+        background: url("img/prelpader2.gif") no-repeat center center;
+        background-color: #0E0E0E;
+        background-size: 15%;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 3000;
+
+    }
+
+    .proloaderHeading {
+        position: absolute;
+        margin-top: 406px;
+        margin-left: 187px;
+        
+        font-size: 28px;
+        font-weight: 700;
+
+        background: #59ff00;
+
+        background: -webkit-linear-gradient(to right, #59ff00, #ed1707);
+
+        background: linear-gradient(to right, #59ff00, #ed1707);
+
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
 .HeadingStyleAll {
     font-family: 'Allerta Stencil', sans-serif;
     font-family: 'Source Serif Pro', serif;
     font-size: 42px;
+    
 
 }
 
@@ -1360,7 +1441,9 @@
     width: 400px;
 } */
 
-
+.myEducation {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
 
 
@@ -1709,6 +1792,11 @@
 
 }
 
+.javaVidio {
+    width: 1164px;
+    height: 480px;
+}
+
 
 .portfolioSectionAnimClass1 {
     animation-name: portfolioSectionAnim1;
@@ -1800,6 +1888,11 @@
         margin-right: 0px;
         margin-left: 20px;
 
+    }
+
+    .javaVidio {
+        width: 500px;
+        height: 277px;
     }
 
     .myModalPortfolio {
