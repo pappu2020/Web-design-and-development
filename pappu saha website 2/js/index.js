@@ -1,12 +1,12 @@
-var preloader = document.getElementById("preloader");
+// var preloader = document.getElementById("preloader");
 
-window.addEventListener("load",function(){
-    setTimeout(()=>{
-    preloader.style.display="none";
-    },300);
+// window.addEventListener("load",function(){
+//     setTimeout(()=>{
+//     preloader.style.display="none";
+//     },300);
     
     
-}) 
+// }) 
 
 
 
