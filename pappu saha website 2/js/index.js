@@ -305,6 +305,24 @@ window.addEventListener("scroll", () => {
 })
 
 
+window.addEventListener("scroll", () => {
+    let progressBar6 = document.getElementById("progressBar6");
+
+    let contentPositionprogressBar6 = progressBar6.getBoundingClientRect().top;
+
+
+    let screenPositionForprogressBar6 = window.innerHeight;
+
+
+    if (contentPositionprogressBar6 < screenPositionForprogressBar6) {
+        progressBar6.classList.add("progressSectionAnimClass6");
+    }
+    else {
+        progressBar6.classList.remove("progressSectionAnimClass6");
+    }
+})
+
+
 
 
 

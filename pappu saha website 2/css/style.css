@@ -741,7 +741,8 @@
     }
 
     .myintroDivHeading{
-        margin-left: 67px;
+        /* margin-left: 67px; */
+        margin-left: 43px;
     }
 
     .socialIconDiv{
@@ -749,8 +750,12 @@
     }
 
     .myImage2 {
-        margin-left: 29px;
+        /* margin-left: 29px;
         margin-top: -50px;
+        border: 5px solid blue; */
+
+        margin-left: 5px;
+        margin-top: -80px;
         border: 5px solid blue;
     
     }
@@ -1110,6 +1115,7 @@
     transform: scale(0.8);
     transition: all 1.5s ease-in-out;
     border: 2px solid black;
+    height: 450px;
 
 
 }
@@ -2012,6 +2018,104 @@
 
 @media (min-width: 300px) and (max-width: 575px) {
     @keyframes progressSectionAnim5 {
+        0% {
+            width: 46px;
+            height: 12px;
+        }
+
+        25% {
+            width: 92px;
+            height: 12px;
+        }
+
+        50% {
+            width: 138px;
+            height: 12px;
+        }
+
+        75% {
+            width: 184px;
+            height: 12px;
+        }
+
+        100% {
+            width: 230px;
+            height: 12px;
+        }
+    }
+}
+
+
+
+.progressSectionAnimClass6 {
+    animation-name: progressSectionAnim6;
+    animation-duration: 3.2s;
+    animation-iteration-count: 1;
+    animation-delay: 0.1s;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes progressSectionAnim6 {
+    0% {
+        width: 115px;
+        height: 12px;
+    }
+
+    25% {
+        width: 230px;
+        height: 12px;
+    }
+
+    50% {
+        width: 345px;
+        height: 12px;
+    }
+
+    75% {
+        width: 460px;
+        height: 12px;
+    }
+
+    100% {
+        width: 575px;
+        height: 12px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 800px) {
+    @keyframes progressSectionAnim6 {
+        0% {
+            width: 84px;
+            height: 12px;
+        }
+
+        25% {
+            width: 168px;
+            height: 12px;
+        }
+
+        50% {
+            width: 252px;
+            height: 12px;
+        }
+
+        75% {
+            width: 336px;
+            height: 12px;
+        }
+
+        100% {
+            width: 420px;
+            height: 12px;
+        }
+    }
+
+
+
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+    @keyframes progressSectionAnim6 {
         0% {
             width: 46px;
             height: 12px;
