@@ -1,15 +1,3 @@
-// var preloader = document.getElementById("preloader");
-
-// window.addEventListener("load",function(){
-//     setTimeout(()=>{
-//     preloader.style.display="none";
-//     },300);
-    
-    
-// }) 
-
-
-
 
 window.addEventListener("scroll", () => {
     let contentaboutSectionLeft = document.getElementById("aboutSectionLeftId");
@@ -615,13 +603,5 @@ window.addEventListener("scroll", () => {
     }
 })
 
-
-
-
-
-var aboutMeMenu = document.querySelector(".aboutMeMenu");
-aboutMeMenu.addEventListener("click", function () {
-    aboutMeMenu.style.color = "red";
-})
 
 
