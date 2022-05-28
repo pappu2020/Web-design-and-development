@@ -1,0 +1,36 @@
+body{
+    background-color: #02162B;
+}
+
+
+/* Heading part :start */
+
+.headerBigStart{
+    background-color: #00283A;
+    border-radius: 2%;
+    margin-top: -35px;
+}
+
+.menuContent{
+    font-size: 17px;
+    margin-left: 15px;
+    margin-top: 14px;
+}
+
+.menuContentPart a{
+    text-decoration: none;
+    color: white;
+}
+
+.subHeadingTitle{
+    position: absolute;
+    margin-left: 176px;
+    margin-top: -8px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.menuContentCv{
+    margin-top: 5px;
+    margin-left: 10px;
+}
