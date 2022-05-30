@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 body {
     background-color: #02162B;
@@ -277,26 +278,60 @@ hr {
 
 /*AddressDiv*/
 
-.AddressDiv{
-    padding-top:15px ;
-    padding-left:30px ;
-    padding-right:30px ;
-    padding-bottom:15px ;
+.AddressDiv {
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
 }
 
-.addressRight{
+.addressRight {
     font-weight: 100;
 }
 
 /*ContactbuttonDiv*/
 
 
-.Contactbutton{
+.Contactbutton {
     margin-left: 85px;
     margin-bottom: 15px;
 }
 
-.contactMetext{
+.contactMetext {
     padding: 20px;
     font-size: 17px;
+}
+
+
+/*Section right Upper Start*/
+
+.SectionRightUpper {
+    margin-left: 50px;
+    margin-top: -360px;
+    color: white;
+}
+
+.SectionRightUpperHeading1 {
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+.SectionRightUpperHeading2 {
+    font-size: 70px;
+    font-family: 'Lobster', cursive;
+    font-weight: 800;
+}
+
+.vidioResume {
+
+    margin-left: 60px;
+    margin-top: 20px;
+
+
+}
+
+.vidioResumeText {
+    padding: 16px;
+ 
+    font-weight: 800;
 }
