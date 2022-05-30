@@ -1,30 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
-body{
+body {
     background-color: #02162B;
 }
 
 
 /* Heading part :start */
 
-.headerBigStart{
+.headerBigStart {
     background-color: #00283A;
     border-radius: 2%;
     margin-top: -35px;
 }
 
-.menuContent{
+.menuContent {
     font-size: 17px;
     margin-left: 15px;
     margin-top: 14px;
 }
 
-.menuContentPart a{
+.menuContentPart a {
     text-decoration: none;
     color: white;
 }
 
-.subHeadingTitle{
+.subHeadingTitle {
     position: absolute;
     margin-left: 176px;
     margin-top: -8px;
@@ -32,41 +32,44 @@ body{
     font-style: italic;
 }
 
-.menuContentCv{
+.menuContentCv {
     margin-top: 5px;
     margin-left: 10px;
 }
 
-.headerSmallContainer{
+.headerSmallContainer {
     display: none;
 }
 
-@media (min-width: 300px) and (max-width: 575px){
-    .headerBigContainer{
+@media (min-width: 300px) and (max-width: 575px) {
+    .headerBigContainer {
         display: none;
     }
-    .headerSmallContainer{
+
+    .headerSmallContainer {
         display: block;
     }
 }
 
 
 /* header small part start */
-@media (min-width: 300px) and (max-width: 575px){
-    .myTitleSmall{
+@media (min-width: 300px) and (max-width: 575px) {
+    .myTitleSmall {
         margin-top: 6px;
         margin-left: 4px;
     }
 
-    .subHeadingTitleSmall{
+    .subHeadingTitleSmall {
         font-size: 12px;
         margin-left: 53px;
         margin-top: -7px;
     }
-    .myOffencavSmall{
+
+    .myOffencavSmall {
         box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
     }
-    .smallMenuList{
+
+    .smallMenuList {
         color: black;
         font-weight: bold;
         display: flex;
@@ -75,7 +78,8 @@ body{
         font-family: 'Satisfy', cursive;
         box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     }
-    .smallMenuList:hover{
+
+    .smallMenuList:hover {
         background-color: green;
         color: white;
         box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
@@ -84,7 +88,7 @@ body{
         border-bottom: 2px solid black;
         border-top: 2px solid black;
     }
-    
+
 }
 
 
@@ -92,22 +96,22 @@ body{
 
 /*Section Start*/
 
-.backImageUpper{
+.backImageUpper {
     margin-left: 70px;
-    
+
 }
 
-.backImageUpperImg{
+.backImageUpperImg {
     border-radius: 2%;
 }
 
-@media (min-width: 300px) and (max-width: 575px){
-    .backImageUpper{
+@media (min-width: 300px) and (max-width: 575px) {
+    .backImageUpper {
         margin-left: 0px;
-        
+
     }
-    
-    .backImageUpperImg{
+
+    .backImageUpperImg {
         border-radius: 0%;
         height: 350px;
     }
@@ -118,7 +122,7 @@ body{
 /*Main Section Start*/
 
 /*My intro part left Start*/
-.myIntroLeftStart{
+.myIntroLeftStart {
     background-color: #00283A;
     width: 330px;
     margin-top: -393px;
@@ -126,11 +130,13 @@ body{
     border-radius: 3%;
 }
 
-.myImage{
+.myImage {
     margin-left: 95px;
     margin-top: 18px;
+    border: 3px solid blue;
 }
-.myName{
+
+.myName {
     color: white;
     font-weight: bolder;
     font-size: 24px;
@@ -138,11 +144,21 @@ body{
 }
 
 
+.statusIcon {
+    width: 22px;
+    height: 22px;
+    background-color: rgb(10, 247, 10);
+    position: absolute;
+    margin-left: 190px;
+    margin-top: -81px;
+}
+
+
 
 /*Animation text*/
 
-.animationTextDiv{
-    
+.animationTextDiv {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,27 +167,27 @@ body{
     margin-top: -10px;
 }
 
-.wrapper{
+.wrapper {
     display: flex;
 }
 
-.wrapper .static_txt{
-   color: #fff;
-   font-size: 18px;
-   font-weight: 400;
+.wrapper .static_txt {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
 
 }
 
-.wrapper .dynamic_txt{
+.wrapper .dynamic_txt {
     margin-left: -15px;
     line-height: 30px;
-    height:30px;
+    height: 30px;
     overflow: hidden;
-    
+
     color: #fff;
 }
 
-.dynamic_txt li{
+.dynamic_txt li {
     list-style: none;
     color: white;
     font-size: 18px;
@@ -179,11 +195,11 @@ body{
     position: relative;
     top: 0;
     animation: slide 12s steps(4) infinite;
-    
+
 }
 
-@keyframes slide{
-    100%{
+@keyframes slide {
+    100% {
         top: -120px;
     }
 }
@@ -192,65 +208,95 @@ body{
     position: relative;
 }
 
-.dynamic_txt li ::after{
-   content: "";
-   position: absolute;
-   left: 0;
-   height: 100%;
-   width: 100%;
-   background-color:#00283A ;
-   border-left: 2px solid red;
-   animation: typing 3s steps(23) infinite;
-   
+.dynamic_txt li ::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #00283A;
+    border-left: 2px solid red;
+    animation: typing 3s steps(23) infinite;
+
 }
 
-@keyframes typing{
-    40%,60%{
+@keyframes typing {
+
+    40%,
+    60% {
         left: calc(100% + 30px);
     }
 
-    100%{
+    100% {
         left: 0;
     }
 }
 
 
 hr {
-    border:none;
-    border-top:2px dashed rgb(248, 244, 244);
-    color:#fff;
-    background-color:#00283A;
-    height:1px;
-    width:80%;
+    border: none;
+    border-top: 2px dashed rgb(248, 244, 244);
+    color: #fff;
+    background-color: #00283A;
+    height: 1px;
+    width: 80%;
     margin-left: 30px;
-  }
+}
 
 
 
 
-  /*socialIconDiv start*/
+/*socialIconDiv start*/
 
 
-  .socialIconDiv{
-      margin: 12px 20px 10px 42px;
-  }
+.socialIconDiv {
+    margin: 12px 20px 10px 42px;
+}
 
-  .socialIcon{
-      margin-left: 19px;
-      
-  }
+.socialIcon {
+    margin-left: 19px;
 
-  .socialIcon a{
+}
+
+.socialIcon a {
     color: #ddd;
-  }
+}
 
-  .socialIcon a :hover {
-      color: green;
-      width: 30px;
-      height: 30px;
-  }
+.socialIcon a :hover {
+    color: green;
+    width: 30px;
+    height: 30px;
+}
 
-  .mailIconDiv{
-      margin-top: -6px;
-      margin-left: 7px;
-  }
+.mailIconDiv {
+    margin-top: -6px;
+    margin-left: 7px;
+}
+
+
+
+/*AddressDiv*/
+
+.AddressDiv{
+    padding-top:15px ;
+    padding-left:30px ;
+    padding-right:30px ;
+    padding-bottom:15px ;
+}
+
+.addressRight{
+    font-weight: 100;
+}
+
+/*ContactbuttonDiv*/
+
+
+.Contactbutton{
+    margin-left: 85px;
+    margin-bottom: 15px;
+}
+
+.contactMetext{
+    padding: 20px;
+    font-size: 17px;
+}
