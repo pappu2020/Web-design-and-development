@@ -1,6 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Patua+One&display=swap');
+
+
+
+.stickyMenu {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1500;
+    background-color: #00283A;
+}
+
+.stickyMenu2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 76px;
+    z-index: 500;
+    background-color: #00283A;
+}
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .stickyMenu2 {
+        position: relative;
+        top: 0px;
+        z-index: 0;
+        background-color: #00283A;
+    }
+}
+
 
 body {
     background-color: #02162B;
@@ -8,6 +37,10 @@ body {
 
 
 /* Heading part :start */
+.namingSection {
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Patua One', cursive;
+}
 
 .headerBigStart {
     background-color: #00283A;
@@ -50,6 +83,11 @@ body {
 
     .headerSmallContainer {
         display: block;
+    }
+
+    .namingSection {
+        font-family: 'Lobster Two', cursive;
+        font-family: 'Patua One', cursive;
     }
 }
 
@@ -418,6 +456,10 @@ hr {
 
 }
 
+.plus {
+    font-size: 29px;
+}
+
 
 @media (min-width: 300px) and (max-width: 575px) {
 
@@ -471,6 +513,7 @@ hr {
 
 
 
+
 }
 
 
@@ -504,6 +547,23 @@ hr {
 
 .IndexNumber {
     margin-left: -19px;
+    background-color: aqua;
+    padding: 10px;
+    color: #02162B;
+    animation-name: indexAnimation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes indexAnimation {
+    from {
+        background-color: aqua;
+    }
+
+    to {
+        background-color: yellowgreen;
+    }
 }
 
 .AllSectionHeading {
@@ -523,7 +583,7 @@ hr {
     padding-top: 40px;
     padding-bottom: 20px;
     background-color: #00283A;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
 
 }
 
@@ -531,4 +591,240 @@ hr {
     color: #fff;
     text-align: justify;
     font-size: 18px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.aboutSecMyimage {
+    margin-right: 15px;
+    margin-top: 20px;
+    border: 4px solid white;
+    margin-left: -13px;
+}
+
+
+
+
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .AllSectionHr {
+        border: none;
+        border-top: 2px dashed rgb(248, 244, 244);
+        color: #fff;
+        background-color: #00283A;
+        height: 1px;
+        width: 50%;
+        margin-left: 5px;
+        margin-top: 20px;
+
+    }
+
+    .aboutMeSectionContainer {
+        margin-left: 0px;
+        margin-top: 30px;
+        opacity: 0;
+        transform: scale(0.1);
+        transition: all 1.5s ease-in-out;
+    }
+
+    .active {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .IndexNumber {
+        margin-left: 0px;
+        background-color: aqua;
+        padding: 8px;
+        color: #02162B;
+        animation-name: indexAnimation;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+    }
+
+    @keyframes indexAnimation {
+        from {
+            background-color: aqua;
+        }
+
+        to {
+            background-color: yellowgreen;
+        }
+    }
+
+    .AllSectionHeading {
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Patua One', cursive;
+    }
+
+
+    .aboutSectionParaContainer {
+        margin-top: 10px;
+    }
+
+    .aboutSectionParaDiv {
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        background-color: #00283A;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    }
+
+    .aboutSectionPara {
+        color: #fff;
+        text-align: justify;
+        font-size: 18px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+
+    .abouSectionParagraphStyle {
+        margin-top: 180px;
+        margin-left: -160px;
+    }
+
+    .aboutSecMyimage {
+        margin-right: 15px;
+        margin-top: 10px;
+        border: 4px solid white;
+        margin-left: -13px;
+        width: 150px;
+        height: 150px;
+
+    }
+}
+
+
+
+/*Vedio section */
+
+.vedioResumePartContainer {
+    margin-left: 60px;
+    margin-top: 50px;
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1.5s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.vedioResumeHeading {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+}
+
+.VidioUnderAboutSection {
+
+    margin-top: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.myVedioModal {
+    z-index: 1500;
+    width: 1200px;
+    height: 630px;
+    margin-left: -350px;
+    margin-top: 80px;
+    background-color: #00283A;
+    color: white;
+}
+
+.myResumeVidio {
+    margin-left: 35px;
+}
+
+
+
+
+.vedioIconDiv {
+    position: absolute;
+    margin-top: -190px;
+    margin-left: 392px;
+}
+
+
+
+.video ion-icon {
+    color: #fff;
+    font-size: 50px;
+    padding: 50px;
+    background: rgba(255, 255, 255, .3);
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.video ion-icon:before {
+    content: '';
+    position: absolute;
+    border: 15px solid #e5a84f;
+    ;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+}
+
+.video ion-icon:after {
+    content: '';
+    position: absolute;
+    border: 15px solid #fff;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    animation: animated 1.5s linear infinite;
+    opacity: 0;
+    animation-delay: .6s;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(.5);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+@keyframes animated {
+    0% {
+        transform: scale(.5);
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
 }

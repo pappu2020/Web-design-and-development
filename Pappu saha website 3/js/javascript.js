@@ -25,7 +25,7 @@ window.addEventListener("scroll", () => {
             else {
                 countCompleteProject += 1;
 
-                workCountId1.innerHTML = countCompleteProject +" "+" "+ "+";
+                workCountId1.innerHTML = countCompleteProject +" "+" ";
 
             }
 
@@ -38,7 +38,7 @@ window.addEventListener("scroll", () => {
 
             else {
                 countuniversityProject += 1;
-                workCountId2.innerHTML = countuniversityProject + " " + " " + "+";
+                workCountId2.innerHTML = countuniversityProject + " " + " ";
             }
 
 
@@ -49,8 +49,9 @@ window.addEventListener("scroll", () => {
             }
 
             else {
+                
                 CountCourseCertification += 1;
-                workCountId3.innerHTML = CountCourseCertification + " " + " " + "+";
+                workCountId3.innerText = CountCourseCertification + " " + " ";
             }
 
 
@@ -100,6 +101,35 @@ window.addEventListener("scroll", () => {
     else {
         aboutMeSectionContainerId.classList.remove("active");
        
+    }
+
+
+})
+
+
+//Vedio Section
+
+window.addEventListener("scroll", () => {
+    let vedioResumePartContainerId = document.getElementById("vedioResumePartContainerId");
+
+
+
+    let contentPositionvedioResumePartContainerId = vedioResumePartContainerId.getBoundingClientRect().top;
+
+
+
+    let screenPositionForvedioResumePartContainerId = window.innerHeight;
+
+    if (contentPositionvedioResumePartContainerId < screenPositionForvedioResumePartContainerId) {
+        vedioResumePartContainerId.classList.add("active");
+
+
+
+    }
+
+    else {
+        vedioResumePartContainerId.classList.remove("active");
+
     }
 
 

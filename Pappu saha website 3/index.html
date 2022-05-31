@@ -8,17 +8,28 @@
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/style.css">
+
+
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100&family=WindSong:wght@400;500&display=swap"
+		rel="stylesheet">
+
+
 </head>
 
 <body>
 	<div class="container-fluid">
-		<header>
+		<header class="stickyMenu">
 			<div class="headerBigContainer">
 				<div class="headerBigStart">
 					<div class="row  mt-5">
-						<div class="col-lg-4">
+						<div class="col-lg-4 namingSection">
 							<h1 class="ms-5 fw-bolder"><span class="text-light">Pappu </span><span
-									class="text-success">Saha</span></h1>
+									class="text-info">Saha</span></h1>
 							<p class="subHeadingTitle text-light">Portfolio Website</p>
 						</div>
 
@@ -49,7 +60,7 @@
 				<div class="headersmallStart">
 
 					<div class="d-flex bd-highlight">
-						<div class="bd-highlight">
+						<div class="bd-highlight namingSection">
 							<h1 class="myTitleSmall fw-bolder"><span class="text-light">Pappu </span><span
 									class="text-success">Saha</span></h1>
 							<p class="subHeadingTitleSmall text-light">Portfolio Website</p>
@@ -59,7 +70,7 @@
 
 
 
-							<button class="btn btn-success mt-3 me-2" type="button" data-bs-toggle="offcanvas"
+							<button class="btn btn-info mt-3 me-2" type="button" data-bs-toggle="offcanvas"
 								data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><svg
 									xmlns="http://www.w3.org/2000/svg" width="21" height="24" fill="currentColor"
 									class="bi bi-list" viewBox="0 0 16 16">
@@ -70,7 +81,7 @@
 							<div class="offcanvas offcanvas-end myOffencavSmall" tabindex="-1" id="offcanvasRight"
 								aria-labelledby="offcanvasRightLabel">
 								<div class="offcanvas-header">
-									<h1 id="offcanvasRightLabel" class="myTitleSmall fw-bolder"><span
+									<h1 id="offcanvasRightLabel" class="myTitleSmall fw-bolder namingSection"><span
 											class="text-dark">Pappu </span><span class="text-success">Saha</span></h1>
 									<button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
 										aria-label="Close"></button>
@@ -211,14 +222,14 @@
 				<div class="mainsectionStart">
 
 					<div class="row">
-						<div class="col-lg-4 col-sm-12 myIntroLeftContainer">
+						<div class="col-lg-4 col-sm-12 myIntroLeftContainer ">
 
 
-							<div class="myIntroLeftStart">
+							<div class="myIntroLeftStart stickyMenu2">
 								<div class="d-flex flex-column bd-highlight">
 									<div class=" bd-highlight myImageDiv">
 
-										<img src="img/myimage.jpg" alt="" width="130px" height="130px"
+										<img src="img/myimage3.jpg" alt="" width="130px" height="130px"
 											class=" myImage rounded-circle">
 
 									</div>
@@ -434,7 +445,8 @@
 
 										<div class="col-lg-3 col-sm-12 workCountDiv">
 											<div class="workCount">
-												<h3 id="workCountId1"></h3>
+												<h3 id="workCountId1" class="text-light d-inline"></h3>
+												<h3 class="d-inline text-info plus">+</h3>
 											</div>
 
 											<hr>
@@ -448,7 +460,8 @@
 
 										<div class="col-lg-3 col-sm-12 workCountDiv workCountDiv2">
 											<div class="workCount">
-												<h3 id="workCountId2"></h3>
+												<h3 id="workCountId2" class="text-light d-inline"></h3>
+												<h3 class="d-inline text-info plus">+</h3>
 											</div>
 
 											<hr>
@@ -463,12 +476,15 @@
 
 										<div class="col-lg-3 col-sm-12 workCountDiv">
 											<div class="workCount">
-												<h3 id="workCountId3"></h3>
+												<h3 id="workCountId3" class="text-light d-inline"></h3>
+												<h3 class="d-inline text-info plus">+</h3>
+
+
 											</div>
 
 											<hr>
 
-											<div class="worKCountParaDiv">
+											<div class="worKCountParaDiv ">
 												<p class="worKCountPara">Course Certification</p>
 											</div>
 										</div>
@@ -494,41 +510,190 @@
 									<div class="col-lg-11 col-sm-12">
 
 										<div class="aboutMeSectionStart">
-											
-											
-											
+
+
+
 											<div class="AllSectionHeadingDiv">
 												<div class="d-flex justify-content-between text-light">
 													<p class="AllSectionHeading">About Me</p>
 													<hr class="AllSectionHr">
-													<h3 class="IndexNumber">01</h3>
+													<h3 class="IndexNumber rounded-circle">01</h3>
 												</div>
 											</div>
 
 
 											<div class="aboutSectionParaContainer">
 												<div class="aboutSectionParaDiv">
-                                                    <p class="aboutSectionPara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et, consequatur nihil, facilis nisi pariatur ea asperiores hic ab, nobis amet temporibus doloremque exercitationem! In fugit minima ducimus excepturi alias! Quaerat quia animi expedita iure recusandae fugit aliquam accusamus itaque eligendi, at quae dolor? Explicabo praesentium, ipsa facilis eum voluptate debitis!</p>
+
+
+													<div class="d-flex flex-row  bd-highlight">
+
+														<div class="bd-highlight">
+															<img src="img/myimage3.jpg" alt=""
+																class="rounded-circle aboutSecMyimage" width="100px"
+																height="100px">
+
+														</div>
+
+														<div class="bd-highlight abouSectionParagraphStyle">
+															<p class="aboutSectionPara"><sup><span><svg
+																			xmlns="http://www.w3.org/2000/svg"
+																			width="20" height="20" fill="currentColor"
+																			class="bi bi-quote" viewBox="0 0 16 16">
+																			<path
+																				d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 9 7.558V11a1 1 0 0 0 1 1h2Zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612c0-.351.021-.703.062-1.054.062-.372.166-.703.31-.992.145-.29.331-.517.559-.683.227-.186.516-.279.868-.279V3c-.579 0-1.085.124-1.52.372a3.322 3.322 0 0 0-1.085.992 4.92 4.92 0 0 0-.62 1.458A7.712 7.712 0 0 0 3 7.558V11a1 1 0 0 0 1 1h2Z" />
+																		</svg></span></sup> Hi, I am pappu saha. I was
+																born in the village of Singa in the Narail district.
+																After a few years, my family shifted to
+																the Chattogram and I started my student life there. I
+																have passed my BSc in computer science and engineering
+																from the
+																American international university-Bangladesh. I have
+																passed my S.S.C in 2015 from chattogram collegiate
+																school and H.S.C
+																in 2017 from B.A.F shaheen college,chattogram. <a
+																	data-bs-toggle="collapse" href="#collapseId"
+																	class="text-decoration-none fs-5 text-info"> Read
+																	more...</a>
+															<div class="collapse" id="collapseId">
+																<p class="text-light aboutSectionPara">To work in the
+																	creative department of different level of IT company
+																	and freelancing sites as a Full-Stack Web Developer,
+																	UI/UX Designer, Data Entry Operator etc. of
+																	Bangladesh and abroad and grow rapidly with
+																	increasing responsibilities</p>
+															</div>
+															</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+															</p>
+
+														</div>
+
+													</div>
 												</div>
 											</div>
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
-										
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 										</div>
 
 									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+							<!-- vedio Resume Part Start -->
+
+
+							<div class="vedioResumePartContainer" id="vedioResumePartContainerId">
+								<div class="vedioResumePartStart">
+									<div class="row">
+										<div class="col-lg-11 col-sm-12">
+											<div class="vedioPartDiv">
+
+
+												<div class="AllSectionHeadingDiv">
+													<div class="d-flex justify-content-between text-light">
+														<p class="vedioResumeHeading">Vedio Resume</p>
+														<hr class="AllSectionHr">
+														<h3 class="IndexNumber rounded-circle">02</h3>
+													</div>
+												</div>
+
+
+
+												<img src="img/myimage2.jpg" alt="" class="VidioUnderAboutSection"
+													width="850px" height="300">
+											</div>
+										</div>
+									</div>
+								</div>
+
+
+
+
+
+
+							</div>
+
+
+
+
+							<div class="vedioIconDiv">
+								<div class="vedioIcon">
+									<!-- Button trigger modal -->
+									<button type="button" class="btn" data-bs-toggle="modal"
+										data-bs-target="#staticBackdrop">
+										<div class="video">
+											<ion-icon name="play"></ion-icon>
+										</div>
+									</button>
+
+									<!-- Modal -->
+									<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+										data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+										aria-hidden="true">
+										<div class="modal-dialog">
+											<div class="modal-content myVedioModal">
+												<div class="modal-header">
+													<h5 class="modal-title" id="staticBackdropLabel">Vedio Resume Of
+														Pappu Saha
+													</h5>
+													<button type="button" class="btn-close btn-light"
+														data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+												<div class="modal-body">
+													<div class="myResumeVidioDiv">
+
+														<video controls class="myResumeVidio" width="1100px"
+															height="450px">
+															<source src="vidio/vidio1.mp4">
+
+
+														</video>
+
+													</div>
+												</div>
+												<div class="modal-footer">
+													<!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+													<button type="button" class="btn btn-info"
+														data-bs-dismiss="modal">Close</button>
+												</div>
+											</div>
+										</div>
+									</div>
+
 								</div>
 							</div>
 
