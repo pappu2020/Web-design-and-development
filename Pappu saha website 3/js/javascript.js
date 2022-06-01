@@ -135,3 +135,105 @@ window.addEventListener("scroll", () => {
 
 })
 
+
+
+
+//Services Section
+
+window.addEventListener("scroll", () => {
+    let myServicesCard1 = document.getElementById("myServicesCard1");
+
+    let contentPositionmyServicesCard1 = myServicesCard1.getBoundingClientRect().top;
+
+
+    let screenPositionmyServicesCard1 = window.innerHeight;
+
+
+    if (contentPositionmyServicesCard1 < screenPositionmyServicesCard1) {
+        myServicesCard1.classList.add("active1");
+    }
+
+    else {
+        myServicesCard1.classList.remove("active1");
+    }
+})
+
+
+
+window.addEventListener("scroll", () => {
+    let myServicesCard2 = document.getElementById("myServicesCard2");
+
+    let contentPositionmyServicesCard2 = myServicesCard2.getBoundingClientRect().top;
+
+
+    let screenPositionmyServicesCard2 = window.innerHeight;
+
+
+    if (contentPositionmyServicesCard2 < screenPositionmyServicesCard2) {
+        myServicesCard2.classList.add("active1");
+    }
+
+    else {
+        myServicesCard2.classList.remove("active1");
+    }
+})
+
+
+window.addEventListener("scroll", () => {
+    let myServicesCard3 = document.getElementById("myServicesCard3");
+
+    let contentPositionmyServicesCard3 = myServicesCard3.getBoundingClientRect().top;
+
+
+    let screenPositionmyServicesCard3 = window.innerHeight;
+
+
+    if (contentPositionmyServicesCard3 < screenPositionmyServicesCard3) {
+        myServicesCard3.classList.add("active1");
+    }
+
+    else {
+        myServicesCard3.classList.remove("active1");
+    }
+})
+
+
+
+window.addEventListener("scroll", () => {
+    let myServicesCard4 = document.getElementById("myServicesCard4");
+
+    let contentPositionmyServicesCard4 = myServicesCard4.getBoundingClientRect().top;
+
+
+    let screenPositionmyServicesCard4 = window.innerHeight;
+
+
+    if (contentPositionmyServicesCard4 < screenPositionmyServicesCard4) {
+        myServicesCard4.classList.add("active1");
+    }
+
+    else {
+        myServicesCard4.classList.remove("active1");
+    }
+})
+
+
+window.addEventListener("scroll", () => {
+    let myServicesCard5 = document.getElementById("myServicesCard5");
+
+    let contentPositionmyServicesCard5 = myServicesCard5.getBoundingClientRect().top;
+
+
+    let screenPositionmyServicesCard5 = window.innerHeight;
+
+
+    if (contentPositionmyServicesCard5 < screenPositionmyServicesCard5) {
+        myServicesCard5.classList.add("active1");
+    }
+
+    else {
+        myServicesCard5.classList.remove("active1");
+    }
+})
+
+

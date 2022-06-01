@@ -728,16 +728,6 @@ hr {
 
 
 
-
-
-
-
-
-
-
-
-
-
 .myVedioModal {
     z-index: 1500;
     width: 1200px;
@@ -757,7 +747,7 @@ hr {
 
 .vedioIconDiv {
     position: absolute;
-    margin-top: -190px;
+    margin-top: -211px;
     margin-left: 392px;
 }
 
@@ -776,7 +766,7 @@ hr {
 .video ion-icon:before {
     content: '';
     position: absolute;
-    border: 15px solid #e5a84f;
+    border: 15px solid green;
     ;
     border-radius: 50%;
     top: 0px;
@@ -827,4 +817,214 @@ hr {
     100% {
         transform: scale(1.5);
     }
+}
+
+
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+
+    .vedioResumePartContainer {
+        margin-left: 0px;
+        margin-top: 50px;
+        opacity: 0;
+        transform: scale(0.1);
+        transition: all 1.5s ease-in-out;
+    }
+
+    .active {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    .vedioResumeHeading {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Patua One', cursive;
+        margin-top: 6px;
+    }
+
+    .VidioUnderAboutSection {
+
+        margin-top: 30px;
+        width: 340px;
+        height: 300px;
+
+    }
+
+
+
+    .myVedioModal {
+        z-index: 3000;
+        width: 345px;
+        height: 530px;
+        margin-left: 0px;
+        margin-top: 130px;
+        background-color: #00283A;
+        color: white;
+    }
+
+    .myResumeVidio {
+        margin-left: -19px;
+        width: 350px;
+        height: 350px;
+    }
+
+
+
+
+    .vedioIconDiv {
+        position: absolute;
+        margin-top: -212px;
+        margin-left: 80px;
+    }
+
+
+
+    .video ion-icon {
+        color: #fff;
+        font-size: 50px;
+        padding: 50px;
+        background: rgba(255, 255, 255, .3);
+        border-radius: 50%;
+        cursor: pointer;
+        position: relative;
+    }
+
+    .video ion-icon:before {
+        content: '';
+        position: absolute;
+        border: 15px solid green;
+        ;
+        border-radius: 50%;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        animation: animate 1.5s linear infinite;
+        opacity: 0;
+    }
+
+    .video ion-icon:after {
+        content: '';
+        position: absolute;
+        border: 15px solid #fff;
+        border-radius: 50%;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        animation: animated 1.5s linear infinite;
+        opacity: 0;
+        animation-delay: .6s;
+    }
+
+    @keyframes animate {
+        0% {
+            transform: scale(.5);
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            transform: scale(1.5);
+        }
+    }
+
+    @keyframes animated {
+        0% {
+            transform: scale(.5);
+        }
+
+        50% {
+            opacity: 1;
+        }
+
+        100% {
+            transform: scale(1.5);
+        }
+    }
+}
+
+
+
+
+
+
+
+/* Service Section Start */
+
+.ServiceSectionContainer {
+    margin-left: 60px;
+    margin-top: 50px;
+  
+}
+
+
+.myServicesIcon {
+    padding: 15px;
+    background-color: #F7AF24;
+    display: inline-block;
+    margin-left: -5PX;
+    margin-bottom: 5px;
+
+}
+
+.myServices {
+    margin-right: 10px;
+    background-color: #00283A;
+    padding: 30px;
+    border-radius: 3%;
+    box-shadow: white 0px 12px 35px 4px;
+   
+}
+
+
+
+.myServicesCard{
+    opacity: 0;
+    transform: scale(0.8);
+    transition: all 1.5s ease-in-out;
+}
+
+.active1 {
+    opacity: 1;
+    transform: scale(1);
+    display: block;
+}
+
+.myServicesCard5 {
+    margin-top: 19PX;
+}
+
+.myServicesCard4 {
+    margin-top: 19PX;
+}
+
+.myServicesCard3 {
+    margin-top: 19px;
+}
+
+.MyservicesDivStart {
+    margin-top: 15PX;
+}
+
+.myServicesPara p {
+    text-align: justify;
+}
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+.ServiceSectionContainer {
+        margin-left: 0px;
+        margin-top: 50px;
+
+    }
+
+    #myServicesCard2{
+        margin-top: 19px;
+    }
+
 }
