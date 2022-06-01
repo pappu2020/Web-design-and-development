@@ -959,7 +959,7 @@ hr {
 .ServiceSectionContainer {
     margin-left: 60px;
     margin-top: 50px;
-  
+
 }
 
 
@@ -978,12 +978,12 @@ hr {
     padding: 30px;
     border-radius: 3%;
     box-shadow: white 0px 12px 35px 4px;
-   
+
 }
 
 
 
-.myServicesCard{
+.myServicesCard {
     opacity: 0;
     transform: scale(0.8);
     transition: all 1.5s ease-in-out;
@@ -1017,14 +1017,123 @@ hr {
 
 
 @media (min-width: 300px) and (max-width: 575px) {
-.ServiceSectionContainer {
+    .ServiceSectionContainer {
         margin-left: 0px;
         margin-top: 50px;
 
     }
 
-    #myServicesCard2{
+    #myServicesCard2 {
         margin-top: 19px;
     }
+
+}
+
+
+
+
+
+/* Skills Section Start */
+
+.skillsSectionContainer {
+    margin-left: 60px;
+    margin-top: 50px;
+
+}
+
+.myAllskillsIcon {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.html5DivAnim {
+    margin-top: -118px;
+    margin-left: 98px;
+
+}
+
+
+.skills {
+    width: 120px;
+    height: 120px;
+    background: cornflowerblue;
+    position: relative;
+}
+
+.outer {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    /* box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+        -6px -6px 10px -1px rgba(255, 255, 255, 0.7); */
+
+    box-shadow: rgba(0, 0, 8, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 8, 0.25) 0px 18px 36px -18px inset;
+
+
+
+}
+
+.inner {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+    /* box-shadow: inset 4px 4px 6px -1px #f9f7f7(0, 0, 0, 0.2),
+        inset -4px -4px 6px -1px #f9f7f7(255, 255, 255, 0.7),
+        -0.5px -0.5px 0px #f9f7f7(255, 255, 255, 1),
+        0.5px 0.5px 0px #f9f7f7(0, 0, 0, 0.15),
+        0px 12px 10px -10px #f9f7f7(0, 0, 0, 0.05); */
+
+    box-shadow: rgba(0, 0, 8, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 8, 0.25) 0px 18px 36px -18px inset;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#number {
+    font-weight: 600px;
+    color: #555;
+}
+
+circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 472;
+    stroke-dashoffset: 472;
+    animation: anim 2s linear forwards;
+}
+
+@keyframes anim {
+    100% {
+        stroke-dashoffset: 165;
+    }
+}
+
+svg {
+    margin-top: -188px;
+    left: 0;
 
 }
