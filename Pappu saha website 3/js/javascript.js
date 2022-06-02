@@ -243,19 +243,299 @@ window.addEventListener("scroll", () => {
 
 //skills section
 
-let number = document.getElementById("number");
-let count = 0;
+// let numberHtml = document.getElementById("numberHtml");
+// let count = 0;
 
-setInterval(() => {
-    if (count == 65) {
-        clearInterval();
+// setInterval(() => {
+//     if (count == 65) {
+//         clearInterval();
+//     }
+
+//     else {
+//         count += 1;
+//         numberHtml.innerHTML = count + "%";
+//     }
+
+// }, 30);
+
+
+
+
+
+window.addEventListener("scroll", () => {
+    let skillsMyAnimation = document.getElementById("skillsMyAnimation");
+    let htmlAnimationDiv = document.querySelector(".htmlAnimationDiv");
+    let cssAnimationDiv = document.querySelector(".cssAnimationDiv");
+    let BootstrapAnimationDiv = document.querySelector(".BootstrapAnimationDiv");
+
+    // let JSAnimationDiv = document.querySelector(".JSAnimationDiv");
+    // let PhpAnimationDiv = document.querySelector(".PhpAnimationDiv");
+    // let JavaAnimationDiv = document.querySelector(".JavaAnimationDiv");
+    
+
+
+    let contentPositionskillsMyAnimation = skillsMyAnimation.getBoundingClientRect().top;
+
+
+
+    let screenPositionForskillsMyAnimation = window.innerHeight;
+
+    if (contentPositionskillsMyAnimation < screenPositionForskillsMyAnimation) {
+
+        // JSAnimationDiv.classList.add("JSAnimationDiv1");
+        // PhpAnimationDiv.classList.add("PhpAnimationDiv1");
+        // JavaAnimationDiv.classList.add("JavaAnimationDiv1");
+
+
+        htmlAnimationDiv.classList.add("htmlAnimationDiv1");
+        cssAnimationDiv.classList.add("cssAnimationDiv1");
+        BootstrapAnimationDiv.classList.add("BootstrapAnimationDiv1");
+        
+
+
+        let numberJs = document.getElementById("numberJs");
+        let numberPhp = document.getElementById("numberPhp");
+        let numberJava = document.getElementById("numberJava");
+
+
+
+        let numberC = document.getElementById("numberC");
+        let numberMotion = document.getElementById("numberMotion");
+        let numberWord = document.getElementById("numberWord");
+
+
+        let numberHtml = document.getElementById("numberHtml");
+        let numberCss = document.getElementById("numberCss");
+        let numberBootstrap = document.getElementById("numberBootstrap");
+        
+
+        let countnumberHtml = 0;
+        let countnumberCss = 0;
+        let CountnumberBootstrap = 0;
+
+
+
+        let countnumberJs = 0;
+        let countnumberPhp = 0;
+        let CountnumberJava = 0;
+
+
+        let countnumberc = 0;
+        let countnumberMotion = 0;
+        let CountnumberWord = 0;
+       
+
+        setInterval(() => {
+            if (countnumberHtml == 85) {
+                clearInterval();
+            }
+
+            else {
+                countnumberHtml += 1;
+
+                numberHtml.innerHTML = countnumberHtml + "%";
+
+            }
+
+
+
+
+            if (countnumberCss == 80) {
+                clearInterval();
+            }
+
+            else {
+                countnumberCss += 1;
+                numberCss.innerHTML = countnumberCss + "%";
+            }
+
+
+
+
+            if (CountnumberBootstrap == 85) {
+                clearInterval();
+            }
+
+            else {
+                CountnumberBootstrap += 1;
+                numberBootstrap.innerHTML = CountnumberBootstrap + "%";
+            }
+
+
+
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+            if (CountnumberJava == 85) {
+                clearInterval();
+            }
+
+            else {
+                CountnumberJava += 1;
+                numberJava.innerHTML = CountnumberJava + "%";
+            }
+
+
+            
+            
+            
+            if (countnumberJs == 75) {                                         
+                clearInterval();
+            }
+
+            else {
+                countnumberJs += 1;
+                numberJs.innerHTML = countnumberJs + "%";
+            }
+
+
+            
+            
+            
+            
+            
+            if (countnumberPhp == 85) {
+                clearInterval();
+            }
+
+            else {
+                countnumberPhp += 1;
+                numberPhp.innerHTML = countnumberPhp + "%";
+            }
+
+
+
+
+
+            if (countnumberc == 78) {
+                clearInterval();
+            }
+
+            else {
+                countnumberc += 1;
+                numberC.innerHTML = countnumberc + "%";
+            }
+
+
+
+
+
+            if (countnumberMotion == 65) {
+                clearInterval();
+            }
+
+            else {
+                countnumberMotion += 1;
+                numberMotion.innerHTML = countnumberMotion + "%";
+            }
+
+
+
+
+
+
+
+            if (CountnumberWord == 85) {
+                clearInterval();
+            }
+
+            else {
+                CountnumberWord += 1;
+                numberWord.innerHTML = CountnumberWord + "%";
+            }
+
+
+
+
+
+
+        }, 28);
+
+
+
     }
 
     else {
-        count += 1;
-        number.innerHTML = count + "%";
+
+        let numberHtml = document.getElementById("numberHtml");
+        let numberCss = document.getElementById("numberCss");
+        let numberBootstrap = document.getElementById("numberBootstrap");
+
+
+        let countnumberHtml = 0;
+        let countnumberCss = 0;
+        let CountnumberBootstrap = 0;
+
+
+        setInterval(() => {
+            if (countnumberHtml == 85) {
+                clearInterval();
+            }
+
+            else {
+                countnumberHtml += 1;
+
+                numberHtml.innerHTML = countnumberHtml + "%";
+
+            }
+
+
+
+
+            if (countnumberCss == 80) {
+                clearInterval();
+            }
+
+            else {
+                countnumberCss += 1;
+                numberCss.innerHTML = countnumberCss + "%";
+            }
+
+
+
+
+            if (CountnumberBootstrap == 85) {
+                clearInterval();
+            }
+
+            else {
+                CountnumberBootstrap += 1;
+                numberBootstrap.innerHTML = CountnumberBootstrap + "%";
+            }
+
+
+
+
+
+
+        }, 28);
+
+
+
+        htmlAnimationDiv.classList.remove("htmlAnimationDiv1");
+        cssAnimationDiv.classList.remove("cssAnimationDiv1");
+        BootstrapAnimationDiv.classList.remove("BootstrapAnimationDiv1");
+      
     }
 
-}, 30);
+
+})
+
+
 
 
