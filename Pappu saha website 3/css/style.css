@@ -706,15 +706,15 @@ hr {
 .vedioResumePartContainer {
     margin-left: 60px;
     margin-top: 50px;
-    opacity: 0;
+    /* opacity: 0;
     transform: scale(0.1);
-    transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out; */
 }
 
-.active {
+/* .active {
     opacity: 1;
     transform: scale(1);
-}
+} */
 
 .vedioResumeHeading {
     font-size: 20px;
@@ -1070,7 +1070,7 @@ hr {
     height: 1px;
     width: 80%;
     margin-left: 5px;
-    margin-top:25px;
+    margin-top: 25px;
 }
 
 .myAllskillsIcon:hover {
@@ -1592,6 +1592,21 @@ hr {
 .skillsPrevButton {
     margin-left: -50px;
     font-size: 30px;
+    animation-name: SkillPrevButtonAnim;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes SkillPrevButtonAnim {
+    from {
+        margin-left: -25px;
+    }
+
+    to {
+        margin-left: -50px;
+    }
 }
 
 .skillsPrevButtonIcon {
@@ -1599,8 +1614,25 @@ hr {
     font-weight: 800;
 }
 
+
+
 .skillsNextButton {
     margin-left: 180px;
+    animation-name: SkillNextButtonAnim;
+
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes SkillNextButtonAnim {
+    from {
+        margin-left: 150px;
+    }
+
+    to {
+        margin-left: 180px;
+    }
 }
 
 
@@ -1611,5 +1643,564 @@ hr {
 .extraSkillsSectionContainer {
     margin-left: 60px;
     margin-top: 50px;
+
+}
+
+.extraSkillsSmallContainer {
+    display: none;
+}
+
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+
+    .extraSkillsSmallContainer {
+        display: block;
+    }
+
+    .skillsSectionContainer {
+        margin-left: 0px;
+        margin-top: 50px;
+
+    }
+
+    .AllSkillsDiv {
+        margin-top: 35px;
+    }
+
+    .myAllskills {
+        margin-top: 15px;
+    }
+
+    .myAllskillsIcon {
+        width: 200px;
+        height: 200px;
+
+    }
+
+    .SkillsHeading {
+        font-size: 28px;
+        font-weight: bold;
+        font-family: 'Patua One', cursive;
+        margin-top: 6px;
+    }
+
+    .AllSectionHrSkills {
+        border: none;
+        border-top: 2px dashed rgb(248, 244, 244);
+        color: #fff;
+        background-color: #00283A;
+        height: 1px;
+        width: 80%;
+        margin-left: 5px;
+        margin-top: 25px;
+    }
+
+    .myAllskillsIcon:hover {
+
+        animation: none;
+
+
+
+    }
+
+
+
+
+    .html5DivAnim {
+        margin-top: -118px;
+        margin-left: 98px;
+
+    }
+
+    .html5DivAnim:hover {
+        animation: none;
+    }
+
+
+
+
+
+
+    .skills {
+        width: 120px;
+        height: 120px;
+        background: cornflowerblue;
+        position: relative;
+    }
+
+    .outer {
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        padding: 20px;
+        /* box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+            -6px -6px 10px -1px rgba(255, 255, 255, 0.7); */
+
+        box-shadow: rgba(0, 0, 8, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 8, 0.25) 0px 18px 36px -18px inset;
+
+
+
+    }
+
+    .inner {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+
+        /* box-shadow: inset 4px 4px 6px -1px #f9f7f7(0, 0, 0, 0.2),
+            inset -4px -4px 6px -1px #f9f7f7(255, 255, 255, 0.7),
+            -0.5px -0.5px 0px #f9f7f7(255, 255, 255, 1),
+            0.5px 0.5px 0px #f9f7f7(0, 0, 0, 0.15),
+            0px 12px 10px -10px #f9f7f7(0, 0, 0, 0.05); */
+
+        box-shadow: rgba(0, 0, 8, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 8, 0.25) 0px 18px 36px -18px inset;
+
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+
+    #numberHtml {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberCss {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberBootstrap {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberC {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberMotion {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberWord {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberJava {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberPhp {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+    #numberJs {
+        font-weight: 600px;
+        color: white;
+        font-size: 23px;
+    }
+
+
+
+    .htmlAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: htmlAnimation 2s linear forwards;
+    }
+
+    @keyframes htmlAnimation {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .htmlAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: htmlAnimation1 2s linear forwards;
+    }
+
+    @keyframes htmlAnimation1 {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+
+
+    .cssAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: cssAnimation 2s linear forwards;
+    }
+
+    @keyframes cssAnimation {
+        100% {
+            stroke-dashoffset: 94.4;
+        }
+    }
+
+
+    .cssAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: cssAnimation1 2s linear forwards;
+    }
+
+    @keyframes cssAnimation1 {
+        100% {
+            stroke-dashoffset: 94.4;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+    .BootstrapAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: BootstrapAnimation 2s linear forwards;
+    }
+
+    @keyframes BootstrapAnimation {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .BootstrapAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: BootstrapAnimation1 2s linear forwards;
+    }
+
+    @keyframes BootstrapAnimation1 {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+
+
+    .JSAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: JSAnimation 2s linear forwards;
+    }
+
+    @keyframes JSAnimation {
+        100% {
+            stroke-dashoffset: 118;
+        }
+    }
+
+
+    .JSAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: JSAnimation1 2s linear forwards;
+    }
+
+    @keyframes JSAnimation1 {
+        100% {
+            stroke-dashoffset: 118;
+        }
+    }
+
+
+
+
+    .PhpAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: PhpAnimation 2s linear forwards;
+    }
+
+    @keyframes PhpAnimation {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .PhpAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: PhpAnimation1 2s linear forwards;
+    }
+
+    @keyframes PhpAnimation1 {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .JavaAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: JavaAnimation 2s linear forwards;
+    }
+
+    @keyframes JavaAnimation {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .JavaAnimation1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: JavaAnimation1 2s linear forwards;
+    }
+
+    @keyframes JavaAnimation1 {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .CAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: CAnimation 2s linear forwards;
+    }
+
+    @keyframes CAnimation {
+        100% {
+            stroke-dashoffset: 103.84;
+        }
+    }
+
+
+    .CAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: CAnimation1 2s linear forwards;
+    }
+
+    @keyframes CAnimation1 {
+        100% {
+            stroke-dashoffset: 103.84;
+        }
+    }
+
+
+    .MotionAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: MotionAnimation 2s linear forwards;
+    }
+
+    @keyframes MotionAnimation {
+        100% {
+            stroke-dashoffset: 165.2;
+        }
+    }
+
+
+    .MotionAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: CMotionAnimation1 2s linear forwards;
+    }
+
+    @keyframes MotionAnimation1 {
+        100% {
+            stroke-dashoffset: 165.2;
+        }
+    }
+
+
+    .WordAnimationDiv {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: WordAnimation 2s linear forwards;
+    }
+
+    @keyframes WordAnimation {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+    .WordAnimationDiv1 {
+        fill: none;
+        stroke: url(#GradientColor);
+        stroke-width: 20px;
+        stroke-dasharray: 472;
+        stroke-dashoffset: 472;
+        animation: WordAnimation1 2s linear forwards;
+    }
+
+    @keyframes WordAnimation1 {
+        100% {
+            stroke-dashoffset: 70.8;
+        }
+    }
+
+
+
+
+
+
+
+
+    .skillsSvg {
+        margin-top: -188px;
+        left: 0;
+
+    }
+
+
+
+
+    .myAllskills {
+        background-color: #00283A;
+        border-radius: 2%;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+
+    }
+
+    .myskillsHeading {
+        color: white;
+        margin-left: 73px;
+        margin-top: -10px;
+        font-weight: bold;
+
+
+    }
+
+    .myskillsHeadingMotion {
+        color: white;
+        margin-left: 33px;
+        margin-top: -10px;
+        font-weight: bold;
+    }
+
+    .Myskillspara {
+        color: white;
+        margin-top: 5px;
+
+        text-align: justify;
+        padding: 15px;
+        font-weight: 400;
+    }
+
+
+    .skillsPrevButton {
+        margin-left: -10px;
+        font-size: 30px;
+    }
+
+    .skillsPrevButtonIcon {
+        color: white;
+        font-weight: 800;
+    }
+
+    .skillsNextButton {
+        margin-left: 23px;
+
+    }
+
+
+
+
+
+    /* Extra Skils section */
+
+    .extraSkillsSectionContainer {
+        margin-left: 0px;
+        margin-top: 0px;
+        display: none;
+
+    }
+
+
+
+
+
 
 }

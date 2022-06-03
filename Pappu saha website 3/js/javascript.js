@@ -304,6 +304,17 @@ window.addEventListener("scroll", () => {
         let numberWord = document.getElementById("numberWord");
 
 
+        let numberJsSmall = document.querySelector(".numberJsSmall");
+        let numberPhpSmall = document.querySelector(".numberPhpSmall");
+        let numberJavaSmall = document.querySelector(".numberJavaSmall");
+
+
+
+        let numberCSmall = document.querySelector(".numberCSmall");
+        let numberMotionSmall = document.querySelector(".numberMotionSmall");
+        let numberWordSmall = document.querySelector(".numberWordSmall");
+
+
         let numberHtml = document.getElementById("numberHtml");
         let numberCss = document.getElementById("numberCss");
         let numberBootstrap = document.getElementById("numberBootstrap");
@@ -323,6 +334,16 @@ window.addEventListener("scroll", () => {
         let countnumberc = 0;
         let countnumberMotion = 0;
         let CountnumberWord = 0;
+
+
+        let countnumberJsSmall = 0;
+        let countnumberPhpSmall = 0;
+        let CountnumberJavaSmall = 0;
+
+
+        let countnumbercSmall = 0;
+        let countnumberMotionSmall = 0;
+        let CountnumberWordSmall = 0;
        
 
         setInterval(() => {
@@ -381,26 +402,30 @@ window.addEventListener("scroll", () => {
            
            
            
-            if (CountnumberJava == 85) {
+            if (CountnumberJava == 85 || CountnumberJavaSmall == 85 ) {
                 clearInterval();
             }
 
             else {
                 CountnumberJava += 1;
+                CountnumberJavaSmall += 1;
                 numberJava.innerHTML = CountnumberJava + "%";
+                numberJavaSmall.innerHTML = CountnumberJava + "%";
             }
 
 
             
             
             
-            if (countnumberJs == 75) {                                         
+            if (countnumberJs == 75 || countnumberJsSmall == 75) {                                         
                 clearInterval();
             }
 
             else {
                 countnumberJs += 1;
                 numberJs.innerHTML = countnumberJs + "%";
+                countnumberJsSmall += 1;
+                numberJsSmall.innerHTML = countnumberJs + "%";
             }
 
 
@@ -409,39 +434,48 @@ window.addEventListener("scroll", () => {
             
             
             
-            if (countnumberPhp == 85) {
+            if (countnumberPhp == 85 || countnumberPhpSmall == 85) {
                 clearInterval();
             }
 
             else {
                 countnumberPhp += 1;
                 numberPhp.innerHTML = countnumberPhp + "%";
+
+                countnumberPhpSmall += 1;
+                numberPhpSmall.innerHTML = countnumberPhp + "%";
             }
 
 
 
 
 
-            if (countnumberc == 78) {
+            if (countnumberc == 78 || countnumbercSmall == 78) {
                 clearInterval();
             }
 
             else {
                 countnumberc += 1;
                 numberC.innerHTML = countnumberc + "%";
+
+                countnumbercSmall += 1;
+                numberCSmall.innerHTML = countnumberc + "%";
             }
 
 
 
 
 
-            if (countnumberMotion == 65) {
+            if (countnumberMotion == 65 || countnumberMotionSmall == 65 ) {
                 clearInterval();
             }
 
             else {
                 countnumberMotion += 1;
                 numberMotion.innerHTML = countnumberMotion + "%";
+
+                countnumberMotionSmall += 1;
+                numberMotionSmall.innerHTML = countnumberMotion + "%";
             }
 
 
@@ -450,13 +484,16 @@ window.addEventListener("scroll", () => {
 
 
 
-            if (CountnumberWord == 85) {
+            if (CountnumberWord == 85 || CountnumberWordSmall == 85) {
                 clearInterval();
             }
 
             else {
                 CountnumberWord += 1;
                 numberWord.innerHTML = CountnumberWord + "%";
+
+                CountnumberWordSmall += 1;
+                numberWordSmall.innerHTML = CountnumberWord + "%";
             }
 
 
@@ -480,6 +517,25 @@ window.addEventListener("scroll", () => {
         let countnumberHtml = 0;
         let countnumberCss = 0;
         let CountnumberBootstrap = 0;
+
+        let countnumberJs = 0;
+        let countnumberPhp = 0;
+        let CountnumberJava = 0;
+
+
+        let countnumberc = 0;
+        let countnumberMotion = 0;
+        let CountnumberWord = 0;
+
+
+        let countnumberJsSmall = 0;
+        let countnumberPhpSmall = 0;
+        let CountnumberJavaSmall = 0;
+
+
+        let countnumbercSmall = 0;
+        let countnumberMotionSmall = 0;
+        let CountnumberWordSmall = 0;
 
 
         setInterval(() => {
@@ -517,6 +573,103 @@ window.addEventListener("scroll", () => {
                 CountnumberBootstrap += 1;
                 numberBootstrap.innerHTML = CountnumberBootstrap + "%";
             }
+
+
+
+            if (CountnumberJava == 85 || CountnumberJavaSmall == 85) {
+                clearInterval();
+            }
+
+            else {
+                CountnumberJava += 1;
+                CountnumberJavaSmall += 1;
+                numberJava.innerHTML = CountnumberJava + "%";
+                numberJavaSmall.innerHTML = CountnumberJava + "%";
+            }
+
+
+
+
+
+            if (countnumberJs == 75 || countnumberJsSmall == 75) {
+                clearInterval();
+            }
+
+            else {
+                countnumberJs += 1;
+                numberJs.innerHTML = countnumberJs + "%";
+                countnumberJsSmall += 1;
+                numberJsSmall.innerHTML = countnumberJs + "%";
+            }
+
+
+
+
+
+
+
+            if (countnumberPhp == 85 || countnumberPhpSmall == 85) {
+                clearInterval();
+            }
+
+            else {
+                countnumberPhp += 1;
+                numberPhp.innerHTML = countnumberPhp + "%";
+
+                countnumberPhpSmall += 1;
+                numberPhpSmall.innerHTML = countnumberPhp + "%";
+            }
+
+
+
+
+
+            if (countnumberc == 78 || countnumbercSmall == 78) {
+                clearInterval();
+            }
+
+            else {
+                countnumberc += 1;
+                numberC.innerHTML = countnumberc + "%";
+
+                countnumbercSmall += 1;
+                numberCSmall.innerHTML = countnumberc + "%";
+            }
+
+
+
+
+
+            if (countnumberMotion == 65 || countnumberMotionSmall == 65) {
+                clearInterval();
+            }
+
+            else {
+                countnumberMotion += 1;
+                numberMotion.innerHTML = countnumberMotion + "%";
+
+                countnumberMotionSmall += 1;
+                numberMotionSmall.innerHTML = countnumberMotion + "%";
+            }
+
+
+
+
+
+
+
+            if (CountnumberWord == 85 || CountnumberWordSmall == 85) {
+                clearInterval();
+            }
+
+            else {
+                CountnumberWord += 1;
+                numberWord.innerHTML = CountnumberWord + "%";
+
+                CountnumberWordSmall += 1;
+                numberWordSmall.innerHTML = CountnumberWord + "%";
+            }
+
 
 
 
