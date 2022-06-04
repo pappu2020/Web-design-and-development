@@ -692,3 +692,26 @@ window.addEventListener("scroll", () => {
 
 
 
+
+// portfolio section start 
+
+
+var myAllPortfolio1 = document.querySelector(".myAllPortfolio1");
+var portfolioHideDivId = document.getElementById("portfolioHideDivId");
+
+myAllPortfolio1.addEventListener("mouseenter",function(){
+    portfolioHideDivId.style.display="block";
+
+});
+
+
+myAllPortfolio1.addEventListener("mouseleave", function () {
+    portfolioHideDivId.style.display = "none";
+
+});
+
+
+
+
+
+

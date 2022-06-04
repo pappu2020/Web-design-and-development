@@ -2,12 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster+Two&family=Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
 
 
 
 .bird1 {
     position: absolute;
-    margin-left: 1400px;
+    margin-left: 1200px;
     width: 250px;
     height: 200px;
     margin-top: 40px;
@@ -15,18 +16,19 @@
     animation-duration: 30s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+    animation-delay: 0.3s;
 }
 
 @keyframes birdAnimation {
 
 
     from {
-        margin-left: 1400px;
+        margin-left: 1200px;
 
     }
 
     to {
-        margin-left: -200px;
+        margin-left: 50px;
     }
 
 }
@@ -35,7 +37,7 @@
 
 .bird2 {
     position: absolute;
-    margin-left: 1400px;
+    margin-left: 1200px;
     width: 250px;
     height: 200px;
     margin-top: 110px;
@@ -43,19 +45,20 @@
     animation-duration: 20s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+    animation-delay: 0.3s;
 }
 
 @keyframes birdAnimation2 {
 
 
     from {
-        margin-left: 1400px;
+        margin-left: 1200px;
         margin-top: 130px;
 
     }
 
     to {
-        margin-left: -200px;
+        margin-left: 50px;
         margin-top: 130px;
     }
 
@@ -2286,3 +2289,73 @@ hr {
 
 
 }
+
+
+
+/*Portfolio Section Start*/
+
+.extra{
+    margin-top: 100px;
+    background-color: #F7AF24;
+    width: 400px;
+    height: 400px;
+}
+
+.portfolioSectionContainer {
+    margin-left: 60px;
+    margin-top: 70px;
+}
+
+.PortfolioHeading{
+    color: white;
+    font-size: 24px;
+    margin-top: -9px;
+}
+
+.myAllPortfolioImgFront{
+    width: 300px;
+    height: 150px;
+}
+
+#portfolioHideDivId{
+    width: 300px;
+    height: 150px;
+    opacity: 0.8;
+    background-color: #ddd;
+    margin-top:-150px ;
+    display: none;
+    align-items: center;
+}
+
+/* .portfolioHideDivIdContent{
+    
+    color: black;
+    font-weight: 800;
+} */
+
+.portfolioHideDivIdContentHeading{
+    color: black;
+    font-weight: 600;
+    font-size: 19px;
+    margin-left: 65px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.portfolioHideDivIdContentHeading2 {
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 20px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.portfolioHideDivIdContentIcon{
+    color: black;
+    font-size: 30px;
+    margin-top: -16px;
+    margin-left: 80px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+
+}
+
+
