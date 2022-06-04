@@ -5,6 +5,78 @@
 
 
 
+.bird1 {
+    position: absolute;
+    margin-left: 1400px;
+    width: 250px;
+    height: 200px;
+    margin-top: 40px;
+    animation-name: birdAnimation;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes birdAnimation {
+
+
+    from {
+        margin-left: 1400px;
+
+    }
+
+    to {
+        margin-left: -200px;
+    }
+
+}
+
+
+
+.bird2 {
+    position: absolute;
+    margin-left: 1400px;
+    width: 250px;
+    height: 200px;
+    margin-top: 110px;
+    animation-name: birdAnimation2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes birdAnimation2 {
+
+
+    from {
+        margin-left: 1400px;
+        margin-top: 130px;
+
+    }
+
+    to {
+        margin-left: -200px;
+        margin-top: 130px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .stickyMenu {
     position: -webkit-sticky;
     position: sticky;
@@ -27,6 +99,16 @@
         top: 0px;
         z-index: 0;
         background-color: #00283A;
+    }
+
+    .bird1 {
+        display: none;
+
+    }
+
+    .bird2 {
+        display: none;
+
     }
 }
 
