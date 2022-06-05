@@ -696,19 +696,114 @@ window.addEventListener("scroll", () => {
 // portfolio section start 
 
 
-var myAllPortfolio1 = document.querySelector(".myAllPortfolio1");
-var portfolioHideDivId = document.getElementById("portfolioHideDivId");
+// var MyallPortfolio1 = document.querySelector(".MyallPortfolio1");
+// var portfolioHideDivId1 = document.getElementById("portfolioHideDivId1");
+// var myportModal = document.querySelector(".myportModal");
+ 
 
-myAllPortfolio1.addEventListener("mouseenter",function(){
-    portfolioHideDivId.style.display="block";
+// MyallPortfolio1.addEventListener("click",function(){
+//     portfolioHideDivId1.style.display="block";
+//     portfolioHideDivId1.style.backgroundColor = "white";
+    
+   
 
-});
+// });
 
 
-myAllPortfolio1.addEventListener("mouseleave", function () {
-    portfolioHideDivId.style.display = "none";
+// MyallPortfolio1.addEventListener("mouseleave", function () {
+//     portfolioHideDivId1.style.display = "none";
+   
 
-});
+// });
+
+
+
+
+var myAllPortfolioImgFront1 = document.getElementById("myAllPortfolioImgFront1");
+var myAllPortfolioImgFront2 = document.getElementById("myAllPortfolioImgFront2");
+var myAllPortfolioImgFront3 = document.getElementById("myAllPortfolioImgFront3");
+var myAllPortfolioImgFront4 = document.getElementById("myAllPortfolioImgFront4");
+var myAllPortfolioImgFront5 = document.getElementById("myAllPortfolioImgFront5");
+var myAllPortfolioImgFront6 = document.getElementById("myAllPortfolioImgFront6");
+
+
+
+window.addEventListener("scroll", () => {
+    let myAllPortfolioImgFront1 = document.getElementById("myAllPortfolioImgFront1");
+
+    let contentPositionmyAllPortfolioImgFront1 = myAllPortfolioImgFront1.getBoundingClientRect().top;
+
+
+    let screenPositionmyAllPortfolioImgFront1 = window.innerHeight;
+
+
+    if (contentPositionmyAllPortfolioImgFront1 < screenPositionmyAllPortfolioImgFront1) {
+        myAllPortfolioImgFront1.classList.add("myAllPortfolioImgFrontAnimDiv1");
+    }
+
+    else {
+        myAllPortfolioImgFront1.classList.remove("myAllPortfolioImgFrontAnimDiv1");
+    }
+})
+
+
+window.addEventListener("scroll", () => {
+    let myAllPortfolioImgFront3 = document.getElementById("myAllPortfolioImgFront3");
+
+    let contentPositionmyAllPortfolioImgFront3 = myAllPortfolioImgFront3.getBoundingClientRect().top;
+
+
+    let screenPositionmyAllPortfolioImgFront3 = window.innerHeight;
+
+
+    if (contentPositionmyAllPortfolioImgFront3 < screenPositionmyAllPortfolioImgFront3) {
+        myAllPortfolioImgFront3.classList.add("myAllPortfolioImgFrontAnimDiv3");
+    }
+
+    else {
+        myAllPortfolioImgFront3.classList.remove("myAllPortfolioImgFrontAnimDiv3");
+    }
+})
+
+
+
+window.addEventListener("scroll", () => {
+    let myAllPortfolioImgFront4 = document.getElementById("myAllPortfolioImgFront4");
+
+    let contentPositionmyAllPortfolioImgFront4 = myAllPortfolioImgFront4.getBoundingClientRect().top;
+
+
+    let screenPositionmyAllPortfolioImgFront4 = window.innerHeight;
+
+
+    if (contentPositionmyAllPortfolioImgFront4 < screenPositionmyAllPortfolioImgFront4) {
+        myAllPortfolioImgFront4.classList.add("myAllPortfolioImgFrontAnimDiv4");
+    }
+
+    else {
+        myAllPortfolioImgFront4.classList.remove("myAllPortfolioImgFrontAnimDiv4");
+    }
+})
+
+
+
+window.addEventListener("scroll", () => {
+    let myAllPortfolioImgFront5 = document.getElementById("myAllPortfolioImgFront5");
+
+    let contentPositionmyAllPortfolioImgFront5 = myAllPortfolioImgFront5.getBoundingClientRect().top;
+
+
+    let screenPositionmyAllPortfolioImgFront5 = window.innerHeight;
+
+
+    if (contentPositionmyAllPortfolioImgFront5 < screenPositionmyAllPortfolioImgFront5) {
+        myAllPortfolioImgFront5.classList.add("myAllPortfolioImgFrontAnimDiv5");
+    }
+
+    else {
+        myAllPortfolioImgFront5.classList.remove("myAllPortfolioImgFrontAnimDiv5");
+    }
+})
 
 
 
