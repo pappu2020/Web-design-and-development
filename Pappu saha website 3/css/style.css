@@ -2717,15 +2717,28 @@ hr {
         border-radius: 2%;
     }
 
-    .CertificateNextButtonIcon {
-        margin-left: -30px;
-        animation-name: CertificateNextButtonIconAnim;
+    /* .CertificatePrevButtonIcon {
+        color: black;
+        font-weight: 800;
+    } */
 
-        animation-duration: 2s;
+    /* .CertificateNextButtonIcon {
+        color: black;
+        font-weight: 800;
+    } */
+
+    .CertificateNextButtonIcon {
+        margin-left: -2px;
+        margin-top: 50px;
+        animation: none;
+        color: black;
+        font-weight: 800;
+        /* animation-duration: 2s;
         animation-iteration-count: infinite;
-        animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+        animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1); */
     }
 
+    /* 
     @keyframes CertificateNextButtonIconAnim {
         from {
             margin-left: -30px;
@@ -2734,28 +2747,34 @@ hr {
         to {
             margin-left: 0px;
         }
-    }
+    } */
 
 
     .certificationPrevButton {
-        margin-left: 10px;
-        font-size: 30px;
-        animation-name: certificationPrevButtonAnim;
+        margin-left: 2px;
+        margin-top: 50px;
+        /* font-size: 30px; */
+        animation: none;
 
+        
+
+        color: black;
+        font-weight: 800;
+        /* 
         animation-duration: 2s;
         animation-iteration-count: infinite;
-        animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+        animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1); */
     }
 
-    @keyframes certificationPrevButtonAnim {
+    /* @keyframes certificationPrevButtonAnim {
         from {
-            margin-left: 10px;
+            margin-left: 15px;
         }
 
         to {
             margin-left: 0px;
         }
-    }
+    } */
 
 
 
