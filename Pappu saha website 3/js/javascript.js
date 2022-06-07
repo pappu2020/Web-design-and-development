@@ -92,14 +92,14 @@ window.addEventListener("scroll", () => {
     let screenPositionForaboutMeSectionContainerId = window.innerHeight;
 
     if (contentPositionaboutMeSectionContainerId < screenPositionForaboutMeSectionContainerId) {
-        aboutMeSectionContainerId.classList.add("active");
+        aboutMeSectionContainerId.classList.add("aboutMeSectionContainerAnimDiv");
         
 
 
     }
 
     else {
-        aboutMeSectionContainerId.classList.remove("active");
+        aboutMeSectionContainerId.classList.remove("aboutMeSectionContainerAnimDiv");
        
     }
 
@@ -805,6 +805,21 @@ window.addEventListener("scroll", () => {
     }
 })
 
+
+
+
+//form Contact
+
+
+var toastTrigger = document.getElementById('liveToastBtn')
+var toastLiveExample = document.getElementById('liveToast')
+if (toastTrigger) {
+    toastTrigger.addEventListener('click', function () {
+        var toast = new bootstrap.Toast(toastLiveExample)
+
+        toast.show()
+    })
+}
 
 
 

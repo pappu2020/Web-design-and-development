@@ -73,7 +73,7 @@
 								<div class="p-2 bd-highlight menuContent"><a href="#">Testimonial</a></div>
 								<div class="p-2 bd-highlight menuContent"><a
 										href="#certificationSectionContainerId">Certification</a></div>
-								<div class="p-2 bd-highlight menuContent"><a href="#">Contact Me</a></div>
+								<div class="p-2 bd-highlight menuContent"><a href="#contactMeSectionContainerId">Contact Me</a></div>
 								<div class="p-2 bd-highlight menuContentCv"><button
 										class="btn btn-success\ rounded-pill">Download CV <svg
 											xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -197,7 +197,7 @@
 														d="M6.5 9.5 3 7.5v-6A1.5 1.5 0 0 1 4.5 0h7A1.5 1.5 0 0 1 13 1.5v6l-3.5 2L8 8.75l-1.5.75ZM1.059 3.635 2 3.133v3.753L0 5.713V5.4a2 2 0 0 1 1.059-1.765ZM16 5.713l-2 1.173V3.133l.941.502A2 2 0 0 1 16 5.4v.313Zm0 1.16-5.693 3.337L16 13.372v-6.5Zm-8 3.199 7.941 4.412A2 2 0 0 1 14 16H2a2 2 0 0 1-1.941-1.516L8 10.072Zm-8 3.3 5.693-3.162L0 6.873v6.5Z" />
 												</svg>
 											</span></a>
-										<a href="#"
+										<a href="#contactMeSectionContainerId"
 											class="list-group-item list-group-item-action mb-2 smallMenuList">Contact Me
 											<span class="ms-2">
 												<svg xmlns="http://www.w3.org/2000/svg" width="21" height="21"
@@ -3895,12 +3895,13 @@
 															</svg></span>
 														<span class="visually-hidden">Previous</span>
 													</button>
-													<button class="carousel-control-next certificationNextButton" type="button"
+													<button class="carousel-control-next certificationNextButton"
+														type="button"
 														data-bs-target="#carouselExampleCaptionsCertificate"
 														data-bs-slide="next">
-														<span class=" CertificateNextButtonIcon"
-															aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg"
-																width="36" height="36" fill="currentColor"
+														<span class=" CertificateNextButtonIcon" aria-hidden="true"><svg
+																xmlns="http://www.w3.org/2000/svg" width="36"
+																height="36" fill="currentColor"
 																class="bi bi-arrow-right-square-fill"
 																viewBox="0 0 16 16">
 																<path
@@ -3933,7 +3934,7 @@
 							<!-- contact Me Section Start -->
 
 
-							<div class="contactMeSectionContainer">
+							<div class="contactMeSectionContainer" id="contactMeSectionContainerId">
 								<div class="contactMeSectionStart">
 									<div class="row">
 										<div class="col-lg-11 col-sm-12">
@@ -4090,21 +4091,128 @@
 
 
 											<div class="AllSectionHeadingDiv">
-												<div class="d-flex justify-content-between text-light">
+												<div class="text-light">
 													<p class="SkillsHeading">Get In Touch</p>
+												</div>
 
-												
+
+
+
+
+												<div class="myContactFormDiv">
+													<div class="myContactForm">
+
+
+
+
+
+														<form class="row g-3 needs-validation" novalidate>
+															<div class="col-md-4">
+																<label for="validationCustom01" class="form-label myContactFormLabel">First name</label>
+																<input type="text" class="form-control" id="validationCustom01" placeholder="Enter The First Name" required>
+																<div class="valid-feedback">
+																	Looks good!
+																</div>
+															</div>
+															<div class="col-md-4">
+																<label for="validationCustom02" class="form-label myContactFormLabel">Last name</label>
+																<input type="text" class="form-control" id="validationCustom02" placeholder="Enter The Last Name" required>
+																<div class="valid-feedback">
+																	Looks good!
+																</div>
+															</div>
+															<div class="col-md-4">
+																<label for="validationCustomUsername" class="form-label myContactFormLabel">Email</label>
+																<div class="input-group has-validation">
+																	<span class="input-group-text" id="inputGroupPrepend">@</span>
+																	<input type="email" class="form-control" placeholder="Enter The Valid Email"id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+																		required>
+																	<div class="invalid-feedback">
+																		Please Enter The Valid Email.
+																	</div>
+																</div>
+															</div>
+															<div class="col-md-3">
+																<label for="validationCustom03" class="form-label myContactFormLabel">City</label>
+																<input type="text" class="form-control" id="validationCustom03" placeholder="Enter Your City" required>
+																<div class="invalid-feedback">
+																	Please provide a valid city.
+																</div>
+															</div>
+
+															<div class="col-md-3">
+																<label for="validationCustom03" class="form-label myContactFormLabel">Area</label>
+																<input type="text" class="form-control" id="validationCustom03" placeholder="Enter Your Area" required>
+																<div class="invalid-feedback">
+																	Please provide a valid Area.
+																</div>
+															</div>
+
+															<div class="col-md-6">
+																<label for="validationCustom04" class="form-label myContactFormLabel">Topic</label>
+																<select class="form-select" id="validationCustom04" required>
+																	<option selected disabled value="">Choose...</option>
+																	<option>Web Design</option>
+																	<option>Web Development</option>
+																	<option>Data Entry</option>
+																	<option>Motion Graphics</option>
+																</select>
+																<div class="invalid-feedback">
+																	Please select a valid Topic.
+																</div>
+															</div>
+															<!-- <div class="col-md-3">
+																<label for="validationCustom05" class="form-label">Zip</label>
+																<input type="text" class="form-control" id="validationCustom05" required>
+																<div class="invalid-feedback">
+																	Please provide a valid zip.
+																</div>
+															</div> -->
+															<!-- <div class="col-12">
+																<div class="form-check">
+																	<input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+																	<label class="form-check-label" for="invalidCheck">
+																		Agree to terms and conditions
+																	</label>
+																	<div class="invalid-feedback">
+																		You must agree before submitting.
+																	</div>
+																</div>
+															</div> -->
+															<div class="col-12 myContactSubmitForm">
+																<!-- <button class="btn btn-primary" type="submit">Submit form</button> -->
+
+
+
+																<button type="button" class="btn btn-primary" id="liveToastBtn">Submit</button>
+																
+																<div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+																	<div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+																		<div class="toast-header">
+																			<img src="img/myimage3.jpg" class="rounded me-2" alt="" width="20px" height="20px">
+																			<strong class="me-auto tooltipsHeading">Pappu Saha Portfolio</strong>
+																			<!-- <small>11 mins ago</small> -->
+																			<button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+																		</div>
+																		<div class="toast-body">
+																			<p class="myContacttooltipsPara">Thank you for being so interested in me. For the server down, please contact via email [sahapappu018@gmail.com]. Thank
+																			You.</p>
+																		</div>
+																	</div>
+																</div>
+
+															</div>
+														</form>
+
+
+
+
+
+
+													</div>
 												</div>
 
 											</div>
-
-
-
-
-
-
-
-
 
 
 
@@ -4118,51 +4226,37 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 						</div>
-
-
-
-
 
 
 					</div>
 
 
 
-
-
 				</div>
-
-
-
 
 
 			</div>
 
 
 
-
-
-
-
-
-
-
-
-
 		</section>
+
+
+
+
+		<footer>
+			<div class="footerSectionContainer">
+				<div class="footerSectionStart">
+					<div class="d-flex justify-content-around bd-highlight">
+						<div class="p-2 bd-highlight">&copy 2022 Pappu saha.All Right Reserves</div>
+						<div class="p-2 bd-highlight"><img src="img/myImage3.jpg" alt="" width="50px" height="35px">
+							Pappusahaportfolio.xyz</div>
+						<div class="p-2 bd-highlight">Made by <span class="text-danger">Pappu Saha</span></div>
+					</div>
+				</div>
+			</div>
+		</footer>
 
 
 
