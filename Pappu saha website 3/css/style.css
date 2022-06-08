@@ -295,6 +295,19 @@ body {
 }
 
 
+@media (min-width: 390px) and (max-width: 430px) {
+    .myIntroLeftStart {
+        background-color: #00283A;
+        width: 330px;
+        margin-top: -148px;
+        margin-left: 20px;
+
+        border-radius: 3%;
+    }
+
+}
+
+
 /*Animation text*/
 
 .animationTextDiv {
@@ -741,14 +754,43 @@ hr {
     .aboutMeSectionContainer {
         margin-left: 0px;
         margin-top: 30px;
-        opacity: 0;
+        /* opacity: 0;
         transform: scale(0.1);
-        transition: all 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out; */
     }
 
-    .active {
+    /* .active {
         opacity: 1;
         transform: scale(1);
+    } */
+
+
+    .aboutMeSectionContainerAnimDiv {
+        margin-left: 0px;
+        margin-top: 30px;
+
+        animation-name: aboutMeSectionContainerAnim;
+        animation-duration: 1s;
+        animation-iteration-count: 1;
+        animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+
+
+        /* opacity: 0;
+        transform: scale(0.1);
+        transition: all 1.5s ease-in-out; */
+    }
+
+    @keyframes aboutMeSectionContainerAnim {
+        from {
+            margin-left: 0px;
+            margin-top: 55px;
+
+        }
+
+        to {
+            margin-left: 0px;
+            margin-top: 30px;
+        }
     }
 
     .IndexNumber {
@@ -946,15 +988,15 @@ hr {
     .vedioResumePartContainer {
         margin-left: 0px;
         margin-top: 50px;
-        opacity: 0;
+        /* opacity: 0;
         transform: scale(0.1);
-        transition: all 1.5s ease-in-out;
+        transition: all 1.5s ease-in-out; */
     }
 
-    .active {
+    /* .active {
         opacity: 1;
         transform: scale(1);
-    }
+    } */
 
     .vedioResumeHeading {
         font-size: 15px;
@@ -1069,6 +1111,28 @@ hr {
 
 
 
+@media (min-width: 390px) and (max-width: 420px) {
+
+    .vedioResumePartContainer {
+        margin-left: 12px;
+        margin-top: 50px;
+
+    }
+
+    .vedioIconDiv {
+        position: absolute;
+        margin-top: -212px;
+        margin-left: 100px;
+    }
+
+
+
+}
+
+
+
+
+
 
 
 
@@ -1179,6 +1243,10 @@ hr {
     font-weight: bold;
     font-family: 'Patua One', cursive;
     margin-top: 6px;
+}
+
+.MyskillsHeadingDiv{
+    margin-bottom: 20px;
 }
 
 .AllSectionHrSkills {
@@ -2651,6 +2719,23 @@ hr {
 
 
 
+@media (min-width: 390px) and (max-width: 420px) {
+
+
+    .MyallPortfolio {
+        padding: 0px;
+        margin-left: 21px;
+        margin-top: 20px;
+        border: none;
+        box-shadow: none;
+        background-color: #02162B;
+    }
+
+}
+
+
+
+
 
 /* certificationSection :start */
 
@@ -2867,36 +2952,36 @@ hr {
 
 
 
-.myContactFormLabel{
+.myContactFormLabel {
     color: white;
     font-size: 17px;
     font-style: italic;
 }
 
-.myContactSubmitForm{
+.myContactSubmitForm {
     margin-top: 25px;
 }
 
-.myContactForm{
+.myContactForm {
     padding: 30px;
     background-color: #002738;
     border-radius: 2%;
 }
 
-.myContacttooltipsPara{
+.myContacttooltipsPara {
     font-weight: bold;
     font-style: italic;
 
 }
 
-.tooltipsHeading{
+.tooltipsHeading {
     font-size: 15px;
 }
 
 @media (min-width: 300px) and (max-width: 575px) {
 
 
-.contactMeSectionContainer {
+    .contactMeSectionContainer {
         margin-left: 0px;
         margin-top: 50px;
     }
@@ -2907,15 +2992,41 @@ hr {
 
 
 
+/* Footer Section Start */
 
-
-.footerSectionContainer{
+.footerSectionContainer {
     margin-top: 50px;
 
 }
 
-.footerSectionStart{
+.footerSectionStart {
     color: white;
     background-color: #00283A;
     padding: 15px;
+}
+
+
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+
+    .footerSectionContainer {
+        margin-top: 50px;
+
+    }
+
+    .footerSectionStart {
+        color: white;
+        background-color: #00283A;
+        padding: 12px;
+    }
+
+    .footerText{
+        font-size: 13px;
+    }
+
+    .footerImg{
+        margin-left: 38px;
+    }
+
 }
