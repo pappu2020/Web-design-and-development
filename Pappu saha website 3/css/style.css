@@ -1389,57 +1389,85 @@ hr {
 
 
 #numberHtml {
-    font-weight: 600px;
-    color: white;
-    font-size: 23px;
+    /* font-weight: 900px; */
+    color: black;
+    font-size: 26px;
+    background-color: white;
+    padding: 4px;
+    border: 2px solid black;
+   
 }
 
 #numberCss {
     font-weight: 600px;
-    color: white;
-    font-size: 23px;
+    color: black;
+    font-size: 26px;
+    background-color: white;
+        padding: 6px;
+        border: 2px solid black;
 }
 
 #numberBootstrap {
     font-weight: 600px;
-    color: white;
-    font-size: 23px;
+    color: blackblack;
+    font-size: 26px;
+    background-color: white;
+        padding: 6px;
+        border: 2px solid black;
 }
 
 #numberC {
     font-weight: 600px;
-    color: white;
-    font-size: 23px;
+    color: blackblack;
+    font-size: 26px;
+    background-color: white;
+        padding: 6px;
+        border: 2px solid black;
 }
 
 #numberMotion {
     font-weight: 600px;
-    color: white;
-    font-size: 23px;
+    color: black;
+    font-size: 26px;
+    background-color: white;
+        padding: 6px;
+        border: 2px solid black;
 }
 
 #numberWord {
     font-weight: 600px;
-    color: white;
-    font-size: 23px;
+    color: black;
+    font-size: 26px;
+    background-color: white;
+    padding: 6px;
+    border: 2px solid black;
 }
 
 #numberJava {
     font-weight: 600px;
-    color: white;
-    font-size: 23px;
+    color: black;
+    font-size: 26px;
+    background-color: white;
+        padding: 6px;
+        border: 2px solid black;
 }
 
 #numberPhp {
     font-weight: 600px;
-    color: white;
-    font-size: 23px;
+    color: black;
+    font-size: 26px;
+    background-color: white;
+        padding: 6px;
+        border: 2px solid black;
 }
 
 #numberJs {
     font-weight: 600px;
-    color: white;
-    font-size: 23px;
+    color: black;
+    font-size: 26px;
+    background-color: white;
+        padding: 6px;
+        border: 2px solid black;
 }
 
 
@@ -1762,14 +1790,15 @@ hr {
 
 
 .myAllskills {
-    background-color: #00283A;
+    background-color: #d9d9d9;
     border-radius: 2%;
     box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    
 
 }
 
 .myskillsHeading {
-    color: white;
+    color: black;
     margin-left: 73px;
     margin-top: -10px;
     font-weight: bold;
@@ -1778,7 +1807,7 @@ hr {
 }
 
 .myskillsHeadingMotion {
-    color: white;
+    color: black;
     margin-left: 33px;
     margin-top: -10px;
     font-weight: bold;
@@ -1972,55 +2001,55 @@ hr {
 
     #numberHtml {
         font-weight: 600px;
-        color: white;
+        color: black;
         font-size: 23px;
     }
 
     #numberCss {
         font-weight: 600px;
-        color: white;
+        color: black;
         font-size: 23px;
     }
 
     #numberBootstrap {
         font-weight: 600px;
-        color: white;
+        color: black;
         font-size: 23px;
     }
 
     #numberC {
         font-weight: 600px;
-        color: white;
+        color: black;
         font-size: 23px;
     }
 
     #numberMotion {
         font-weight: 600px;
-        color: white;
+        color: black;
         font-size: 23px;
     }
 
     #numberWord {
         font-weight: 600px;
-        color: white;
+        color: black;
         font-size: 23px;
     }
 
     #numberJava {
         font-weight: 600px;
-        color: white;
+        color: black;
         font-size: 23px;
     }
 
     #numberPhp {
         font-weight: 600px;
-        color: white;
+        color: black;
         font-size: 23px;
     }
 
     #numberJs {
         font-weight: 600px;
-        color: white;
+        color: black;
         font-size: 23px;
     }
 
