@@ -140,9 +140,17 @@ body {
     margin-top: 14px;
 }
 
-.menuContentPart a {
+.menuContent a {
     text-decoration: none;
     color: white;
+    font-weight: 500;
+}
+
+
+.menuContent a:hover {
+    border-bottom: 3px solid green;
+    color: green;
+    font-size: 15px;
 }
 
 .subHeadingTitle {
@@ -482,8 +490,13 @@ hr {
 
 }
 
+.vidioCV {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
 .vidioResumeText {
-    padding: 16px;
+    padding: 6px;
 
     font-weight: 800;
 }
@@ -511,10 +524,15 @@ hr {
 
     .vidioResume {
 
-        margin-left: 80px;
+        margin-left: 10px;
         margin-top: 20px;
 
 
+    }
+
+    .vidioCV {
+        margin-left: 175px;
+        margin-top: -70px;
     }
 
 
@@ -1245,7 +1263,7 @@ hr {
     margin-top: 6px;
 }
 
-.MyskillsHeadingDiv{
+.MyskillsHeadingDiv {
     margin-bottom: 20px;
 }
 
@@ -2394,6 +2412,188 @@ hr {
 }
 
 
+/* Education Section start */
+
+
+.educationSectionContainer {
+    margin-left: 60px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.myEducationDiv {
+    padding: 20px;
+}
+
+.EducationHeading {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Patua One', cursive;
+    margin-top: 6px;
+}
+
+.AllSectionHrEdu {
+    border: none;
+    border-top: 2px dashed rgb(248, 244, 244);
+    color: #fff;
+    background-color: #00283A;
+    height: 1px;
+    width: 70%;
+    margin-left: 0px;
+    margin-top: 28px;
+}
+
+
+.eduDivIconDiv {
+    padding: 10px;
+    background-color: yellow;
+    display: inline;
+    margin-right: 21px;
+
+
+}
+
+.vl {
+    border-left: 4px inset yellow;
+    height: 297px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 25px;
+
+
+
+
+}
+
+.vlEducationAnimDiv {
+    animation-name: vlEducationAnim;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+}
+
+@keyframes vlEducationAnim {
+    from {
+        height: 0px;
+    }
+
+    to {
+        height: 297px;
+    }
+}
+
+.eduDivIcon {
+    margin-left: 4px;
+
+}
+
+.eduHead {
+    display: inline;
+    color: yellow;
+    font-size: 30px;
+}
+
+
+
+/* .eduHead2{
+    margin-left: 69px;
+    color: white;
+    font-size: 20px;
+} */
+
+.eduList {
+    width: 300px;
+    margin-left: 69px;
+    margin-top: 12px;
+    color: black;
+    font-weight: bold;
+
+
+}
+
+
+
+@media (min-width: 300px) and (max-width: 575px) {
+    .educationSectionContainer {
+        margin-left: 0px;
+        margin-top: 50px;
+        margin-bottom: 120px;
+    }
+
+    .myEducationDiv {
+        padding: 0px;
+    }
+
+
+    .EducationHeading {
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Patua One', cursive;
+        margin-top: 10px;
+    }
+
+    .AllSectionHrEdu {
+        border: none;
+        border-top: 2px dashed rgb(248, 244, 244);
+        color: #fff;
+        background-color: #00283A;
+        height: 1px;
+        width: 50%;
+        margin-left: 0px;
+        margin-top: 28px;
+    }
+
+    .eduList {
+        width: 250px;
+        margin-left: 70px;
+        margin-top: 12px;
+        color: black;
+        font-weight: bold;
+
+
+    }
+
+    .vl {
+        border-left: 4px inset yellow;
+        height: 309px;
+        position: absolute;
+        margin-top: 5px;
+        margin-left: 25px;
+
+
+
+
+    }
+
+    .vlEducationAnimDiv {
+        animation-name: vlEducationAnim;
+        animation-duration: 5s;
+        animation-iteration-count: 1;
+        animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+    }
+
+    @keyframes vlEducationAnim {
+        from {
+            height: 0px;
+        }
+
+        to {
+            height: 309px;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Portfolio Section Start*/
 
@@ -3021,11 +3221,11 @@ hr {
         padding: 12px;
     }
 
-    .footerText{
+    .footerText {
         font-size: 13px;
     }
 
-    .footerImg{
+    .footerImg {
         margin-left: 38px;
     }
 

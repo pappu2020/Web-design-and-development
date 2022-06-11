@@ -690,6 +690,148 @@ window.addEventListener("scroll", () => {
 })
 
 
+//Education Section
+
+window.addEventListener("scroll", () => {
+    let educationSectionContainerId = document.getElementById("educationSectionContainerId");
+    let vlId1 = document.getElementById("vlId1");
+
+
+
+    let contentPositioneducationSectionContainerId = educationSectionContainerId.getBoundingClientRect().top;
+
+
+
+    let screenPositionForeducationSectionContainerId = window.innerHeight;
+
+    if (contentPositioneducationSectionContainerId < screenPositionForeducationSectionContainerId) {
+        vlId1.classList.add("vlEducationAnimDiv");
+
+
+
+    }
+
+    else {
+        vlId1.classList.remove("vlEducationAnimDiv");
+
+    }
+
+
+})
+
+
+
+
+window.addEventListener("scroll", () => {
+    let educationSectionContainerId = document.getElementById("educationSectionContainerId");
+    let vlId2 = document.getElementById("vlId2");
+
+
+
+    let contentPositioneducationSectionContainerId = educationSectionContainerId.getBoundingClientRect().top;
+
+
+
+    let screenPositionForeducationSectionContainerId = window.innerHeight;
+
+    if (contentPositioneducationSectionContainerId < screenPositionForeducationSectionContainerId) {
+        vlId2.classList.add("vlEducationAnimDiv");
+
+
+
+    }
+
+    else {
+        vlId2.classList.remove("vlEducationAnimDiv");
+
+    }
+
+
+})
+
+
+
+window.addEventListener("scroll", () => {
+    let educationSectionContainerId = document.getElementById("educationSectionContainerId");
+    let vlId3 = document.getElementById("vlId3");
+
+
+
+    let contentPositioneducationSectionContainerId = educationSectionContainerId.getBoundingClientRect().top;
+
+
+
+    let screenPositionForeducationSectionContainerId = window.innerHeight;
+
+    if (contentPositioneducationSectionContainerId < screenPositionForeducationSectionContainerId) {
+        vlId3.classList.add("vlEducationAnimDiv");
+
+
+
+    }
+
+    else {
+        vlId3.classList.remove("vlEducationAnimDiv");
+
+    }
+
+
+})
+
+
+
+
+window.addEventListener("scroll", () => {
+    let educationSectionContainerId = document.getElementById("educationSectionContainerId");
+    let vlId4 = document.getElementById("vlId4");
+
+
+
+    let contentPositioneducationSectionContainerId = educationSectionContainerId.getBoundingClientRect().top;
+
+
+
+    let screenPositionForeducationSectionContainerId = window.innerHeight;
+
+    if (contentPositioneducationSectionContainerId < screenPositionForeducationSectionContainerId) {
+        vlId4.classList.add("vlEducationAnimDiv");
+
+
+
+    }
+
+    else {
+        vlId4.classList.remove("vlEducationAnimDiv");
+
+    }
+
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
