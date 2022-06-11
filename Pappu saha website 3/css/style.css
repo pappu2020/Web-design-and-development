@@ -135,8 +135,8 @@ body {
 }
 
 .menuContent {
-    font-size: 17px;
-    margin-left: 15px;
+    font-size: 16px;
+    margin-left: 5px;
     margin-top: 14px;
 }
 
@@ -2475,11 +2475,16 @@ hr {
 @keyframes vlEducationAnim {
     from {
         height: 0px;
+        border-left: 4px dotted #0DCAF0;
     }
 
     to {
         height: 297px;
+        border-left: 4px dotted #0DCAF0;
     }
+
+    
+
 }
 
 .eduDivIcon {
@@ -2507,6 +2512,8 @@ hr {
     margin-top: 12px;
     color: black;
     font-weight: bold;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+   
 
 
 }
@@ -2565,7 +2572,7 @@ hr {
 
     }
 
-    .vlEducationAnimDiv {
+    /* .vlEducationAnimDiv {
         animation-name: vlEducationAnim;
         animation-duration: 5s;
         animation-iteration-count: 1;
@@ -2580,7 +2587,30 @@ hr {
         to {
             height: 309px;
         }
-    }
+    } */
+
+
+        .vlEducationAnimDiv {
+            animation-name: vlEducationAnim;
+            animation-duration: 5s;
+            animation-iteration-count: 1;
+            animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+        }
+    
+        @keyframes vlEducationAnim {
+            from {
+                height: 0px;
+                border-left: 4px dotted #0DCAF0;
+            }
+    
+            to {
+                height: 309px;
+                border-left: 4px dotted #0DCAF0;
+            }
+    
+    
+    
+        }
 }
 
 
