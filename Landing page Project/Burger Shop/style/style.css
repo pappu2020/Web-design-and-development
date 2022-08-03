@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+.homePageSectionStart {
+    background-image: url("img/back3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 900px;
+
+
+}
+
+.title {
+    color: white;
+    font-size: 50px;
+    margin-left: 588px;
+    margin-top: 57px;
+    position: absolute;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.menuBigStart {
+    margin-top: 130px;
+    margin-left: 435px;
+    font-size: 20px;
+    position: absolute;
+}
+
+.menuBigitem {
+    margin-left: 26px;
+    font-size: 30px;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.homePageContentDiv {
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 460px;
+}
+
+.crispy {
+    color: red;
+    font-size: 90px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -60px;
+    font-family: 'Anton', sans-serif;
+}
+
+.tender {
+    color: #8F94A6;
+    font-size: 90px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 220px;
+    font-family: 'Anton', sans-serif;
+}
+
+.burger {
+    position: absolute;
+    font-size: 178px;
+    margin-left: -137px;
+    margin-top: -40px;
+    color: red;
+    font-weight: 800;
+}
+
+.burgerAnimClass {
+    animation-name: burgerAnim;
+    animation-duration: 1s;
+    animation-iteration-count: infi;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+    animation-delay: 1s;
+}
+
+@keyframes burgerAnim {
+    from {
+        position: absolute;
+        font-size: 178px;
+        margin-left: -137px;
+        margin-top: -40px;
+        color: aliceblue;
+        font-weight: 800;
+    }
+
+    to {
+        position: absolute;
+        font-size: 178px;
+        margin-left: -137px;
+        margin-top: -40px;
+        color: red;
+        font-weight: 800;
+    }
+}
+
+.homeBurger {
+    position: absolute;
+    margin-top: 46px;
+    margin-left: -100px;
+    width: 700px;
+
+}
+
+.homeBurgerAnimClass {
+    animation-name: homeBurgerAnim;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.5, 0.46, 1, 1);
+
+
+}
+
+@keyframes homeBurgerAnim {
+    from {
+        margin-top: 126px;
+        margin-left: -100px;
+    }
+
+    to {
+        margin-top: 46px;
+        margin-left: -100px;
+    }
+}
+
+#seeMore {
+
+    margin-top: 496px;
+    margin-left: 197px
+}
